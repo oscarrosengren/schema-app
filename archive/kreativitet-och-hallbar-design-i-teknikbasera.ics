@@ -10,7 +10,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT2H
 BEGIN:VEVENT
 DTSTART:20260901T111500Z
 DTEND:20260901T130000Z
-UID:e00390fceb0740a6763853d9@timeedit-arkiv
+UID:e00390fceb0740a6763853d9.kreativitet-och-hallbar-design-i-teknikbasera
+ @timeedit-arkiv
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://use.mazemap.com/#v=1&config=uu&campusid=49&search=%C3%85ngstr%
@@ -24,11 +25,13 @@ DESCRIPTION:F1 \nKarta: https://use.mazemap.com/#v=1&config=uu&campusid=49
  om=19.9&sharepoitype=poi&sharepoi=390478\nID 4070359
 X-FEED:Kursschema
 X-COURSE:Kreativitet och hållbar design i teknikbaserat entreprenörskap
+X-BASE-UID:e00390fceb0740a6763853d9@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260908T111500Z
 DTEND:20260908T130000Z
-UID:1227e2d26bfa448207068067@timeedit-arkiv
+UID:1227e2d26bfa448207068067.kreativitet-och-hallbar-design-i-teknikbasera
+ @timeedit-arkiv
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 SUMMARY:Entreprenörskolan\, I5.Aul\, Kreativitet och hållbar design i te
@@ -37,11 +40,13 @@ LOCATION:Plats: Via Zoom
 DESCRIPTION:F2\nID 4070363
 X-FEED:Kursschema
 X-COURSE:Kreativitet och hållbar design i teknikbaserat entreprenörskap
+X-BASE-UID:1227e2d26bfa448207068067@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260915T111500Z
 DTEND:20260915T130000Z
-UID:d65853aaea45610d39778786@timeedit-arkiv
+UID:d65853aaea45610d39778786.kreativitet-och-hallbar-design-i-teknikbasera
+ @timeedit-arkiv
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/W7L4aghn
@@ -51,11 +56,13 @@ LOCATION:Plats: 4004\, Ångström
 DESCRIPTION:F3 \nKarta: https://link.mazemap.com/W7L4aghn\nID 4070377
 X-FEED:Kursschema
 X-COURSE:Kreativitet och hållbar design i teknikbaserat entreprenörskap
+X-BASE-UID:d65853aaea45610d39778786@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260916T111500Z
 DTEND:20260916T130000Z
-UID:106475c9da278867bcc169e9@timeedit-arkiv
+UID:106475c9da278867bcc169e9.kreativitet-och-hallbar-design-i-teknikbasera
+ @timeedit-arkiv
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/W7L4aghn
@@ -65,11 +72,13 @@ LOCATION:Plats: 4004\, Ångström
 DESCRIPTION:S1 \nKarta: https://link.mazemap.com/W7L4aghn\nID 4070378
 X-FEED:Kursschema
 X-COURSE:Kreativitet och hållbar design i teknikbaserat entreprenörskap
+X-BASE-UID:106475c9da278867bcc169e9@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260918T111500Z
 DTEND:20260918T130000Z
-UID:84e7b2ff17bd3fd23f84c4ec@timeedit-arkiv
+UID:84e7b2ff17bd3fd23f84c4ec.kreativitet-och-hallbar-design-i-teknikbasera
+ @timeedit-arkiv
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 SUMMARY:Entreprenörskolan\, I5.Aul\, Kreativitet och hållbar design i te
@@ -78,11 +87,13 @@ LOCATION:Plats: Se kommentar
 DESCRIPTION:W1: Poddstudion (innovationsloungen)\nID 4070371
 X-FEED:Kursschema
 X-COURSE:Kreativitet och hållbar design i teknikbaserat entreprenörskap
+X-BASE-UID:84e7b2ff17bd3fd23f84c4ec@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260922T111500Z
 DTEND:20260922T130000Z
-UID:53121f76881a15214fbf8e6e@timeedit-arkiv
+UID:53121f76881a15214fbf8e6e.kreativitet-och-hallbar-design-i-teknikbasera
+ @timeedit-arkiv
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 SUMMARY:Entreprenörskolan\, I5.Aul\, Kreativitet och hållbar design i te
@@ -91,11 +102,13 @@ LOCATION:Plats: Via Zoom
 DESCRIPTION:F4\nID 4070379
 X-FEED:Kursschema
 X-COURSE:Kreativitet och hållbar design i teknikbaserat entreprenörskap
+X-BASE-UID:53121f76881a15214fbf8e6e@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260929T111500Z
 DTEND:20260929T130000Z
-UID:877b395ab36010c595152c2b@timeedit-arkiv
+UID:877b395ab36010c595152c2b.kreativitet-och-hallbar-design-i-teknikbasera
+ @timeedit-arkiv
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 SUMMARY:Entreprenörskolan\, I5.Aul\, Kreativitet och hållbar design i te
@@ -104,11 +117,13 @@ LOCATION:Plats: Via Zoom
 DESCRIPTION:S3\nID 4070382
 X-FEED:Kursschema
 X-COURSE:Kreativitet och hållbar design i teknikbaserat entreprenörskap
+X-BASE-UID:877b395ab36010c595152c2b@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261006T081500Z
 DTEND:20261006T100000Z
-UID:adcf46075382343c7e43ebb9@timeedit-arkiv
+UID:adcf46075382343c7e43ebb9.kreativitet-och-hallbar-design-i-teknikbasera
+ @timeedit-arkiv
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/6QSBVI2i
@@ -118,11 +133,13 @@ LOCATION:Plats: 90101\, Ångström
 DESCRIPTION:W2 \nKarta: https://link.mazemap.com/6QSBVI2i\nID 4070384
 X-FEED:Kursschema
 X-COURSE:Kreativitet och hållbar design i teknikbaserat entreprenörskap
+X-BASE-UID:adcf46075382343c7e43ebb9@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261008T111500Z
 DTEND:20261008T130000Z
-UID:aee56a8ee1fa7e8371dfe1cc@timeedit-arkiv
+UID:aee56a8ee1fa7e8371dfe1cc.kreativitet-och-hallbar-design-i-teknikbasera
+ @timeedit-arkiv
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/jbHOqwTm
@@ -132,11 +149,13 @@ LOCATION:Plats: 4003\, Ångström
 DESCRIPTION:H1 \nKarta: https://link.mazemap.com/jbHOqwTm\nID 4070389
 X-FEED:Kursschema
 X-COURSE:Kreativitet och hållbar design i teknikbaserat entreprenörskap
+X-BASE-UID:aee56a8ee1fa7e8371dfe1cc@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261013T111500Z
 DTEND:20261013T130000Z
-UID:63dcddbdc21c74b6f554a2c8@timeedit-arkiv
+UID:63dcddbdc21c74b6f554a2c8.kreativitet-och-hallbar-design-i-teknikbasera
+ @timeedit-arkiv
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 SUMMARY:Entreprenörskolan\, I5.Aul\, Kreativitet och hållbar design i te
@@ -145,5 +164,6 @@ LOCATION:Plats: Via Zoom
 DESCRIPTION:S4\nID 4070403
 X-FEED:Kursschema
 X-COURSE:Kreativitet och hållbar design i teknikbaserat entreprenörskap
+X-BASE-UID:63dcddbdc21c74b6f554a2c8@timeedit-arkiv
 END:VEVENT
 END:VCALENDAR

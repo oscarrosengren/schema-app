@@ -10,7 +10,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT2H
 BEGIN:VEVENT
 DTSTART:20260831T081500Z
 DTEND:20260831T100000Z
-UID:146993a42a95d837b5f8936a@timeedit-arkiv
+UID:146993a42a95d837b5f8936a.automatiserings-och-robotteknik@timeedit-arki
+ v
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Introduktion\, Förel
@@ -19,11 +20,13 @@ LOCATION:Plats: Via Zoom
 DESCRIPTION:ID 4041398
 X-FEED:Kursschema
 X-COURSE:Automatiserings- och robotteknik
+X-BASE-UID:146993a42a95d837b5f8936a@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260901T081500Z
 DTEND:20260901T100000Z
-UID:a9b0f36531571e89d26ba390@timeedit-arkiv
+UID:a9b0f36531571e89d26ba390.automatiserings-och-robotteknik@timeedit-arki
+ v
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/amionBdN
@@ -32,11 +35,13 @@ LOCATION:Plats: 90103\, Ångström
 DESCRIPTION:E1 \nKarta: https://link.mazemap.com/amionBdN\nID 4041400
 X-FEED:Kursschema
 X-COURSE:Automatiserings- och robotteknik
+X-BASE-UID:a9b0f36531571e89d26ba390@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260904T061500Z
 DTEND:20260904T080000Z
-UID:4e9848249157e9eeb176b188@timeedit-arkiv
+UID:4e9848249157e9eeb176b188.automatiserings-och-robotteknik@timeedit-arki
+ v
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/VIquqvZE
@@ -46,11 +51,13 @@ DESCRIPTION:Laboration 1 (intro) grp 1-4\, sal 3K101 \nKarta: https://link
  .mazemap.com/VIquqvZE\nID 4041404
 X-FEED:Kursschema
 X-COURSE:Automatiserings- och robotteknik
+X-BASE-UID:4e9848249157e9eeb176b188@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260904T081500Z
 DTEND:20260904T100000Z
-UID:6a7d2bb75bab5907a08f1906@timeedit-arkiv
+UID:6a7d2bb75bab5907a08f1906.automatiserings-och-robotteknik@timeedit-arki
+ v
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/VIquqvZE
@@ -60,11 +67,13 @@ DESCRIPTION:Laboration 1 (intro) grp 5-8\, sal 3K101 \nKarta: https://link
  .mazemap.com/VIquqvZE\nID 4041406
 X-FEED:Kursschema
 X-COURSE:Automatiserings- och robotteknik
+X-BASE-UID:6a7d2bb75bab5907a08f1906@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260904T111500Z
 DTEND:20260904T130000Z
-UID:8c0516762f5512c5b530579e@timeedit-arkiv
+UID:8c0516762f5512c5b530579e.automatiserings-och-robotteknik@timeedit-arki
+ v
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/VIquqvZE
@@ -74,11 +83,13 @@ DESCRIPTION:Laboration 1 (intro) grp 9-12\, sal 3K101 \nKarta: https://lin
  k.mazemap.com/VIquqvZE\nID 4041407
 X-FEED:Kursschema
 X-COURSE:Automatiserings- och robotteknik
+X-BASE-UID:8c0516762f5512c5b530579e@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260908T071500Z
 DTEND:20260908T100000Z
-UID:417633e6c4744ebce1735a03@timeedit-arkiv
+UID:417633e6c4744ebce1735a03.automatiserings-och-robotteknik@timeedit-arki
+ v
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
@@ -90,11 +101,13 @@ DESCRIPTION:Ö1– Reflektion F2-4 \nKarta: https://use.mazemap.com/?campu
  1415
 X-FEED:Kursschema
 X-COURSE:Automatiserings- och robotteknik
+X-BASE-UID:417633e6c4744ebce1735a03@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260909T060000Z
 DTEND:20260909T150000Z
-UID:c852819669fb110f0b13f547@timeedit-arkiv
+UID:c852819669fb110f0b13f547.automatiserings-och-robotteknik@timeedit-arki
+ v
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Studiebesök
@@ -102,11 +115,13 @@ LOCATION:
 DESCRIPTION:ABB Robotics - Västerås\nID 4032382
 X-FEED:Kursschema
 X-COURSE:Automatiserings- och robotteknik
+X-BASE-UID:c852819669fb110f0b13f547@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260916T081500Z
 DTEND:20260916T100000Z
-UID:552f67ac568d73e69ff9b38f@timeedit-arkiv
+UID:552f67ac568d73e69ff9b38f.automatiserings-och-robotteknik@timeedit-arki
+ v
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/amionBdN
@@ -116,11 +131,13 @@ DESCRIPTION:E2 – Handledning projekt del1 \nKarta: https://link.mazemap.
  com/amionBdN\nID 4041421
 X-FEED:Kursschema
 X-COURSE:Automatiserings- och robotteknik
+X-BASE-UID:552f67ac568d73e69ff9b38f@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260917T131500Z
 DTEND:20260917T150000Z
-UID:4b8a4a96a47a41c75a9a52d8@timeedit-arkiv
+UID:4b8a4a96a47a41c75a9a52d8.automatiserings-och-robotteknik@timeedit-arki
+ v
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/6QSBVI2i
@@ -130,11 +147,13 @@ DESCRIPTION:Ö2 – Reflektion F5-7 \nKarta: https://link.mazemap.com/6QSB
  VI2i\nID 4041419
 X-FEED:Kursschema
 X-COURSE:Automatiserings- och robotteknik
+X-BASE-UID:4b8a4a96a47a41c75a9a52d8@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260921T111500Z
 DTEND:20260921T120000Z
-UID:75ca2748068cad9cf9cb4221@timeedit-arkiv
+UID:75ca2748068cad9cf9cb4221.automatiserings-och-robotteknik@timeedit-arki
+ v
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
@@ -146,11 +165,13 @@ DESCRIPTION:S1 – Redovisning projekt del1 1-3 \nKarta: https://use.mazem
  01127\nID 4042286
 X-FEED:Kursschema
 X-COURSE:Automatiserings- och robotteknik
+X-BASE-UID:75ca2748068cad9cf9cb4221@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260921T121500Z
 DTEND:20260921T130000Z
-UID:2c0717c6f070835eefcfdbfb@timeedit-arkiv
+UID:2c0717c6f070835eefcfdbfb.automatiserings-och-robotteknik@timeedit-arki
+ v
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
@@ -162,11 +183,13 @@ DESCRIPTION:S1 – Redovisning projekt del1 4-6 \nKarta: https://use.mazem
  01127\nID 4042287
 X-FEED:Kursschema
 X-COURSE:Automatiserings- och robotteknik
+X-BASE-UID:2c0717c6f070835eefcfdbfb@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260921T131500Z
 DTEND:20260921T140000Z
-UID:5fe9271be459446cd0a5e7ca@timeedit-arkiv
+UID:5fe9271be459446cd0a5e7ca.automatiserings-och-robotteknik@timeedit-arki
+ v
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
@@ -178,11 +201,13 @@ DESCRIPTION:S1 – Redovisning projekt del1 7-9 \nKarta: https://use.mazem
  01127\nID 4042288
 X-FEED:Kursschema
 X-COURSE:Automatiserings- och robotteknik
+X-BASE-UID:5fe9271be459446cd0a5e7ca@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260921T141500Z
 DTEND:20260921T150000Z
-UID:dc5f8a1a624641e095c1957f@timeedit-arkiv
+UID:dc5f8a1a624641e095c1957f.automatiserings-och-robotteknik@timeedit-arki
+ v
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
@@ -194,11 +219,13 @@ DESCRIPTION:S1 – Redovisning projekt del1 10-12 \nKarta: https://use.maz
  -101127\nID 4042289
 X-FEED:Kursschema
 X-COURSE:Automatiserings- och robotteknik
+X-BASE-UID:dc5f8a1a624641e095c1957f@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260922T061500Z
 DTEND:20260922T080000Z
-UID:09c4c0f145acdc943796e631@timeedit-arkiv
+UID:09c4c0f145acdc943796e631.automatiserings-och-robotteknik@timeedit-arki
+ v
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Seminarium
@@ -206,11 +233,13 @@ LOCATION:Plats: Via Zoom
 DESCRIPTION:S2 – Case-seminarium 1-3\nID 4042290
 X-FEED:Kursschema
 X-COURSE:Automatiserings- och robotteknik
+X-BASE-UID:09c4c0f145acdc943796e631@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260922T081500Z
 DTEND:20260922T100000Z
-UID:6787b64c0e05d930fb4ae057@timeedit-arkiv
+UID:6787b64c0e05d930fb4ae057.automatiserings-och-robotteknik@timeedit-arki
+ v
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Seminarium
@@ -218,11 +247,13 @@ LOCATION:Plats: Via Zoom
 DESCRIPTION:S2 – Case-seminarium 4-6\nID 4042291
 X-FEED:Kursschema
 X-COURSE:Automatiserings- och robotteknik
+X-BASE-UID:6787b64c0e05d930fb4ae057@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260922T111500Z
 DTEND:20260922T130000Z
-UID:a448b82cd68bcd38c55aa758@timeedit-arkiv
+UID:a448b82cd68bcd38c55aa758.automatiserings-och-robotteknik@timeedit-arki
+ v
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Seminarium
@@ -230,11 +261,13 @@ LOCATION:Plats: Via Zoom
 DESCRIPTION:S2 – Case-seminarium 7-9\nID 4042292
 X-FEED:Kursschema
 X-COURSE:Automatiserings- och robotteknik
+X-BASE-UID:a448b82cd68bcd38c55aa758@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260922T131500Z
 DTEND:20260922T150000Z
-UID:18ab2205d6f34da9c9d580c9@timeedit-arkiv
+UID:18ab2205d6f34da9c9d580c9.automatiserings-och-robotteknik@timeedit-arki
+ v
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Seminarium
@@ -242,11 +275,13 @@ LOCATION:Plats: Via Zoom
 DESCRIPTION:S2 – Case-seminarium 10-12\nID 4042293
 X-FEED:Kursschema
 X-COURSE:Automatiserings- och robotteknik
+X-BASE-UID:18ab2205d6f34da9c9d580c9@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260924T081500Z
 DTEND:20260924T150000Z
-UID:9bb3e498df0734ae17d0e7f3@timeedit-arkiv
+UID:9bb3e498df0734ae17d0e7f3.automatiserings-och-robotteknik@timeedit-arki
+ v
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/FbE1FYfY
@@ -256,11 +291,13 @@ DESCRIPTION:L2 – Laboration 2 (online) 1-3 \nKarta: https://link.mazemap
  .com/FbE1FYfY\nID 4042294
 X-FEED:Kursschema
 X-COURSE:Automatiserings- och robotteknik
+X-BASE-UID:9bb3e498df0734ae17d0e7f3@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260925T081500Z
 DTEND:20260925T150000Z
-UID:c0a145ee3ec845d49906a2b1@timeedit-arkiv
+UID:c0a145ee3ec845d49906a2b1.automatiserings-och-robotteknik@timeedit-arki
+ v
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/FbE1FYfY
@@ -270,11 +307,13 @@ DESCRIPTION:L2 – Laboration 2 (online) 4-6 \nKarta: https://link.mazemap
  .com/FbE1FYfY\nID 4042295
 X-FEED:Kursschema
 X-COURSE:Automatiserings- och robotteknik
+X-BASE-UID:c0a145ee3ec845d49906a2b1@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260928T111500Z
 DTEND:20260928T140000Z
-UID:634e717a1f2ac13c30ca1f5a@timeedit-arkiv
+UID:634e717a1f2ac13c30ca1f5a.automatiserings-och-robotteknik@timeedit-arki
+ v
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
@@ -286,11 +325,13 @@ DESCRIPTION:Ö3 – Reflektion F8-9 \nKarta: https://use.mazemap.com/?camp
  42324
 X-FEED:Kursschema
 X-COURSE:Automatiserings- och robotteknik
+X-BASE-UID:634e717a1f2ac13c30ca1f5a@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260929T061500Z
 DTEND:20260929T130000Z
-UID:5a2393f0ccbbe963162a9fcf@timeedit-arkiv
+UID:5a2393f0ccbbe963162a9fcf.automatiserings-och-robotteknik@timeedit-arki
+ v
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/FbE1FYfY
@@ -300,11 +341,13 @@ DESCRIPTION:L2 – Laboration 2 (online) 7-9 \nKarta: https://link.mazemap
  .com/FbE1FYfY\nID 4042320
 X-FEED:Kursschema
 X-COURSE:Automatiserings- och robotteknik
+X-BASE-UID:5a2393f0ccbbe963162a9fcf@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260930T081500Z
 DTEND:20260930T150000Z
-UID:91d544598bb2123e2405876c@timeedit-arkiv
+UID:91d544598bb2123e2405876c.automatiserings-och-robotteknik@timeedit-arki
+ v
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/FbE1FYfY
@@ -314,11 +357,13 @@ DESCRIPTION:L2 – Laboration 2 (online) 10-12 \nKarta: https://link.mazem
  ap.com/FbE1FYfY\nID 4042321
 X-FEED:Kursschema
 X-COURSE:Automatiserings- och robotteknik
+X-BASE-UID:91d544598bb2123e2405876c@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261005T111500Z
 DTEND:20261005T130000Z
-UID:d5400dd26fdb9b5b322cef8f@timeedit-arkiv
+UID:d5400dd26fdb9b5b322cef8f.automatiserings-och-robotteknik@timeedit-arki
+ v
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/zNWgHN9c
@@ -328,11 +373,13 @@ DESCRIPTION:F5 – Gästföreläsning \nKarta: https://link.mazemap.com/zN
  WgHN9c\nID 4042300
 X-FEED:Kursschema
 X-COURSE:Automatiserings- och robotteknik
+X-BASE-UID:d5400dd26fdb9b5b322cef8f@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261006T111500Z
 DTEND:20261006T130000Z
-UID:811b7f333648503f43990273@timeedit-arkiv
+UID:811b7f333648503f43990273.automatiserings-och-robotteknik@timeedit-arki
+ v
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/amionBdN
@@ -342,11 +389,13 @@ DESCRIPTION:E3 – Handledning projekt del2 \nKarta: https://link.mazemap.
  com/amionBdN\nID 4042302
 X-FEED:Kursschema
 X-COURSE:Automatiserings- och robotteknik
+X-BASE-UID:811b7f333648503f43990273@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261008T061500Z
 DTEND:20261008T100000Z
-UID:706fcec313dcf69d01ae3a27@timeedit-arkiv
+UID:706fcec313dcf69d01ae3a27.automatiserings-och-robotteknik@timeedit-arki
+ v
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/JPQDTMuo
@@ -356,11 +405,13 @@ DESCRIPTION:L3 – Laboration 3 (offline) 1-6 \nKarta: https://link.mazema
  p.com/JPQDTMuo\nID 4042303
 X-FEED:Kursschema
 X-COURSE:Automatiserings- och robotteknik
+X-BASE-UID:706fcec313dcf69d01ae3a27@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261009T111500Z
 DTEND:20261009T150000Z
-UID:0c5822bbdf27fca3b5b20241@timeedit-arkiv
+UID:0c5822bbdf27fca3b5b20241.automatiserings-och-robotteknik@timeedit-arki
+ v
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/JPQDTMuo
@@ -370,11 +421,13 @@ DESCRIPTION:L3 – Laboration 3 (offline) 7-12 \nKarta: https://link.mazem
  ap.com/JPQDTMuo\nID 4042304
 X-FEED:Kursschema
 X-COURSE:Automatiserings- och robotteknik
+X-BASE-UID:0c5822bbdf27fca3b5b20241@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261012T111500Z
 DTEND:20261012T120000Z
-UID:1a1d0b195ff5cd690400dabd@timeedit-arkiv
+UID:1a1d0b195ff5cd690400dabd.automatiserings-och-robotteknik@timeedit-arki
+ v
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
@@ -386,11 +439,13 @@ DESCRIPTION:S3 – Redovisning projekt del2 1-3 \nKarta: https://use.mazem
  01127\nID 4042307
 X-FEED:Kursschema
 X-COURSE:Automatiserings- och robotteknik
+X-BASE-UID:1a1d0b195ff5cd690400dabd@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261012T121500Z
 DTEND:20261012T130000Z
-UID:afd828a052e1960676141eb3@timeedit-arkiv
+UID:afd828a052e1960676141eb3.automatiserings-och-robotteknik@timeedit-arki
+ v
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
@@ -402,11 +457,13 @@ DESCRIPTION:S3 – Redovisning projekt del2 4-6 \nKarta: https://use.mazem
  01127\nID 4042308
 X-FEED:Kursschema
 X-COURSE:Automatiserings- och robotteknik
+X-BASE-UID:afd828a052e1960676141eb3@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261012T131500Z
 DTEND:20261012T140000Z
-UID:8b9f43183838a2029184ec10@timeedit-arkiv
+UID:8b9f43183838a2029184ec10.automatiserings-och-robotteknik@timeedit-arki
+ v
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
@@ -418,11 +475,13 @@ DESCRIPTION:S3 – Redovisning projekt del2 7-9 \nKarta: https://use.mazem
  01127\nID 4042309
 X-FEED:Kursschema
 X-COURSE:Automatiserings- och robotteknik
+X-BASE-UID:8b9f43183838a2029184ec10@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261012T141500Z
 DTEND:20261012T150000Z
-UID:f67f24b2a278b86dc8cefc1e@timeedit-arkiv
+UID:f67f24b2a278b86dc8cefc1e.automatiserings-och-robotteknik@timeedit-arki
+ v
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
@@ -434,11 +493,13 @@ DESCRIPTION:S3 – Redovisning projekt del2 10-12 \nKarta: https://use.maz
  -101127\nID 4042310
 X-FEED:Kursschema
 X-COURSE:Automatiserings- och robotteknik
+X-BASE-UID:f67f24b2a278b86dc8cefc1e@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261014T111500Z
 DTEND:20261014T140000Z
-UID:bc1e2c342aeecae0fbe4fb57@timeedit-arkiv
+UID:bc1e2c342aeecae0fbe4fb57.automatiserings-och-robotteknik@timeedit-arki
+ v
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
@@ -450,11 +511,13 @@ DESCRIPTION:Ö4 – Sammanfattning \nKarta: https://use.mazemap.com/?campu
  2311
 X-FEED:Kursschema
 X-COURSE:Automatiserings- och robotteknik
+X-BASE-UID:bc1e2c342aeecae0fbe4fb57@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261016T081500Z
 DTEND:20261016T100000Z
-UID:47de7bdeeb04dca9cdb9aacf@timeedit-arkiv
+UID:47de7bdeeb04dca9cdb9aacf.automatiserings-och-robotteknik@timeedit-arki
+ v
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
@@ -466,11 +529,13 @@ DESCRIPTION:Ö5 – Öppen frågestund \nKarta: https://use.mazemap.com/?c
   4042312
 X-FEED:Kursschema
 X-COURSE:Automatiserings- och robotteknik
+X-BASE-UID:47de7bdeeb04dca9cdb9aacf@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261023T060000Z
 DTEND:20261023T150000Z
-UID:010b0819c9547f498882399c@timeedit-arkiv
+UID:010b0819c9547f498882399c.automatiserings-och-robotteknik@timeedit-arki
+ v
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Tentamen
@@ -478,5 +543,6 @@ LOCATION:Plats: För tid och plats se Ladok
 DESCRIPTION:ID 3934584
 X-FEED:Kursschema
 X-COURSE:Automatiserings- och robotteknik
+X-BASE-UID:010b0819c9547f498882399c@timeedit-arkiv
 END:VEVENT
 END:VCALENDAR

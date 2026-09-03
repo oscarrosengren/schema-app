@@ -10,7 +10,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT2H
 BEGIN:VEVENT
 DTSTART:20260831T061500Z
 DTEND:20260831T070000Z
-UID:6851255c58bd22a480725485@timeedit-arkiv
+UID:6851255c58bd22a480725485.vetenskapliga-metoder-for-industriell-ekonomi
+ @timeedit-arkiv
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/BHtwChEt
@@ -20,11 +21,13 @@ DESCRIPTION:Kick-off \nKarta: https://link.mazemap.com/BHtwChEt\nID 410125
  8
 X-FEED:Kursschema
 X-COURSE:Vetenskapliga metoder för industriell ekonomi
+X-BASE-UID:6851255c58bd22a480725485@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260831T071500Z
 DTEND:20260831T100000Z
-UID:bcc2e3647faa2ee5f7a8bafb@timeedit-arkiv
+UID:bcc2e3647faa2ee5f7a8bafb.vetenskapliga-metoder-for-industriell-ekonomi
+ @timeedit-arkiv
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/BHtwChEt
@@ -34,11 +37,13 @@ LOCATION:Plats: 11134\, Ångström
 DESCRIPTION:F1 \nKarta: https://link.mazemap.com/BHtwChEt\nID 4067846
 X-FEED:Kursschema
 X-COURSE:Vetenskapliga metoder för industriell ekonomi
+X-BASE-UID:bcc2e3647faa2ee5f7a8bafb@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260907T070000Z
 DTEND:20260907T100000Z
-UID:0f7d6a88494645f6be4dd2c0@timeedit-arkiv
+UID:0f7d6a88494645f6be4dd2c0.vetenskapliga-metoder-for-industriell-ekonomi
+ @timeedit-arkiv
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/6QSBVI2i
@@ -48,11 +53,13 @@ LOCATION:Plats: 90101\, Ångström
 DESCRIPTION:S1 \nKarta: https://link.mazemap.com/6QSBVI2i\nID 4067854
 X-FEED:Kursschema
 X-COURSE:Vetenskapliga metoder för industriell ekonomi
+X-BASE-UID:0f7d6a88494645f6be4dd2c0@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260914T071500Z
 DTEND:20260914T100000Z
-UID:027d534d8ebf14f1d47e7cd6@timeedit-arkiv
+UID:027d534d8ebf14f1d47e7cd6.vetenskapliga-metoder-for-industriell-ekonomi
+ @timeedit-arkiv
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/amionBdN
@@ -62,11 +69,13 @@ LOCATION:Plats: 90103\, Ångström
 DESCRIPTION:S2 \nKarta: https://link.mazemap.com/amionBdN\nID 4067862
 X-FEED:Kursschema
 X-COURSE:Vetenskapliga metoder för industriell ekonomi
+X-BASE-UID:027d534d8ebf14f1d47e7cd6@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260921T071500Z
 DTEND:20260921T100000Z
-UID:a6621cbb0bbda28dca7cd53f@timeedit-arkiv
+UID:a6621cbb0bbda28dca7cd53f.vetenskapliga-metoder-for-industriell-ekonomi
+ @timeedit-arkiv
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/vwT0yEDa
@@ -76,11 +85,13 @@ LOCATION:Plats: 90102\, Ångström
 DESCRIPTION:S3 \nKarta: https://link.mazemap.com/vwT0yEDa\nID 4067870
 X-FEED:Kursschema
 X-COURSE:Vetenskapliga metoder för industriell ekonomi
+X-BASE-UID:a6621cbb0bbda28dca7cd53f@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260928T071500Z
 DTEND:20260928T100000Z
-UID:9c17fa93382fd616d401ad59@timeedit-arkiv
+UID:9c17fa93382fd616d401ad59.vetenskapliga-metoder-for-industriell-ekonomi
+ @timeedit-arkiv
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/BHtwChEt
@@ -90,11 +101,13 @@ LOCATION:Plats: 11134\, Ångström
 DESCRIPTION:S4 \nKarta: https://link.mazemap.com/BHtwChEt\nID 4067872
 X-FEED:Kursschema
 X-COURSE:Vetenskapliga metoder för industriell ekonomi
+X-BASE-UID:9c17fa93382fd616d401ad59@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261005T071500Z
 DTEND:20261005T100000Z
-UID:a5fe2423ffe9d45fa6ab04c5@timeedit-arkiv
+UID:a5fe2423ffe9d45fa6ab04c5.vetenskapliga-metoder-for-industriell-ekonomi
+ @timeedit-arkiv
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/vwT0yEDa
@@ -104,11 +117,13 @@ LOCATION:Plats: 90102\, Ångström
 DESCRIPTION:S5 \nKarta: https://link.mazemap.com/vwT0yEDa\nID 4067874
 X-FEED:Kursschema
 X-COURSE:Vetenskapliga metoder för industriell ekonomi
+X-BASE-UID:a5fe2423ffe9d45fa6ab04c5@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261012T071500Z
 DTEND:20261012T100000Z
-UID:4ca72dc4677fec1398aa69ee@timeedit-arkiv
+UID:4ca72dc4677fec1398aa69ee.vetenskapliga-metoder-for-industriell-ekonomi
+ @timeedit-arkiv
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/vwT0yEDa
@@ -118,11 +133,13 @@ LOCATION:Plats: 90102\, Ångström
 DESCRIPTION:S6 \nKarta: https://link.mazemap.com/vwT0yEDa\nID 4067876
 X-FEED:Kursschema
 X-COURSE:Vetenskapliga metoder för industriell ekonomi
+X-BASE-UID:4ca72dc4677fec1398aa69ee@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261019T071500Z
 DTEND:20261019T100000Z
-UID:0b4388dcbbc5d98efb463ab4@timeedit-arkiv
+UID:0b4388dcbbc5d98efb463ab4.vetenskapliga-metoder-for-industriell-ekonomi
+ @timeedit-arkiv
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/9k0ozy8o
@@ -132,11 +149,13 @@ LOCATION:Plats: 11137\, Ångström
 DESCRIPTION:S7 \nKarta: https://link.mazemap.com/9k0ozy8o\nID 4067880
 X-FEED:Kursschema
 X-COURSE:Vetenskapliga metoder för industriell ekonomi
+X-BASE-UID:0b4388dcbbc5d98efb463ab4@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261026T081500Z
 DTEND:20261026T110000Z
-UID:cb0f3bac65519afc642b6d45@timeedit-arkiv
+UID:cb0f3bac65519afc642b6d45.vetenskapliga-metoder-for-industriell-ekonomi
+ @timeedit-arkiv
 DTSTAMP:20260903T093800Z
 LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/6QSBVI2i
@@ -146,5 +165,6 @@ LOCATION:Plats: 90101\, Ångström
 DESCRIPTION:S8 \nKarta: https://link.mazemap.com/6QSBVI2i\nID 4067882
 X-FEED:Kursschema
 X-COURSE:Vetenskapliga metoder för industriell ekonomi
+X-BASE-UID:cb0f3bac65519afc642b6d45@timeedit-arkiv
 END:VEVENT
 END:VCALENDAR

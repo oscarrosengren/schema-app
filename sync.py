@@ -119,13 +119,15 @@ def events(text):
 
 def describe(lines):
     """(nyckel, start-datetime, rader-med-kanoniskt-uid) for ett VEVENT."""
-    uid = start_raw = ""
+    uid = base_uid = start_raw = ""
     start_dt = None
     all_day = False
     for line in lines:
         name, params, value = prop(line)
         if name == "UID":
             uid = value.strip()
+        elif name == "X-BASE-UID":
+            base_uid = value.strip()
         elif name == "DTSTART":
             start_raw, start_dt, all_day = parse_dt(params, value)
         elif name == "DTEND":
@@ -134,7 +136,9 @@ def describe(lines):
                 all_day = all_day or False
     if not uid or not start_raw:
         return None
-    if uid.endswith("@" + UID_DOMAIN):
+    if base_uid:
+        key = base_uid                 # publicerad fil: UID:t ar kalenderunikt
+    elif uid.endswith("@" + UID_DOMAIN):
         key = uid                      # kommer redan ur vart eget arkiv
     else:
         digest = hashlib.sha1(f"{uid}|{start_raw}".encode()).hexdigest()[:24]
@@ -147,7 +151,8 @@ def describe(lines):
 
 def unchanged(a, b):
     """Samma pass sa nar som pa tidsstamplar som TimeEdit satter vid hamtning?"""
-    strip = lambda ls: [l for l in ls if prop(l)[0] not in ("DTSTAMP", "LAST-MODIFIED")]
+    ignore = ("DTSTAMP", "LAST-MODIFIED", "X-BASE-UID")
+    strip = lambda ls: [l for l in ls if prop(l)[0] not in ignore]
     return strip(a) == strip(b)
 
 
@@ -168,7 +173,26 @@ def fetch(url):
         return r.read().decode("utf-8", "replace")
 
 
-def write_calendar(path, calname, records):
+def namespaced(lines, ns):
+    """Ge passet ett UID som ar unikt for just den har kalendern och behall
+    grund-id:t i X-BASE-UID.
+
+    Samma pass ligger i bade schema.ics och sin kurskalender. Med identiska UID
+    knyter Google passet till en av kalendrarna och visar den andra som tom, sa
+    varje fil far sitt eget UID-rum. X-BASE-UID ar det som appen och /api/cal
+    matchar mot nar ett enskilt pass ar dolt.
+    """
+    base = next((prop(l)[2].strip() for l in lines if prop(l)[0] == "X-BASE-UID"), "")
+    if not base:
+        base = next((prop(l)[2].strip() for l in lines if prop(l)[0] == "UID"), "")
+    local, _, domain = base.partition("@")
+    out = [f"UID:{local}.{ns}@{domain}" if prop(l)[0] == "UID" else l
+           for l in lines if prop(l)[0] != "X-BASE-UID"]
+    out.append(f"X-BASE-UID:{base}")
+    return out
+
+
+def write_calendar(path, calname, records, namespace):
     out = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
@@ -182,7 +206,7 @@ def write_calendar(path, calname, records):
     ]
     for _, start, lines in records:
         out.append("BEGIN:VEVENT")
-        for line in lines:
+        for line in namespaced(lines, namespace):
             out.extend(fold(line))
         out.append("END:VEVENT")
     out.append("END:VCALENDAR")
@@ -314,7 +338,7 @@ def build(path, calname, live, now):
             dropped += 1                 # framtida men borta ur floden: avbokat
 
     records = sorted(merged.values(), key=lambda r: (r[1] or now, r[0]))
-    write_calendar(path, calname, records)
+    write_calendar(path, calname, records, os.path.basename(path)[:-4])
     print(f"  {os.path.relpath(path, HERE)}: {len(records)} pass "
           f"({len(live)} ur floden, {kept} arkiverade, {dropped} avbokade togs bort)")
     return os.path.basename(path)

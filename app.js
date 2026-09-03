@@ -84,6 +84,7 @@ function parseIcs(text) {
     else if (key === "UID") cur.uid = value;
     else if (key === "URL") cur.url = value;
     else if (key === "X-COURSE") cur.xcourse = unescapeIcs(value);
+    else if (key === "X-BASE-UID") cur.baseUid = value;
     else if (key === "X-FEED") cur.xfeed = unescapeIcs(value);
   }
   const codeIndex = buildCodeIndex(events.map(e => e.summary));
@@ -91,6 +92,8 @@ function parseIcs(text) {
     if (!e.end) e.end = new Date(e.start.getTime() + (e.allDay ? 864e5 : 36e5));
     Object.assign(e, splitSummary(e.summary, codeIndex));
     if (e.xcourse) e.course = e.xcourse;   // arkivet har redan delat upp kursen
+    // UID:t i filen är unikt per kalender; grund-id:t är det som döljs.
+    if (e.baseUid) e.uid = e.baseUid;
     e.note = (e.description || "").split("\n")[0].replace(/^ID \d+$/, "").trim();
   }
   events.sort((a, b) => a.start - b.start);

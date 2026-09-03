@@ -107,7 +107,8 @@ export function filterIcs(text, hidden) {
   const courses = new Set(hidden.courses);
   const events = new Set(hidden.events);
   const keep = blocks.filter(b => {
-    const uid = readProp(b, "UID");
+    // UID är unikt per kalender; X-BASE-UID är passets id som appen känner det.
+    const uid = readProp(b, "X-BASE-UID") || readProp(b, "UID");
     const course = readProp(b, "X-COURSE");
     return !(uid && events.has(uid)) && !(course && courses.has(course));
   });
@@ -120,7 +121,7 @@ export async function knownIds() {
   const ids = new Set(), courses = new Set();
   if (text) {
     for (const b of splitIcs(text).blocks) {
-      const uid = readProp(b, "UID");
+      const uid = readProp(b, "X-BASE-UID") || readProp(b, "UID");
       const course = readProp(b, "X-COURSE");
       if (uid) ids.add(uid);
       if (course) courses.add(course);
