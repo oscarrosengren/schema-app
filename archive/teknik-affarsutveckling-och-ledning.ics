@@ -39,14 +39,18 @@ BEGIN:VEVENT
 DTSTART:20260908T071500Z
 DTEND:20260908T100000Z
 UID:b4ec909b0e0d5fa51457b5e7.53097f@timeedit-arkiv
-DTSTAMP:20260903T093800Z
-LAST-MODIFIED:20260903T093800Z
+DTSTAMP:20260903T125330Z
+LAST-MODIFIED:20260903T125330Z
 URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
  %C3%85ngstr%C3%B6m-101136
 SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Seminarium
-LOCATION:Plats: 101136\, Evelyn Sokolowski\, Ångström
+LOCATION:Plats: 101136\, Evelyn Sokolowski\, Ångström \nPlats: 101180\, 
+ Grupprum\, Ångström \nPlats: 101192\, Grupprum\, Ångström
 DESCRIPTION:S3 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype=
- identifier&sharepoi=%C3%85ngstr%C3%B6m-101136\nID 4067048
+ identifier&sharepoi=%C3%85ngstr%C3%B6m-101136 \nKarta: https://use.mazema
+ p.com/?campusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6m-10
+ 1180 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype=identifie
+ r&sharepoi=%C3%85ngstr%C3%B6m-101192\nID 4067048
 X-FEED:Kursschema
 X-COURSE:Teknik\, affärsutveckling och ledning
 X-BASE-UID:b4ec909b0e0d5fa51457b5e7@timeedit-arkiv
