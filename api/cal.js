@@ -2,7 +2,7 @@
 //                         avmarkerat i appen.
 // GET /cal/<namn>.ics?all=1 – ofiltrerad; appen använder den för att kunna visa
 //                         dolda pass nedtonade och ta tillbaka dem.
-import { fetchArchive, filterIcs, readHidden } from "./_lib.js";
+import { fetchArchive, filterIcs, logFetch, readHidden } from "./_lib.js";
 
 export default async function handler(req, res) {
   // Rewriten skickar hela filnamnet, t.ex. "reglerteknik-ii.ics".
@@ -14,10 +14,10 @@ export default async function handler(req, res) {
     return res.end(`Ingen kalender heter "${name}".\n`);
   }
 
-  // Logga vem som hämtar, så det går att se att Google faktiskt prenumererar.
-  console.log(`cal ${name}${req.query.all === "1" ? " (ofiltrerad)" : ""} ua=${req.headers["user-agent"] || "-"}`);
-
   const all = req.query.all === "1";
+  // Logga vem som hämtar, så det går att se att Google faktiskt prenumererar.
+  console.log(`cal ${name}${all ? " (ofiltrerad)" : ""} ua=${req.headers["user-agent"] || "-"}`);
+  if (!all) await logFetch(name, req.headers["user-agent"]);
   const body = all ? text : filterIcs(text, (await readHidden()).hidden);
 
   res.setHeader("content-type", "text/calendar; charset=utf-8");

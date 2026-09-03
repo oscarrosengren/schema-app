@@ -18,7 +18,8 @@ export const canWrite = () => Boolean(REDIS_URL && REDIS_TOKEN);
 
 /** Kör ett Redis-kommando, t.ex. ["GET", "schema:hidden"]. */
 async function redis(command) {
-  const r = await fetch(REDIS_URL, {
+  const pipeline = Array.isArray(command[0]);
+  const r = await fetch(pipeline ? `${REDIS_URL}/pipeline` : REDIS_URL, {
     method: "POST",
     headers: {
       authorization: `Bearer ${REDIS_TOKEN}`,
@@ -28,7 +29,8 @@ async function redis(command) {
     cache: "no-store",
   });
   if (!r.ok) throw new Error(`Upstash ${r.status}: ${(await r.text()).slice(0, 200)}`);
-  return (await r.json()).result;
+  const body = await r.json();
+  return pipeline ? body.map(x => x.result) : body.result;
 }
 
 /** Hämta en arkivfil, t.ex. "schema" eller "reglerteknik-ii". */
@@ -55,6 +57,33 @@ export async function readHidden() {
 
 export async function writeHidden(hidden) {
   await redis(["SET", KEY, JSON.stringify(hidden)]);
+}
+
+const LOG_KEY = "schema:fetches";
+const LOG_MAX = 60;
+
+/**
+ * Anteckna vem som hämtade en kalender. Vercels loggar sparas bara en kort stund
+ * och nollställs vid varje deploy, så det här är enda sättet att i efterhand se
+ * att Google verkligen prenumererar (och hur ofta det hämtas).
+ */
+export async function logFetch(name, userAgent) {
+  if (!canWrite()) return;
+  const row = `${new Date().toISOString()} ${name} ${(userAgent || "-").slice(0, 120)}`;
+  try {
+    await redis([["LPUSH", LOG_KEY, row], ["LTRIM", LOG_KEY, 0, LOG_MAX - 1]]);
+  } catch {
+    /* loggning far aldrig sanka en kalenderhamtning */
+  }
+}
+
+export async function readFetches() {
+  if (!canWrite()) return [];
+  try {
+    return (await redis(["LRANGE", LOG_KEY, 0, LOG_MAX - 1])) || [];
+  } catch {
+    return [];
+  }
 }
 
 export function normalize(value) {
