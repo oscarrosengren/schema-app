@@ -31,7 +31,7 @@ FEEDS = [
 MERGED = ("Mitt schema", "schema.ics")
 SPLIT = False
 BY_COURSE = True
-PUBDIR = os.path.join(HERE, "cal")
+PUBDIR = os.path.join(HERE, "archive")
 
 UID_DOMAIN = "timeedit-arkiv"
 # Ett pass raknas som "passerat" nagra timmar efter sin sluttid, sa smaskillnader
@@ -264,20 +264,30 @@ def slug(name, used=None, limit=45):
     return s
 
 
+def escape(value):
+    return (value.replace("\\", "\\\\").replace(",", "\\,")
+                 .replace(";", "\\;").replace("\n", "\\n"))
+
+
 def collect(feeds):
     """Alla pass ur floden som {nyckel: (nyckel, start, rader)} + kurs per nyckel."""
-    live, by_key = {}, {}
+    live, by_key, source = {}, {}, {}
     for feed in feeds:
         for lines in events(feed["ics"]):
             got = describe(lines)
             if got and got[0] not in live:
                 live[got[0]] = got
                 by_key[got[0]] = summary_of(lines)
+                source[got[0]] = feed["name"]
     index = build_code_index(by_key.values())
     courses = {}
     for key, summary in by_key.items():
         all_day = any("VALUE=DATE" in prop(l)[1] for l in live[key][2] if prop(l)[0] == "DTSTART")
         courses[key] = ALLDAY_CALENDAR if all_day else course_of(summary, index)
+        k, start, lines = live[key]
+        lines = [l for l in lines if prop(l)[0] not in ("X-FEED", "X-COURSE")]
+        lines += [f"X-FEED:{escape(source[key])}", f"X-COURSE:{escape(courses[key])}"]
+        live[key] = (k, start, lines)
     return live, courses
 
 
@@ -365,7 +375,7 @@ def main():
     tpl = open(os.path.join(HERE, "index.template.html"), encoding="utf-8").read()
     with open(os.path.join(HERE, "index.html"), "w", encoding="utf-8") as f:
         f.write(tpl.replace("__FEEDS__", json.dumps(feeds, ensure_ascii=False)))
-    print(f"Klart: {len(written)} kalendrar i cal/")
+    print(f"Klart: {len(written)} kalendrar i {os.path.basename(PUBDIR)}/")
 
 
 if __name__ == "__main__":

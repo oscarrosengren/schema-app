@@ -10,6 +10,7 @@
 <header>
   <h1>📅 Mitt schema</h1>
   <span id="stats"></span>
+  <span id="savestate"></span>
   <div class="spacer"></div>
   <div id="nav">
     <button id="prev" title="Föregående vecka">←</button>
@@ -38,7 +39,13 @@
 
 <div id="detail" hidden></div>
 
-<script>window.ICS_FEEDS = __FEEDS__;</script>
+<script>
+// Publicerad version: läs samma arkiv som Google prenumererar på (ofiltrerat, så
+// dolda pass syns nedtonade). Faller tillbaka på den inbakade kopian nedan när
+// appen öppnas som lokal fil.
+window.ICS_URL = "/cal/schema.ics?all=1";
+window.ICS_FEEDS = __FEEDS__;
+</script>
 <script src="app.js"></script>
 </body>
 </html>

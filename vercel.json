@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/cal/(?<name>[a-z0-9-]+)\\.ics", "destination": "/api/cal?name=$name" }
+  ]
+}

@@ -11,81 +11,93 @@ BEGIN:VEVENT
 DTSTART:20260903T111500Z
 DTEND:20260903T130000Z
 UID:ef6a6aa7b0e502eeae23fb66@timeedit-arkiv
-DTSTAMP:20260903T091139Z
-LAST-MODIFIED:20260903T091139Z
+DTSTAMP:20260903T093800Z
+LAST-MODIFIED:20260903T093800Z
 URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
  %C3%85ngstr%C3%B6m-101195
 SUMMARY:E3\, MI2\, MTI3\, Industriell ekonomi.  \, Föreläsning
 LOCATION:Plats: 101195\, Heinz-Otto Kreiss\, Ångström
 DESCRIPTION:F1 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype=
  identifier&sharepoi=%C3%85ngstr%C3%B6m-101195\nID 4046519
+X-FEED:Industriell ekonomi
+X-COURSE:Industriell ekonomi
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260904T111500Z
 DTEND:20260904T130000Z
 UID:53487d8adf316c97d3490a86@timeedit-arkiv
-DTSTAMP:20260903T091139Z
-LAST-MODIFIED:20260903T091139Z
+DTSTAMP:20260903T093800Z
+LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/9k0ozy8o
 SUMMARY:E3\, Industriell ekonomi.  \, Seminarium
 LOCATION:Plats: 11137\, Ångström
 DESCRIPTION:S1 Omvärlden och företagets roll i den\, kap2 \nKarta: https
  ://link.mazemap.com/9k0ozy8o\nID 4046525
+X-FEED:Industriell ekonomi
+X-COURSE:Industriell ekonomi
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260904T131500Z
 DTEND:20260904T150000Z
 UID:3ca592b6698d495e32b9c5bb@timeedit-arkiv
-DTSTAMP:20260903T091139Z
-LAST-MODIFIED:20260903T091139Z
+DTSTAMP:20260903T093800Z
+LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/9k0ozy8o
 SUMMARY:MI2\, MTI3\, Industriell ekonomi.  \, Seminarium
 LOCATION:Plats: 11137\, Ångström
 DESCRIPTION:S1 Omvärlden och företagets roll i den\, kap2. \nKarta: http
  s://link.mazemap.com/9k0ozy8o\nID 4046527
+X-FEED:Industriell ekonomi
+X-COURSE:Industriell ekonomi
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260908T111500Z
 DTEND:20260908T130000Z
 UID:87c36a697889314f4011c8fd@timeedit-arkiv
-DTSTAMP:20260903T091139Z
-LAST-MODIFIED:20260903T091139Z
+DTSTAMP:20260903T093800Z
+LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/9k0ozy8o
 SUMMARY:MI2\, MTI3\, Industriell ekonomi.  \, Seminarium
 LOCATION:Plats: 11137\, Ångström
 DESCRIPTION:S2 Företagsstrategi\, Kap 3 \nKarta: https://link.mazemap.com
  /9k0ozy8o\nID 4046533
+X-FEED:Industriell ekonomi
+X-COURSE:Industriell ekonomi
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260908T131500Z
 DTEND:20260908T150000Z
 UID:af8bc614b2f5689524e6d599@timeedit-arkiv
-DTSTAMP:20260903T091139Z
-LAST-MODIFIED:20260903T091139Z
+DTSTAMP:20260903T093800Z
+LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/9k0ozy8o
 SUMMARY:E3\, Industriell ekonomi.  \, Seminarium
 LOCATION:Plats: 11137\, Ångström
 DESCRIPTION:S2 Företagsstrategi\, Kap 3 \nKarta: https://link.mazemap.com
  /9k0ozy8o\nID 4046534
+X-FEED:Industriell ekonomi
+X-COURSE:Industriell ekonomi
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260911T111500Z
 DTEND:20260911T130000Z
 UID:aaddf22f36bdf76467935fc5@timeedit-arkiv
-DTSTAMP:20260903T091139Z
-LAST-MODIFIED:20260903T091139Z
+DTSTAMP:20260903T093800Z
+LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/ziRm5QjF
 SUMMARY:E3\, MI2\, MTI3\, Industriell ekonomi.  \, Seminarium
 LOCATION:Plats: 10132\, Häggsalen\, Ångström
 DESCRIPTION:S3 Bedömnings av företagets värdeskapande\, Kap 4 \nKarta: 
  https://link.mazemap.com/ziRm5QjF\nID 4046531
+X-FEED:Industriell ekonomi
+X-COURSE:Industriell ekonomi
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260917T081500Z
 DTEND:20260917T100000Z
 UID:66942a50dcd20382f447fc8a@timeedit-arkiv
-DTSTAMP:20260903T091139Z
-LAST-MODIFIED:20260903T091139Z
+DTSTAMP:20260903T093800Z
+LAST-MODIFIED:20260903T093800Z
 URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
  %C3%85ngstr%C3%B6m-101146
 SUMMARY:E3\, MI2\, MTI3\, Industriell ekonomi.  \, Seminarium
@@ -97,13 +109,15 @@ DESCRIPTION:S4 Seminarium om inlämningsuppgift 1 \nKarta: https://use.maz
  fier&sharepoi=%C3%85ngstr%C3%B6m-101162 \nKarta: https://use.mazemap.com/
  ?campusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6m-101166\n
  ID 4046610
+X-FEED:Industriell ekonomi
+X-COURSE:Industriell ekonomi
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260917T111500Z
 DTEND:20260917T130000Z
 UID:4c16db24060fe5019ab6366c@timeedit-arkiv
-DTSTAMP:20260903T091139Z
-LAST-MODIFIED:20260903T091139Z
+DTSTAMP:20260903T093800Z
+LAST-MODIFIED:20260903T093800Z
 URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
  %C3%85ngstr%C3%B6m-101162
 SUMMARY:E3\, MI2\, MTI3\, Industriell ekonomi.  \, Seminarium
@@ -112,117 +126,139 @@ DESCRIPTION:S4 Seminarium om inlämningsuppgift 1 \nKarta: https://use.maz
  emap.com/?campusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6m
  -101162 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype=identi
  fier&sharepoi=%C3%85ngstr%C3%B6m-101166\nID 4046612
+X-FEED:Industriell ekonomi
+X-COURSE:Industriell ekonomi
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260921T111500Z
 DTEND:20260921T130000Z
 UID:0bff044b35710450e3c9b803@timeedit-arkiv
-DTSTAMP:20260903T091139Z
-LAST-MODIFIED:20260903T091139Z
+DTSTAMP:20260903T093800Z
+LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/9k0ozy8o
 SUMMARY:E3\, Industriell ekonomi.  \, Seminarium
 LOCATION:Plats: 11137\, Ångström
 DESCRIPTION:S5 Styrning\, organisation och ledning\, Kap 5 \nKarta: https:
  //link.mazemap.com/9k0ozy8o\nID 4046617
+X-FEED:Industriell ekonomi
+X-COURSE:Industriell ekonomi
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260921T131500Z
 DTEND:20260921T150000Z
 UID:16982264e13ef1571a91530c@timeedit-arkiv
-DTSTAMP:20260903T091139Z
-LAST-MODIFIED:20260903T091139Z
+DTSTAMP:20260903T093800Z
+LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/9k0ozy8o
 SUMMARY:MI2\, MTI3\, Industriell ekonomi.  \, Seminarium
 LOCATION:Plats: 11137\, Ångström
 DESCRIPTION:S5 Styrning\, organisation och ledning\, Kap 5 \nKarta: https:
  //link.mazemap.com/9k0ozy8o\nID 4046616
+X-FEED:Industriell ekonomi
+X-COURSE:Industriell ekonomi
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260923T061500Z
 DTEND:20260923T070000Z
 UID:20c52ff7fd910b0652e36ff4@timeedit-arkiv
-DTSTAMP:20260903T091139Z
-LAST-MODIFIED:20260903T091139Z
+DTSTAMP:20260903T093800Z
+LAST-MODIFIED:20260903T093800Z
 SUMMARY:E3\, Industriell ekonomi.  \, Seminarium
 LOCATION:
 DESCRIPTION:S6 Å11240\nID 4046539
+X-FEED:Industriell ekonomi
+X-COURSE:Industriell ekonomi
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260923T071500Z
 DTEND:20260923T080000Z
 UID:86e32565106f9bf7fc943889@timeedit-arkiv
-DTSTAMP:20260903T091139Z
-LAST-MODIFIED:20260903T091139Z
+DTSTAMP:20260903T093800Z
+LAST-MODIFIED:20260903T093800Z
 SUMMARY:E3\, Industriell ekonomi.  \, Seminarium
 LOCATION:
 DESCRIPTION:S6 Å11240\nID 4046627
+X-FEED:Industriell ekonomi
+X-COURSE:Industriell ekonomi
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260923T081500Z
 DTEND:20260923T090000Z
 UID:e46f86d2d407bf76b168d64e@timeedit-arkiv
-DTSTAMP:20260903T091139Z
-LAST-MODIFIED:20260903T091139Z
+DTSTAMP:20260903T093800Z
+LAST-MODIFIED:20260903T093800Z
 SUMMARY:E3\, Industriell ekonomi.  \, Seminarium
 LOCATION:
 DESCRIPTION:S6 Å11240\nID 4046628
+X-FEED:Industriell ekonomi
+X-COURSE:Industriell ekonomi
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260923T091500Z
 DTEND:20260923T100000Z
 UID:4fe2e3240cb7bb2b157ae859@timeedit-arkiv
-DTSTAMP:20260903T091139Z
-LAST-MODIFIED:20260903T091139Z
+DTSTAMP:20260903T093800Z
+LAST-MODIFIED:20260903T093800Z
 SUMMARY:E3\, Industriell ekonomi.  \, Seminarium
 LOCATION:
 DESCRIPTION:S6 Å11240\nID 4046629
+X-FEED:Industriell ekonomi
+X-COURSE:Industriell ekonomi
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260925T111500Z
 DTEND:20260925T120000Z
 UID:73c8149cd64d44cf47ecdd4f@timeedit-arkiv
-DTSTAMP:20260903T091139Z
-LAST-MODIFIED:20260903T091139Z
+DTSTAMP:20260903T093800Z
+LAST-MODIFIED:20260903T093800Z
 SUMMARY:MI2\, MTI3\, Industriell ekonomi.  \, Seminarium
 LOCATION:
 DESCRIPTION:S6 Å11240\nID 4046624
+X-FEED:Industriell ekonomi
+X-COURSE:Industriell ekonomi
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260925T121500Z
 DTEND:20260925T130000Z
 UID:f5a86a30cae96b62f6febd05@timeedit-arkiv
-DTSTAMP:20260903T091139Z
-LAST-MODIFIED:20260903T091139Z
+DTSTAMP:20260903T093800Z
+LAST-MODIFIED:20260903T093800Z
 SUMMARY:MI2\, MTI3\, Industriell ekonomi.  \, Seminarium
 LOCATION:
 DESCRIPTION:S6 Å11240\nID 4046631
+X-FEED:Industriell ekonomi
+X-COURSE:Industriell ekonomi
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260925T131500Z
 DTEND:20260925T140000Z
 UID:9cfbade9946eea4708a668bc@timeedit-arkiv
-DTSTAMP:20260903T091139Z
-LAST-MODIFIED:20260903T091139Z
+DTSTAMP:20260903T093800Z
+LAST-MODIFIED:20260903T093800Z
 SUMMARY:MI2\, MTI3\, Industriell ekonomi.  \, Seminarium
 LOCATION:
 DESCRIPTION:S6 Å11240\nID 4046633
+X-FEED:Industriell ekonomi
+X-COURSE:Industriell ekonomi
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20260925T141500Z
 DTEND:20260925T150000Z
 UID:759d89378d18290565bc6897@timeedit-arkiv
-DTSTAMP:20260903T091139Z
-LAST-MODIFIED:20260903T091139Z
+DTSTAMP:20260903T093800Z
+LAST-MODIFIED:20260903T093800Z
 SUMMARY:MI2\, MTI3\, Industriell ekonomi.  \, Seminarium
 LOCATION:
 DESCRIPTION:S6 Å11240\nID 4046634
+X-FEED:Industriell ekonomi
+X-COURSE:Industriell ekonomi
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261002T061500Z
 DTEND:20261002T080000Z
 UID:6b46b1ed56a78675cf95c67f@timeedit-arkiv
-DTSTAMP:20260903T091139Z
-LAST-MODIFIED:20260903T091139Z
+DTSTAMP:20260903T093800Z
+LAST-MODIFIED:20260903T093800Z
 URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
  %C3%85ngstr%C3%B6m-101136
 SUMMARY:MI2\, MTI3\, Industriell ekonomi.  \, Seminarium
@@ -230,13 +266,15 @@ LOCATION:Plats: 101136-B\, Evelyn Sokolowski\, Ångström
 DESCRIPTION:S7 Produktkalkylering och kapitalbindning\, Kap 7 \nKarta: htt
  ps://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=%C3%85
  ngstr%C3%B6m-101136\nID 4046646
+X-FEED:Industriell ekonomi
+X-COURSE:Industriell ekonomi
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261002T131500Z
 DTEND:20261002T150000Z
 UID:1e4614343fac8074f200c362@timeedit-arkiv
-DTSTAMP:20260903T091139Z
-LAST-MODIFIED:20260903T091139Z
+DTSTAMP:20260903T093800Z
+LAST-MODIFIED:20260903T093800Z
 URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
  %C3%85ngstr%C3%B6m-101136
 SUMMARY:E3\, Industriell ekonomi.  \, Seminarium
@@ -244,13 +282,15 @@ LOCATION:Plats: 101136-B\, Evelyn Sokolowski\, Ångström
 DESCRIPTION:S7 Produktkalkylering och kapitalbindning\, Kap 7 \nKarta: htt
  ps://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=%C3%85
  ngstr%C3%B6m-101136\nID 4046647
+X-FEED:Industriell ekonomi
+X-COURSE:Industriell ekonomi
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261007T081500Z
 DTEND:20261007T100000Z
 UID:eb18c20ea27a1ac47886c8e1@timeedit-arkiv
-DTSTAMP:20260903T091139Z
-LAST-MODIFIED:20260903T091139Z
+DTSTAMP:20260903T093800Z
+LAST-MODIFIED:20260903T093800Z
 URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
  %C3%85ngstr%C3%B6m-101146
 SUMMARY:E3\, MI2\, MTI3\, Industriell ekonomi.  \, Seminarium
@@ -262,13 +302,15 @@ DESCRIPTION:S8 Seminarium om inlämningsuppgift 2 \nKarta: https://use.maz
  fier&sharepoi=%C3%85ngstr%C3%B6m-101162 \nKarta: https://use.mazemap.com/
  ?campusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6m-101166\n
  ID 4046659
+X-FEED:Industriell ekonomi
+X-COURSE:Industriell ekonomi
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261007T111500Z
 DTEND:20261007T130000Z
 UID:7623595f5f6fac265a5c3fe0@timeedit-arkiv
-DTSTAMP:20260903T091139Z
-LAST-MODIFIED:20260903T091139Z
+DTSTAMP:20260903T093800Z
+LAST-MODIFIED:20260903T093800Z
 URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
  %C3%85ngstr%C3%B6m-101162
 SUMMARY:E3\, MI2\, MTI3\, Industriell ekonomi.  \, Seminarium
@@ -277,13 +319,15 @@ DESCRIPTION:S8 Seminarium om inlämningsuppgift 2 \nKarta: https://use.maz
  emap.com/?campusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6m
  -101162 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype=identi
  fier&sharepoi=%C3%85ngstr%C3%B6m-101166\nID 4046660
+X-FEED:Industriell ekonomi
+X-COURSE:Industriell ekonomi
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261009T081500Z
 DTEND:20261009T100000Z
 UID:991dfd4aec3c32b4bdf16b4e@timeedit-arkiv
-DTSTAMP:20260903T091139Z
-LAST-MODIFIED:20260903T091139Z
+DTSTAMP:20260903T093800Z
+LAST-MODIFIED:20260903T093800Z
 URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
  %C3%85ngstr%C3%B6m-101136
 SUMMARY:MI2\, MTI3\, Industriell ekonomi.  \, Seminarium
@@ -291,13 +335,15 @@ LOCATION:Plats: 101136- A\, Evelyn Sokolowski\, Ångström
 DESCRIPTION:S9 Marknadsföring\, Kap 8 \nKarta: https://use.mazemap.com/?c
  ampusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6m-101136\nID
   4046665
+X-FEED:Industriell ekonomi
+X-COURSE:Industriell ekonomi
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261009T111500Z
 DTEND:20261009T130000Z
 UID:8df5bc40be7ce33547c02f36@timeedit-arkiv
-DTSTAMP:20260903T091139Z
-LAST-MODIFIED:20260903T091139Z
+DTSTAMP:20260903T093800Z
+LAST-MODIFIED:20260903T093800Z
 URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
  %C3%85ngstr%C3%B6m-101136
 SUMMARY:E3\, Industriell ekonomi.  \, Seminarium
@@ -305,49 +351,57 @@ LOCATION:Plats: 101136- A\, Evelyn Sokolowski\, Ångström
 DESCRIPTION:S9 Marknadsföring\, Kap 8 \nKarta: https://use.mazemap.com/?c
  ampusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6m-101136\nID
   4046664
+X-FEED:Industriell ekonomi
+X-COURSE:Industriell ekonomi
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261014T061500Z
 DTEND:20261014T080000Z
 UID:936b41493c48a2591975be22@timeedit-arkiv
-DTSTAMP:20260903T091139Z
-LAST-MODIFIED:20260903T091139Z
+DTSTAMP:20260903T093800Z
+LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/9k0ozy8o
 SUMMARY:MI2\, MTI3\, Industriell ekonomi.  \, Seminarium
 LOCATION:Plats: 11137\, Ångström
 DESCRIPTION:S10 Innovation och produktsutveckling. Kap 9 \nKarta: https://
  link.mazemap.com/9k0ozy8o\nID 4046682
+X-FEED:Industriell ekonomi
+X-COURSE:Industriell ekonomi
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261014T081500Z
 DTEND:20261014T100000Z
 UID:b00452bf8cafc095eaf7cb80@timeedit-arkiv
-DTSTAMP:20260903T091139Z
-LAST-MODIFIED:20260903T091139Z
+DTSTAMP:20260903T093800Z
+LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/9k0ozy8o
 SUMMARY:E3\, Industriell ekonomi.  \, Seminarium
 LOCATION:Plats: 11137\, Ångström
 DESCRIPTION:S10 Innovation och produktsutveckling. Kap 9 \nKarta: https://
  link.mazemap.com/9k0ozy8o\nID 4046681
+X-FEED:Industriell ekonomi
+X-COURSE:Industriell ekonomi
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261016T081500Z
 DTEND:20261016T100000Z
 UID:16dc4ca4ff789b1c0a7ea327@timeedit-arkiv
-DTSTAMP:20260903T091139Z
-LAST-MODIFIED:20260903T091139Z
+DTSTAMP:20260903T093800Z
+LAST-MODIFIED:20260903T093800Z
 URL:https://link.mazemap.com/FIoJPzUT
 SUMMARY:E3\, MI2\, MTI3\, Industriell ekonomi.  \, Seminarium
 LOCATION:Plats: 4001\, Ångström
 DESCRIPTION:S11 Investering och finansiering\, Kap 10 \nKarta: https://lin
  k.mazemap.com/FIoJPzUT\nID 4046912
+X-FEED:Industriell ekonomi
+X-COURSE:Industriell ekonomi
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261019T111500Z
 DTEND:20261019T130000Z
 UID:2cb17af038230555fd5ca103@timeedit-arkiv
-DTSTAMP:20260903T091139Z
-LAST-MODIFIED:20260903T091139Z
+DTSTAMP:20260903T093800Z
+LAST-MODIFIED:20260903T093800Z
 URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
  %C3%85ngstr%C3%B6m-101146
 SUMMARY:E3\, MI2\, MTI3\, Industriell ekonomi.  \, Seminarium
@@ -359,13 +413,15 @@ DESCRIPTION:S12 Seminarium och inlämningsuppgift 3 \nKarta: https://use.m
  tifier&sharepoi=%C3%85ngstr%C3%B6m-101162 \nKarta: https://use.mazemap.co
  m/?campusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6m-101166
  \nID 4046973
+X-FEED:Industriell ekonomi
+X-COURSE:Industriell ekonomi
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261019T131500Z
 DTEND:20261019T150000Z
 UID:f17ad208e73f4bdb091974a1@timeedit-arkiv
-DTSTAMP:20260903T091139Z
-LAST-MODIFIED:20260903T091139Z
+DTSTAMP:20260903T093800Z
+LAST-MODIFIED:20260903T093800Z
 URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
  %C3%85ngstr%C3%B6m-101162
 SUMMARY:E3\, MI2\, MTI3\, Industriell ekonomi.  \, Seminarium
@@ -374,25 +430,31 @@ DESCRIPTION:S12 Seminarium och inlämningsuppgift 3 \nKarta: https://use.m
  azemap.com/?campusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B
  6m-101162 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype=iden
  tifier&sharepoi=%C3%85ngstr%C3%B6m-101166\nID 4046974
+X-FEED:Industriell ekonomi
+X-COURSE:Industriell ekonomi
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261020T081500Z
 DTEND:20261020T090000Z
 UID:84df923bd7698403e9845efd@timeedit-arkiv
-DTSTAMP:20260903T091139Z
-LAST-MODIFIED:20260903T091139Z
+DTSTAMP:20260903T093800Z
+LAST-MODIFIED:20260903T093800Z
 SUMMARY:E3\, MI2\, MTI3\, Industriell ekonomi.  \, Föreläsning
 LOCATION:Plats: Via Zoom
 DESCRIPTION:F2 Frågestund inför tentan\nID 4046983
+X-FEED:Industriell ekonomi
+X-COURSE:Industriell ekonomi
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261026T070000Z
 DTEND:20261026T160000Z
 UID:3638b44107962c5c05fa8ac2@timeedit-arkiv
-DTSTAMP:20260903T091139Z
-LAST-MODIFIED:20260903T091139Z
+DTSTAMP:20260903T093800Z
+LAST-MODIFIED:20260903T093800Z
 SUMMARY:E3\, MI2\, MTI3\, Industriell ekonomi.  \, Tentamen
 LOCATION:Plats: För tid och plats se Ladok
 DESCRIPTION:ID 3933717
+X-FEED:Industriell ekonomi
+X-COURSE:Industriell ekonomi
 END:VEVENT
 END:VCALENDAR

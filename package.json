@@ -1,0 +1,6 @@
+{
+  "name": "schema-app",
+  "private": true,
+  "type": "module",
+  "description": "TimeEdit-schema: krockvisare och filtrerade ICS-flöden"
+}

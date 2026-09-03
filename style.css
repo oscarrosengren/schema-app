@@ -132,3 +132,18 @@ aside h2 { font-size: 14px; margin: 0 0 8px; }
   white-space: pre; overflow: auto;
 }
 #detail:has(.copybox) { width: 560px; }
+
+/* Avmarkerade pass: syns kvar men nedtonade, så de går att ta tillbaka. */
+.ev.muted {
+  opacity: .4; filter: saturate(.35);
+  outline: 1px dashed var(--muted); outline-offset: -2px;
+}
+.ev.muted .ev-title { text-decoration: line-through; }
+.chip.hidden-pass { font-size: 12.5px; }
+button.hidebtn.on { border-color: var(--danger); color: var(--danger); }
+.hidden-row { border-top: 1px solid var(--line); padding-top: 8px; }
+
+/* Sparstatus i huvudet: säger om valet gäller i Google eller bara lokalt. */
+#savestate { font-size: 12.5px; color: var(--muted); }
+#savestate.saved, #savestate.synced { color: #12a594; }
+#savestate.local, #savestate.readonly, #savestate.error { color: var(--danger); cursor: help; }

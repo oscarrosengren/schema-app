@@ -83,11 +83,14 @@ function parseIcs(text) {
     else if (key === "DESCRIPTION") cur.description = unescapeIcs(value);
     else if (key === "UID") cur.uid = value;
     else if (key === "URL") cur.url = value;
+    else if (key === "X-COURSE") cur.xcourse = unescapeIcs(value);
+    else if (key === "X-FEED") cur.xfeed = unescapeIcs(value);
   }
   const codeIndex = buildCodeIndex(events.map(e => e.summary));
   for (const e of events) {
     if (!e.end) e.end = new Date(e.start.getTime() + (e.allDay ? 864e5 : 36e5));
     Object.assign(e, splitSummary(e.summary, codeIndex));
+    if (e.xcourse) e.course = e.xcourse;   // arkivet har redan delat upp kursen
     e.note = (e.description || "").split("\n")[0].replace(/^ID \d+$/, "").trim();
   }
   events.sort((a, b) => a.start - b.start);
@@ -157,7 +160,11 @@ function findClashes(events) {
 /* ---------- state ---------- */
 let EVENTS = [];
 let CLASH = { pairs: [], clashing: new Set() };
-let removed = loadRemoved();  // course names the user has dropped; persisted
+// Avmarkerat = kurser (via chipen) och enskilda pass (via detaljrutan). Online
+// ligger listan på servern, eftersom det är den som Google läser; annars bara i
+// localStorage för den här webbläsaren.
+let hidden = loadHidden();
+let canSave = false;
 let onlyClashes = false;
 let weekStart = null;
 let view = "week";
@@ -172,29 +179,101 @@ function courses() {
   return [...new Set(EVENTS.filter(e => !e.allDay).map(e => e.course))].sort();
 }
 function activeCourses() {
-  return courses().filter(c => !removed.has(c));
+  return courses().filter(c => !hidden.courses.has(c));
+}
+function isHidden(e) {
+  return hidden.events.has(e.uid);
+}
+// Enskilda pass kan bara döljas när passen bär arkivets id, dvs. när appen läst
+// samma fil som Google prenumererar på. Den inbakade kopian saknar dem.
+function canHideEvents() {
+  return EVENTS.length > 0 && /@timeedit-arkiv$/.test(EVENTS[0].uid || "");
 }
 function colorOf(course) {
   const list = courses();
   return palette[Math.max(0, list.indexOf(course)) % palette.length];
 }
 
-const STORE_KEY = "schema.removedCourses.v1";
-function loadRemoved() {
-  try { return new Set(JSON.parse(localStorage.getItem(STORE_KEY) || "[]")); }
-  catch { return new Set(); }
+const STORE_KEY = "schema.hidden.v2";
+const OLD_STORE_KEY = "schema.removedCourses.v1";   // bara kurser, före serverlagring
+
+function loadHidden() {
+  const empty = { courses: new Set(), events: new Set() };
+  try {
+    const saved = JSON.parse(localStorage.getItem(STORE_KEY) || "null");
+    if (saved) return { courses: new Set(saved.courses), events: new Set(saved.events) };
+    return { courses: new Set(JSON.parse(localStorage.getItem(OLD_STORE_KEY) || "[]")), events: new Set() };
+  } catch { return empty; }
 }
-function saveRemoved() {
-  try { localStorage.setItem(STORE_KEY, JSON.stringify([...removed])); } catch {}
+
+function hiddenJson() {
+  return { courses: [...hidden.courses].sort(), events: [...hidden.events].sort() };
+}
+
+function saveHidden() {
+  try { localStorage.setItem(STORE_KEY, JSON.stringify(hiddenJson())); } catch {}
+  if (!canSave) return setSaveState("local");
+  setSaveState("saving");
+  clearTimeout(saveHidden.t);          // flera snabba klick blir en skrivning
+  saveHidden.t = setTimeout(async () => {
+    try {
+      const r = await fetch("/api/selection", {
+        method: "PUT",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify(hiddenJson()),
+      });
+      if (!r.ok) throw new Error((await r.json().catch(() => ({}))).error || r.status);
+      setSaveState("saved");
+    } catch (err) {
+      setSaveState("error", String(err.message || err));
+    }
+  }, 700);
+}
+
+// Servern äger listan, för den är det Google frågar. Går den inte att nå kör vi
+// vidare med webbläsarens kopia och säger det rakt ut i huvudet.
+async function pullHidden() {
+  try {
+    const r = await fetch("/api/selection", { cache: "no-store" });
+    if (!r.ok) throw new Error(String(r.status));
+    const body = await r.json();
+    hidden = { courses: new Set(body.courses), events: new Set(body.events) };
+    canSave = Boolean(body.canWrite);
+    try { localStorage.setItem(STORE_KEY, JSON.stringify(hiddenJson())); } catch {}
+    setSaveState(canSave ? "synced" : "readonly");
+  } catch {
+    canSave = false;
+    setSaveState("local");
+  }
+}
+
+const SAVE_TEXT = {
+  synced:   ["🔗 Gäller i Google", ""],
+  saving:   ["⏳ Sparar …", ""],
+  saved:    ["✓ Sparat – gäller i Google", ""],
+  local:    ["⚠︎ Bara i den här webbläsaren", "Servern svarar inte, så valet syns inte i Google."],
+  readonly: ["⚠︎ Kan inte spara", "Servern saknar skrivrättighet (GITHUB_TOKEN)."],
+  error:    ["⚠︎ Kunde inte spara", ""],
+};
+function setSaveState(state, detail) {
+  const box = el("savestate");
+  if (!box) return;
+  const [text, title] = SAVE_TEXT[state] || ["", ""];
+  box.textContent = text;
+  box.title = detail || title;
+  box.className = state;
 }
 
 // Events left after the user's removals. Clashes are recomputed from this set, so
-// dropping a course also drops every clash that only existed because of it.
+// dropping a course — or a single pass — also drops every clash that only existed
+// because of it.
 function remaining() {
-  return EVENTS.filter(e => !removed.has(e.course));
+  return EVENTS.filter(e => !hidden.courses.has(e.course) && !isHidden(e));
 }
+// Enskilt dolda pass ritas kvar men nedtonade, annars gick de inte att ta
+// tillbaka. Dolda kurser försvinner helt; deras chip tar dem tillbaka.
 function visible() {
-  const base = remaining();
+  const base = EVENTS.filter(e => !hidden.courses.has(e.course));
   return onlyClashes ? base.filter(e => CLASH.clashing.has(key(e))) : base;
 }
 function recompute() {
@@ -206,37 +285,83 @@ function renderFilters() {
   const box = el("filters");
   box.innerHTML = "";
   for (const c of courses()) {
-    const off = removed.has(c);
+    const off = hidden.courses.has(c);
     const n = EVENTS.filter(e => e.course === c).length;
     const b = document.createElement("button");
     b.className = "chip" + (off ? " off" : "");
     b.style.setProperty("--c", colorOf(c));
-    b.title = off ? "Klicka för att lägga tillbaka" : "Klicka för att ta bort kursen";
+    b.title = off ? "Klicka för att lägga tillbaka kursen (även i Google)"
+                  : "Klicka för att dölja hela kursen (även i Google)";
     b.innerHTML = `<span class="dot"></span>${esc(c)} <span class="count">${n}</span><span class="x">${off ? "+" : "×"}</span>`;
     b.onclick = () => {
-      off ? removed.delete(c) : removed.add(c);
-      saveRemoved();
+      off ? hidden.courses.delete(c) : hidden.courses.add(c);
+      saveHidden();
       recompute();
       render();
     };
     box.appendChild(b);
   }
-  if (removed.size) {
+  if (hidden.events.size) {
+    const h = document.createElement("button");
+    h.className = "chip hidden-pass";
+    h.textContent = `🚫 ${hidden.events.size} dolda pass`;
+    h.title = "Visa listan och ta tillbaka enskilda pass";
+    h.onclick = showHiddenList;
+    box.appendChild(h);
+  }
+  const n = hidden.courses.size + hidden.events.size;
+  if (n) {
     const r = document.createElement("button");
     r.className = "chip restore";
-    r.textContent = `↺ Återställ alla (${removed.size} borttagna)`;
-    r.onclick = () => { removed.clear(); saveRemoved(); recompute(); render(); };
+    r.textContent = `↺ Återställ alla (${n} dolda)`;
+    r.onclick = () => {
+      hidden.courses.clear();
+      hidden.events.clear();
+      saveHidden();
+      recompute();
+      render();
+    };
     box.appendChild(r);
   }
 }
 
+// Enskilt dolda pass syns nedtonade i rutnätet, men den här listan hittar dem
+// utan att man behöver bläddra till rätt vecka.
+function showHiddenList() {
+  const evs = EVENTS.filter(isHidden);
+  el("detail").innerHTML = `
+    <button class="close" onclick="document.getElementById('detail').hidden=true">✕</button>
+    <h3>🚫 Dolda pass (${evs.length})</h3>
+    <p class="sub">Dessa ligger inte i kalendrarna Google hämtar.</p>
+    ${evs.map((e, i) => `<p class="hidden-row">
+        <b>${esc(e.course)}</b><br>
+        <span class="sub">${esc(fmtFull.format(e.start))} · ${e.allDay ? "Heldag"
+          : esc(fmtTime.format(e.start) + "–" + fmtTime.format(e.end))}
+          ${e.type ? " · " + esc(e.type) : ""}</span><br>
+        <button onclick="unhideAt(${i})">↺ Visa igen</button>
+      </p>`).join("") || '<p class="empty">Inga.</p>'}`;
+  el("detail").hidden = false;
+  window.__hiddenList = evs;
+}
+
+function unhideAt(i) {
+  const e = (window.__hiddenList || [])[i];
+  if (!e) return;
+  hidden.events.delete(e.uid);
+  saveHidden();
+  recompute();
+  render();
+  showHiddenList();
+}
+
 function eventCard(e, clash) {
   const d = document.createElement("div");
-  d.className = "ev" + (clash ? " clash" : "");
+  const off = isHidden(e);
+  d.className = "ev" + (clash && !off ? " clash" : "") + (off ? " muted" : "");
   d.style.setProperty("--c", colorOf(e.course));
   const time = e.allDay ? "Heldag" : `${fmtTime.format(e.start)}–${fmtTime.format(e.end)}`;
   d.innerHTML = `<div class="ev-time">${time}</div>
-    <div class="ev-title">${esc(e.course)}</div>
+    <div class="ev-title">${off ? "🚫 " : ""}${esc(e.course)}</div>
     <div class="ev-meta">${esc([e.type, e.note].filter(Boolean).join(" · "))}</div>
     <div class="ev-meta">${esc(e.location || "")}</div>`;
   d.onclick = () => showDetail(e, clash);
@@ -533,14 +658,33 @@ function showDetail(e, clash) {
     ${SOURCES.length > 1 && e.source ? `<p class="sub">📆 ${esc(e.source)}</p>` : ""}
     ${e.note ? `<p>📝 ${esc(e.note)}</p>` : ""}
     ${e.url ? `<p><a href="${esc(e.url)}" target="_blank" rel="noopener">Karta</a></p>` : ""}
-    <p><button onclick="goToEvent(window.__detailEvent)">↦ Visa i veckovyn</button></p>
+    <p><button onclick="goToEvent(window.__detailEvent)">↦ Visa i veckovyn</button>
+    ${canHideEvents()
+      ? `<button class="hidebtn${isHidden(e) ? " on" : ""}" onclick="toggleHiddenEvent()">${
+          isHidden(e) ? "↺ Visa i kalendern igen" : "🚫 Dölj i kalendern"}</button>`
+      : `<button disabled title="Kräver den publicerade versionen av appen">🚫 Dölj i kalendern</button>`}</p>
+    ${isHidden(e) ? '<p class="sub">Dolt: ligger inte i kalendern Google hämtar.</p>' : ""}
     ${clash ? `<div class="warn"><b>Krockar med:</b><br>${others.map(o => esc(o.course) + " (" + fmtTime.format(o.start) + "–" + fmtTime.format(o.end) + ")").join("<br>")}</div>` : ""}`;
   el("detail").hidden = false;
 }
 
+// Toggle för passet som visas i detaljrutan (knappen ligger i HTML:en ovan).
+function toggleHiddenEvent() {
+  const e = window.__detailEvent;
+  if (!e) return;
+  isHidden(e) ? hidden.events.delete(e.uid) : hidden.events.add(e.uid);
+  saveHidden();
+  recompute();
+  render();
+  showDetail(e, CLASH.clashing.has(key(e)));
+}
+
 function updateStats() {
   const base = remaining();
-  const dropped = removed.size ? ` · ${removed.size} borttagna` : "";
+  const parts = [];
+  if (hidden.courses.size) parts.push(`${hidden.courses.size} dolda kurser`);
+  if (hidden.events.size) parts.push(`${hidden.events.size} dolda pass`);
+  const dropped = parts.length ? ` · ${parts.join(" · ")}` : "";
   const feeds = SOURCES.length > 1 ? ` · ${SOURCES.length} kalendrar` : "";
   el("stats").textContent = `${base.length} pass · ${activeCourses().length} kurser${feeds}${dropped}`;
 }
@@ -566,14 +710,13 @@ function loadFeeds(feeds) {
       const id = e.uid + "|" + e.start.toISOString();
       if (seen.has(id)) continue;
       seen.add(id);
-      e.source = f.name;
+      e.source = e.xfeed || f.name;
       EVENTS.push(e);
     }
   }
   EVENTS.sort((a, b) => a.start - b.start);
-  SOURCES = feeds.map(f => f.name);
+  SOURCES = [...new Set(EVENTS.map(e => e.source).filter(Boolean))];
 
-  removed = loadRemoved();
   recompute();
   const today = parts(new Date()).key;
   const base = remaining();
@@ -601,4 +744,18 @@ document.addEventListener("keydown", ev => {
   if (ev.key === "Escape") el("detail").hidden = true;
 });
 
-loadFeeds(window.ICS_FEEDS || [{ name: "Schema", ics: window.ICS_DATA }]);
+// Online läser appen samma arkiv som Google prenumererar på, men ofiltrerat
+// (?all=1), så att dolda pass syns nedtonade och kan tas tillbaka. Utan server
+// används den inbakade kopian — då går bara hela kurser att dölja, lokalt.
+async function boot() {
+  await pullHidden();
+  if (window.ICS_URL) {
+    try {
+      const r = await fetch(window.ICS_URL, { cache: "no-store" });
+      if (r.ok) return loadFeeds([{ name: "Arkiv", ics: await r.text() }]);
+    } catch {}
+  }
+  loadFeeds(window.ICS_FEEDS || [{ name: "Schema", ics: window.ICS_DATA }]);
+}
+
+boot();

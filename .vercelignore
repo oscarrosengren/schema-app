@@ -1,0 +1,6 @@
+# Arkivet läses vid varje anrop direkt från repot (raw.githubusercontent), så en
+# kopia i deployen skulle bara kunna bli gammal.
+archive/
+schema1.ics
+schema2.ics
+.github/
