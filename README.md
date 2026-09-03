@@ -85,6 +85,11 @@ och Google ser fortfarande allt).
 typiskt var 8–24:e timme. Ett pass du döljer försvinner alltså inte ur Google direkt —
 kalenderfilen är rätt inom någon minut, men Google läser den när Google läser den.
 
+Vill du se att Google verkligen hämtar: <https://schema-app-opal.vercel.app/api/fetches>
+listar de senaste 60 hämtningarna med tidpunkt, kalender och user-agent (`google_hamtningar`
+räknar Googles egna). Inga IP-adresser sparas. Vercels egna loggar räcker inte till det —
+de sparas bara en kort stund och nollställs vid varje deploy.
+
 ### Så hänger delarna ihop
 ```
 TimeEdit ──sync.py (GitHub Actions, var 6:e h)──> archive/*.ics i repot
@@ -180,6 +185,7 @@ filtreringen sker när kalendern hämtas.
 | `archive/*.ics` | arkivet: en fil per kurs, med historik. Källa för de publicerade flödena |
 | `api/cal.js` | serverar `/cal/<kurs>.ics` = arkivet minus det du dolt |
 | `api/selection.js` | läser/skriver det avmarkerade i Upstash Redis |
+| `api/fetches.js` | visar vilka som hämtat kalendrarna senast |
 | `api/_lib.js` | ICS-filtrering, arkivhämtning och Redis-anrop |
 | `vercel.json` | rewrite: `/cal/:file` → funktionen |
 | `uitest.mjs` | UI-test i jsdom: `npm i --no-save jsdom && node uitest.mjs` |
