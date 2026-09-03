@@ -3,8 +3,9 @@
 Enkel, fristående webbapp för att visa ditt TimeEdit-schema och hitta **schemakrockar**.
 
 ## Använda
-Öppna `index.html` i webbläsaren, eller <https://oscarrosengren.github.io/schema-app/>.
-Inget bygge, ingen server, inga beroenden.
+Använd <https://schema-app-opal.vercel.app> — där gäller det du avmarkerar även i Google
+Calendar. `index.html` fungerar också som lokal fil, men då sparas valet bara i
+webbläsaren.
 
 ## Funktioner
 - **Veckovy** med överlappande pass sida vid sida, och **listvy** över alla pass.
@@ -38,21 +39,20 @@ Lägg till fler genom att fylla på `FEEDS`-listan i `sync.py` och köra `./upda
 räknas bara en gång, så den krockar aldrig med sig själv.
 
 ## Prenumerera i Google Calendar
-Varje kurs publiceras som en **egen kalender** på GitHub Pages, eftersom Google sätter
-färg per kalender och struntar i färgangivelser inne i en .ics-fil. Prenumerera på en
-kurs i taget och ge var och en sin färg i Google.
+Appen ligger på <https://schema-app-opal.vercel.app> och varje kurs publiceras som en **egen kalender**, dels för
+att Google sätter färg per kalender, dels för att kunna släcka en hel kurs på en gång.
 
-| Kalender | Pass | URL |
+| Kalender | Pass | URL att prenumerera på |
 |---|---|---|
-| Automatiserings- och robotteknik | 33 | `https://oscarrosengren.github.io/schema-app/cal/automatiserings-och-robotteknik.ics` |
-| Reglerteknik II | 33 | `https://oscarrosengren.github.io/schema-app/cal/reglerteknik-ii.ics` |
-| Industriell ekonomi | 31 | `https://oscarrosengren.github.io/schema-app/cal/industriell-ekonomi.ics` |
-| Teknik, affärsutveckling och ledning | 20 | `https://oscarrosengren.github.io/schema-app/cal/teknik-affarsutveckling-och-ledning.ics` |
-| Kreativitet och hållbar design i teknikbaserat entreprenörskap | 10 | `https://oscarrosengren.github.io/schema-app/cal/kreativitet-och-hallbar-design-i-teknikbasera.ics` |
-| Vetenskapliga metoder för industriell ekonomi | 10 | `https://oscarrosengren.github.io/schema-app/cal/vetenskapliga-metoder-for-industriell-ekonomi.ics` |
-| Immaterialrätt och affärsjuridik | 1 | `https://oscarrosengren.github.io/schema-app/cal/immaterialratt-och-affarsjuridik.ics` |
-| Röda dagar | 7 | `https://oscarrosengren.github.io/schema-app/cal/roda-dagar.ics` |
-| Mitt schema | 145 | `https://oscarrosengren.github.io/schema-app/cal/schema.ics` |
+| Automatiserings- och robotteknik | 33 | `https://schema-app-opal.vercel.app/cal/automatiserings-och-robotteknik.ics` |
+| Reglerteknik II | 33 | `https://schema-app-opal.vercel.app/cal/reglerteknik-ii.ics` |
+| Industriell ekonomi | 31 | `https://schema-app-opal.vercel.app/cal/industriell-ekonomi.ics` |
+| Teknik, affärsutveckling och ledning | 20 | `https://schema-app-opal.vercel.app/cal/teknik-affarsutveckling-och-ledning.ics` |
+| Kreativitet och hållbar design i teknikbaserat entreprenörskap | 10 | `https://schema-app-opal.vercel.app/cal/kreativitet-och-hallbar-design-i-teknikbasera.ics` |
+| Vetenskapliga metoder för industriell ekonomi | 10 | `https://schema-app-opal.vercel.app/cal/vetenskapliga-metoder-for-industriell-ekonomi.ics` |
+| Immaterialrätt och affärsjuridik | 1 | `https://schema-app-opal.vercel.app/cal/immaterialratt-och-affarsjuridik.ics` |
+| Röda dagar | 7 | `https://schema-app-opal.vercel.app/cal/roda-dagar.ics` |
+| Mitt schema | 145 | `https://schema-app-opal.vercel.app/cal/schema.ics` |
 
 **Lägg till:** `Andra kalendrar +` → **Från URL** → klistra in en URL → *Lägg till
 kalender*. Upprepa per kurs. Använd **inte** "Importera" — det blir en engångskopia som
@@ -61,29 +61,68 @@ aldrig uppdateras.
 **Sätt färg:** hovra över kalendern i vänsterlistan → `⋮` → välj färg. Färgen ligger på
 ditt Google-konto, inte i filen, så den överlever alla uppdateringar av schemat.
 
-`schema.ics` är alla kurser i en enda kalender (en färg för allt). Prenumerera antingen
-på den **eller** på kurskalendrarna — inte båda, då syns varje pass två gånger.
+`schema.ics` är alla kurser i en enda kalender. Prenumerera antingen på den **eller** på
+kurskalendrarna — inte båda, då syns varje pass två gånger.
 
 Samma URL:er fungerar i Apple Kalender (Arkiv → Ny kalenderprenumeration) och Outlook.
 
+## Dölja pass från appen
+Det som är avmarkerat i appen ligger inte i kalendrarna Google hämtar. Två sätt:
+
+- **Ett enskilt pass:** klicka passet → **🚫 Dölj i kalendern**. Passet ligger kvar
+  nedtonat i rutnätet så det går att ta tillbaka (knappen blir *↺ Visa i kalendern
+  igen*), och chipet **🚫 n dolda pass** listar alla dolda pass med en återställknapp.
+- **En hel kurs:** klicka kursens chip (×). Hela kursen försvinner ur rutnätet, ur
+  krockberäkningen och ur kalendern. Klicka igen (+) för att ta tillbaka.
+
+Dolda pass räknas aldrig som krockar, så en krock du valt bort försvinner ur krocklistan.
+
+Texten i huvudet säger var valet gäller: **🔗 Gäller i Google** när servern svarar,
+**⚠︎ Bara i den här webbläsaren** när den inte gör det (då sparas valet i localStorage
+och Google ser fortfarande allt).
+
 **Obs om uppdateringstakt:** Google hämtar prenumererade kalendrar när Google vill,
-typiskt var 8–24:e timme, oavsett `REFRESH-INTERVAL` i filen. Behöver du se en ändring
-direkt: öppna krockvisaren, eller läs in filen i Apple Kalender som hämtar oftare.
+typiskt var 8–24:e timme. Ett pass du döljer försvinner alltså inte ur Google direkt —
+kalenderfilen är rätt inom någon minut, men Google läser den när Google läser den.
 
-### Hur kurserna delas upp
-Kursnamnet plockas ur TimeEdits `SUMMARY` med exakt samma logik som krockvisaren använder
-(`course_of()` i `sync.py` speglar `splitSummary()` i `app.js`), så uppdelningen stämmer
-med kurschipsen i appen. Heldagsposter (röda dagar) samlas i `roda-dagar.ics`. Nya kurser
-får en egen fil automatiskt vid nästa sync — inget att konfigurera.
+### Så hänger delarna ihop
+```
+TimeEdit ──sync.py (GitHub Actions, var 6:e h)──> archive/*.ics i repot
+                                                      │
+appen ──avmarkera──> /api/selection ──> hidden.json ──┤
+                                                      ▼
+Google ──GET /cal/<kurs>.ics──> Vercel-funktion: arkivet minus det dolda
+```
+- `archive/*.ics` är sanningen om schemat, inklusive historik, och committas av
+  GitHub Actions. Funktionen läser dem direkt ur repot vid varje anrop, så en ny sync
+  syns utan att appen behöver deployas om.
+- `hidden.json` är listan över dolda kurser och pass. Den ligger i samma repo, så det
+  behövdes ingen extra lagringstjänst. Skrivning kräver `GITHUB_TOKEN` i Vercel-projektet
+  (se nedan); läsning gör det inte.
+- Appen läser `/cal/schema.ics?all=1`, alltså arkivet **ofiltrerat**, för att kunna visa
+  dolda pass nedtonade. Google läser samma väg utan `?all=1` och får dem filtrerade.
 
-En kurs som försvinner helt ur flödet (avslutad eller avhoppad) byggs om mot ett tomt
-flöde: historiken ligger kvar, allt framtida försvinner. Filen tas alltså aldrig bort av
-sig själv, så gamla terminer finns kvar att prenumerera på.
+### Skrivrättighet
+`/api/selection` kan bara spara om Vercel-projektet har en `GITHUB_TOKEN` med
+`Contents: read and write` på det här repot:
+
+```sh
+vercel env add GITHUB_TOKEN production   # klistra in token
+vercel deploy --prod
+```
+
+Utan token fungerar allt utom sparandet: appen visar **⚠︎ Kan inte spara** och valet
+gäller bara i webbläsaren.
+
+Skrivningen är öppen, precis som kalenderlänkarna. `/api/selection` tar därför bara emot
+id:n och kursnamn som faktiskt finns i arkivet — det enda någon kan göra med endpointen
+är att dölja eller visa dina egna pass, inte lägga in något nytt. Varje ändring blir en
+commit, så `git log hidden.json` visar vad som hänt.
 
 ### Varför passerade pass ligger kvar
 TimeEdits egna flöde rullar fönstret framåt, så pass som varit försvinner ur flödet — och
 eftersom en prenumeration speglar flödet exakt tömmer Google då också historiken.
-Därför är `cal/*.ics` ett **arkiv**, inte en ren kopia:
+Därför är `archive/*.ics` ett **arkiv**, inte en ren kopia:
 
 - pass som redan **passerat** (sluttid + 6 h) sparas för alltid, även när TimeEdit slutar
   skicka dem,
@@ -102,7 +141,7 @@ köras manuellt från Actions-fliken). Lokalt:
 ./sync.py --no-fetch # bygg om från redan nedladdade schemaN.ics
 ```
 
-Arkivet lever i `cal/*.ics` i repot — filerna är både det som publiceras och det som
+Arkivet lever i `archive/*.ics` i repot — filerna är både det som publiceras och det som
 kommer ihåg historiken, så de ska committas. Tidsstämplar som TimeEdit sätter vid varje
 hämtning ignoreras, så en sync utan verkliga ändringar ger ingen commit.
 
@@ -117,14 +156,20 @@ BY_COURSE = True                           # en fil per kurs (egen färg i Googl
 **Obs:** länkarna i `sync.py` har TimeEdits objekturval inbakat i själva URL:en. Om du
 hoppar av en kurs i Ladok/Studium försvinner den *inte* automatiskt ur flödet — du måste
 antingen generera en ny länk i TimeEdit (och byta ut den i `FEEDS`) eller ta bort kursen i
-appen enligt ovan. Kurser du tagit bort i appen ligger kvar i `cal/*.ics`, eftersom valet
-bara sparas i din webbläsare.
+appen enligt ovan. Kurser du dolt i appen ligger kvar i `archive/*.ics` — arkivet är hela schemat, och
+filtreringen sker när kalendern hämtas.
 
 ## Filer
 | Fil | Innehåll |
 |---|---|
 | `index.html` | genererad app (ICS-datan inbakad) |
-| `cal/*.ics` | publicerade kalendrar (en per kurs) med arkiv — prenumerera på dessa |
+| `archive/*.ics` | arkivet: en fil per kurs, med historik. Källa för de publicerade flödena |
+| `api/cal.js` | serverar `/cal/<kurs>.ics` = arkivet minus det du dolt |
+| `api/selection.js` | läser/skriver `hidden.json` (det avmarkerade) |
+| `api/_lib.js` | ICS-filtrering och GitHub-läsning/skrivning |
+| `hidden.json` | dolda kurser och pass |
+| `vercel.json` | rewrite: `/cal/:file` → funktionen |
+| `uitest.mjs` | UI-test i jsdom: `npm i --no-save jsdom && node uitest.mjs` |
 | `sync.py` | hämtar flöden, slår ihop med arkivet, bygger `index.html` |
 | `.github/workflows/sync.yml` | kör `sync.py` var 6:e timme och committar ändringar |
 | `index.template.html` | mall, `__FEEDS__` ersätts vid bygge |
