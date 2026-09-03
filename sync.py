@@ -207,6 +207,9 @@ def write_calendar(path, calname, records, namespace):
         "X-PUBLISHED-TTL:PT2H",
         "REFRESH-INTERVAL;VALUE=DURATION:PT2H",
     ]
+    # Huvudet kan innehalla langa kursnamn, sa det maste veckas det med.
+    out = [folded for line in out for folded in fold(line)]
+
     for _, start, lines in records:
         out.append("BEGIN:VEVENT")
         for line in namespaced(lines, namespace):

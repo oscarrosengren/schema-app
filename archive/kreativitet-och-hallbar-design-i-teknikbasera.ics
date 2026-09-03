@@ -3,7 +3,8 @@ VERSION:2.0
 PRODID:-//schema-app//TimeEdit-arkiv//SV
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Kreativitet och hållbar design i teknikbaserat entreprenörskap
+X-WR-CALNAME:Kreativitet och hållbar design i teknikbaserat entreprenörs
+ kap
 X-WR-TIMEZONE:Europe/Stockholm
 X-PUBLISHED-TTL:PT2H
 REFRESH-INTERVAL;VALUE=DURATION:PT2H
