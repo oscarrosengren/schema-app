@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Schema · TimeEdit</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>📅 Mitt schema</h1>
+  <span id="stats"></span>
+  <div class="spacer"></div>
+  <div id="nav">
+    <button id="prev" title="Föregående vecka">←</button>
+    <button id="today">Idag</button>
+    <button id="next" title="Nästa vecka">→</button>
+    <span id="range"></span>
+  </div>
+  <div class="spacer"></div>
+  <label class="checkbox"><input type="checkbox" id="onlyclash"> Visa bara krockar</label>
+  <button id="btn-week">Vecka</button>
+  <button id="btn-list">Lista</button>
+  <label class="btn" for="file">Öppna .ics</label>
+  <input type="file" id="file" accept=".ics">
+</header>
+
+<div id="filters"></div>
+
+<main>
+  <div id="grid"></div>
+  <aside class="panel" style="padding:14px">
+    <h2>⚠️ Schemakrockar <span id="clashcount">0</span></h2>
+    <button id="copyclash" class="copybtn">📋 Kopiera som tabell</button>
+    <div id="clashlist"></div>
+  </aside>
+</main>
+
+<div id="detail" hidden></div>
+
+<script>window.ICS_FEEDS = __FEEDS__;</script>
+<script src="app.js"></script>
+</body>
+</html>

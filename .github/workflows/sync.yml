@@ -1,0 +1,45 @@
+name: Sync schema
+
+on:
+  schedule:
+    - cron: "23 */6 * * *"   # var sjätte timme
+  workflow_dispatch:          # eller manuellt via Actions-fliken
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Hämta TimeEdit och uppdatera arkivet
+        run: python3 sync.py
+
+      # Håller repot "aktivt" så GitHub inte pausar cron-jobbet efter 60 dagar
+      # utan aktivitet (händer om schemat inte ändras på länge).
+      - name: Heartbeat
+        run: date -u +"%Y-%m-%dT%H:%MZ" > .last-sync
+
+      - name: Committa ändringar
+        run: |
+          git config user.name "schema-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --quiet --cached -- cal index.html schema1.ics schema2.ics; then
+            echo "Inga schemaändringar."
+            git reset
+            # Bara heartbeat: committa högst en gång i månaden.
+            if [ "$(date -u +%d)" = "01" ]; then
+              git add .last-sync
+              git commit -m "Heartbeat $(date -u +%Y-%m-%d)" && git push
+            fi
+          else
+            git commit -m "Sync schema $(date -u +'%Y-%m-%d %H:%M')"
+            git push
+          fi
