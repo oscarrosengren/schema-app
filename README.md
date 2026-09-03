@@ -89,35 +89,38 @@ kalenderfilen är rätt inom någon minut, men Google läser den när Google lä
 ```
 TimeEdit ──sync.py (GitHub Actions, var 6:e h)──> archive/*.ics i repot
                                                       │
-appen ──avmarkera──> /api/selection ──> hidden.json ──┤
+appen ──avmarkera──> /api/selection ──> Upstash Redis ──┤
                                                       ▼
 Google ──GET /cal/<kurs>.ics──> Vercel-funktion: arkivet minus det dolda
 ```
 - `archive/*.ics` är sanningen om schemat, inklusive historik, och committas av
   GitHub Actions. Funktionen läser dem direkt ur repot vid varje anrop, så en ny sync
   syns utan att appen behöver deployas om.
-- `hidden.json` är listan över dolda kurser och pass. Den ligger i samma repo, så det
-  behövdes ingen extra lagringstjänst. Skrivning kräver `GITHUB_TOKEN` i Vercel-projektet
-  (se nedan); läsning gör det inte.
+- Det avmarkerade ligger som en JSON-post i **Upstash Redis** under nyckeln
+  `schema:hidden` (eget Upstash-konto, anropat över REST — inga npm-beroenden).
 - Appen läser `/cal/schema.ics?all=1`, alltså arkivet **ofiltrerat**, för att kunna visa
   dolda pass nedtonade. Google läser samma väg utan `?all=1` och får dem filtrerade.
 
-### Skrivrättighet
-`/api/selection` kan bara spara om Vercel-projektet har en `GITHUB_TOKEN` med
-`Contents: read and write` på det här repot:
+### Lagring och rättigheter
+`/api/selection` sparar i Upstash Redis och behöver två miljövariabler i Vercel-projektet,
+hämtade från **REST API**-avsnittet för databasen i Upstash-konsolen:
 
 ```sh
-vercel env add GITHUB_TOKEN production   # klistra in token
+vercel env add UPSTASH_REDIS_REST_URL production
+vercel env add UPSTASH_REDIS_REST_TOKEN production
 vercel deploy --prod
 ```
 
-Utan token fungerar allt utom sparandet: appen visar **⚠︎ Kan inte spara** och valet
-gäller bara i webbläsaren.
+Obs: REST-token är inte samma sak som Redis-lösenordet i `redis://`-strängen. Fel av de
+två ger `WRONGPASS` från Upstash och appen visar **⚠︎ Kunde inte spara**.
+
+Saknas variablerna fungerar allt utom sparandet: appen visar **⚠︎ Kan inte spara** och
+valet gäller bara i webbläsaren. Går Upstash inte att nå vid läsning serveras kalendern
+**ofiltrerad** — hellre för mycket i kalendern än en trasig kalender.
 
 Skrivningen är öppen, precis som kalenderlänkarna. `/api/selection` tar därför bara emot
 id:n och kursnamn som faktiskt finns i arkivet — det enda någon kan göra med endpointen
-är att dölja eller visa dina egna pass, inte lägga in något nytt. Varje ändring blir en
-commit, så `git log hidden.json` visar vad som hänt.
+är att dölja eller visa dina egna pass, inte lägga in något nytt.
 
 ### Varför passerade pass ligger kvar
 TimeEdits egna flöde rullar fönstret framåt, så pass som varit försvinner ur flödet — och
@@ -129,8 +132,19 @@ Därför är `archive/*.ics` ett **arkiv**, inte en ren kopia:
 - pass i **framtiden** speglar alltid flödet — hoppar du av en kurs eller flyttas en
   föreläsning försvinner den gamla posten,
 - samma bokning i flera flöden räknas en gång (152 pass → 145 i den sammanslagna filen),
-- varje pass får ett stabilt eget UID (hash av TimeEdits UID + starttid), så en flyttad
+- varje pass får ett stabilt eget id (hash av TimeEdits UID + starttid), så en flyttad
   föreläsning inte skriver över sin egen historik i Google.
+
+### Varför UID:t skiljer sig mellan kalendrarna
+Samma pass ligger både i `schema.ics` och i sin kurskalender. Med identiskt `UID` knyter
+Google passet till *en* av kalendrarna och visar den andra som tom — vilket är svårt att
+förstå när det händer. Därför får varje kalender sitt eget UID-rum
+(`<id>.<kalendertagg>@timeedit-arkiv`), medan passets riktiga id ligger kvar i
+`X-BASE-UID`. Det är `X-BASE-UID` som appen och filtreringen matchar mot, så ett dolt
+pass försvinner ur alla kalendrar det finns i.
+
+Prenumererar du på både `schema.ics` och kurskalendrarna ser du numera varje pass två
+gånger, i stället för att en kalender tystnar. Välj alltså det ena eller det andra.
 
 ## Uppdatera schemat
 Sker automatiskt i GitHub Actions (`.github/workflows/sync.yml`, var 6:e timme, kan även
@@ -165,9 +179,8 @@ filtreringen sker när kalendern hämtas.
 | `index.html` | genererad app (ICS-datan inbakad) |
 | `archive/*.ics` | arkivet: en fil per kurs, med historik. Källa för de publicerade flödena |
 | `api/cal.js` | serverar `/cal/<kurs>.ics` = arkivet minus det du dolt |
-| `api/selection.js` | läser/skriver `hidden.json` (det avmarkerade) |
-| `api/_lib.js` | ICS-filtrering och GitHub-läsning/skrivning |
-| `hidden.json` | dolda kurser och pass |
+| `api/selection.js` | läser/skriver det avmarkerade i Upstash Redis |
+| `api/_lib.js` | ICS-filtrering, arkivhämtning och Redis-anrop |
 | `vercel.json` | rewrite: `/cal/:file` → funktionen |
 | `uitest.mjs` | UI-test i jsdom: `npm i --no-save jsdom && node uitest.mjs` |
 | `sync.py` | hämtar flöden, slår ihop med arkivet, bygger `index.html` |
