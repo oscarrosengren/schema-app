@@ -5,7 +5,9 @@
 import { fetchArchive, filterIcs, readHidden } from "./_lib.js";
 
 export default async function handler(req, res) {
-  const name = String(req.query.name || "schema");
+  // Rewriten skickar hela filnamnet, t.ex. "reglerteknik-ii.ics".
+  const name = String(req.query.name || req.query.file || "schema.ics")
+    .replace(/\.ics$/i, "");
   const text = await fetchArchive(name);
   if (text === null) {
     res.status(404).setHeader("content-type", "text/plain; charset=utf-8");

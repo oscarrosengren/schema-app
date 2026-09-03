@@ -83,18 +83,25 @@ export function normalize(value) {
 
 /* ---------- ICS ---------- */
 
-/** Dela upp en kalender i huvud, pass och avslut. */
+/**
+ * Dela upp en kalender i huvud, VEVENT-block och avslut. Varje block behåller sin
+ * avslutande radbrytning, så head + valda block + tail alltid ger en giltig fil.
+ */
 export function splitIcs(text) {
   const nl = text.includes("\r\n") ? "\r\n" : "\n";
-  const startEvents = text.indexOf(`BEGIN:VEVENT`);
-  if (startEvents < 0) return { head: text, blocks: [], nl };
-  const endIdx = text.lastIndexOf("END:VEVENT");
-  const head = text.slice(0, startEvents);
-  const tail = text.slice(endIdx + "END:VEVENT".length);
-  const body = text.slice(startEvents, endIdx + "END:VEVENT".length);
-  const blocks = body.split(`END:VEVENT`).filter(b => b.includes("BEGIN:VEVENT"))
-    .map(b => b.slice(b.indexOf("BEGIN:VEVENT")) + "END:VEVENT");
-  return { head, blocks, tail, nl };
+  const head = [], blocks = [], tail = [];
+  let cur = null;
+  for (const line of text.split(nl)) {
+    if (cur === null && line === "BEGIN:VEVENT") { cur = [line]; continue; }
+    if (cur !== null) {
+      cur.push(line);
+      if (line === "END:VEVENT") { blocks.push(cur.join(nl) + nl); cur = null; }
+      continue;
+    }
+    (blocks.length ? tail : head).push(line);
+  }
+  const join = ls => ls.filter(l => l !== "").map(l => l + nl).join("");
+  return { head: join(head), blocks, tail: join(tail), nl };
 }
 
 /** Läs en egenskap ur ett VEVENT-block, med hänsyn till ICS-radbrytning. */
@@ -114,7 +121,7 @@ export function readProp(block, name) {
 
 /** Ta bort avmarkerade pass ur en kalenderfil. */
 export function filterIcs(text, hidden) {
-  const { head, blocks, tail, nl } = splitIcs(text);
+  const { head, blocks, tail } = splitIcs(text);
   if (!blocks.length) return text;
   const courses = new Set(hidden.courses);
   const events = new Set(hidden.events);
@@ -123,7 +130,7 @@ export function filterIcs(text, hidden) {
     const course = readProp(b, "X-COURSE");
     return !(uid && events.has(uid)) && !(course && courses.has(course));
   });
-  return head + keep.join("") + (tail ?? `${nl}END:VCALENDAR${nl}`);
+  return head + keep.join("") + tail;
 }
 
 /** Alla giltiga pass-id och kursnamn, för att kunna avvisa skräp i PUT. */
