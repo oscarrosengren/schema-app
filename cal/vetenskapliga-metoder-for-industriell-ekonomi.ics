@@ -1,0 +1,130 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//schema-app//TimeEdit-arkiv//SV
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Vetenskapliga metoder för industriell ekonomi
+X-WR-TIMEZONE:Europe/Stockholm
+X-PUBLISHED-TTL:PT2H
+REFRESH-INTERVAL;VALUE=DURATION:PT2H
+BEGIN:VEVENT
+DTSTART:20260831T061500Z
+DTEND:20260831T070000Z
+UID:6851255c58bd22a480725485@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/BHtwChEt
+SUMMARY:I5\, Vetenskapliga metoder för industriell ekonomi.  \, Övrigt
+LOCATION:Plats: 11134\, Ångström
+DESCRIPTION:Kick-off \nKarta: https://link.mazemap.com/BHtwChEt\nID 410125
+ 8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260831T071500Z
+DTEND:20260831T100000Z
+UID:bcc2e3647faa2ee5f7a8bafb@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/BHtwChEt
+SUMMARY:I5\, Vetenskapliga metoder för industriell ekonomi.  \, Föreläs
+ ning
+LOCATION:Plats: 11134\, Ångström
+DESCRIPTION:F1 \nKarta: https://link.mazemap.com/BHtwChEt\nID 4067846
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260907T070000Z
+DTEND:20260907T100000Z
+UID:0f7d6a88494645f6be4dd2c0@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/6QSBVI2i
+SUMMARY:I5\, Vetenskapliga metoder för industriell ekonomi.  \, Seminariu
+ m
+LOCATION:Plats: 90101\, Ångström
+DESCRIPTION:S1 \nKarta: https://link.mazemap.com/6QSBVI2i\nID 4067854
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260914T071500Z
+DTEND:20260914T100000Z
+UID:027d534d8ebf14f1d47e7cd6@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/amionBdN
+SUMMARY:I5\, Vetenskapliga metoder för industriell ekonomi.  \, Seminariu
+ m
+LOCATION:Plats: 90103\, Ångström
+DESCRIPTION:S2 \nKarta: https://link.mazemap.com/amionBdN\nID 4067862
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260921T071500Z
+DTEND:20260921T100000Z
+UID:a6621cbb0bbda28dca7cd53f@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/vwT0yEDa
+SUMMARY:I5\, Vetenskapliga metoder för industriell ekonomi.  \, Seminariu
+ m
+LOCATION:Plats: 90102\, Ångström
+DESCRIPTION:S3 \nKarta: https://link.mazemap.com/vwT0yEDa\nID 4067870
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260928T071500Z
+DTEND:20260928T100000Z
+UID:9c17fa93382fd616d401ad59@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/BHtwChEt
+SUMMARY:I5\, Vetenskapliga metoder för industriell ekonomi.  \, Seminariu
+ m
+LOCATION:Plats: 11134\, Ångström
+DESCRIPTION:S4 \nKarta: https://link.mazemap.com/BHtwChEt\nID 4067872
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261005T071500Z
+DTEND:20261005T100000Z
+UID:a5fe2423ffe9d45fa6ab04c5@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/vwT0yEDa
+SUMMARY:I5\, Vetenskapliga metoder för industriell ekonomi.  \, Seminariu
+ m
+LOCATION:Plats: 90102\, Ångström
+DESCRIPTION:S5 \nKarta: https://link.mazemap.com/vwT0yEDa\nID 4067874
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261012T071500Z
+DTEND:20261012T100000Z
+UID:4ca72dc4677fec1398aa69ee@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/vwT0yEDa
+SUMMARY:I5\, Vetenskapliga metoder för industriell ekonomi.  \, Seminariu
+ m
+LOCATION:Plats: 90102\, Ångström
+DESCRIPTION:S6 \nKarta: https://link.mazemap.com/vwT0yEDa\nID 4067876
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261019T071500Z
+DTEND:20261019T100000Z
+UID:0b4388dcbbc5d98efb463ab4@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/9k0ozy8o
+SUMMARY:I5\, Vetenskapliga metoder för industriell ekonomi.  \, Seminariu
+ m
+LOCATION:Plats: 11137\, Ångström
+DESCRIPTION:S7 \nKarta: https://link.mazemap.com/9k0ozy8o\nID 4067880
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261026T081500Z
+DTEND:20261026T110000Z
+UID:cb0f3bac65519afc642b6d45@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/6QSBVI2i
+SUMMARY:I5\, Vetenskapliga metoder för industriell ekonomi.  \, Seminariu
+ m
+LOCATION:Plats: 90101\, Ångström
+DESCRIPTION:S8 \nKarta: https://link.mazemap.com/6QSBVI2i\nID 4067882
+END:VEVENT
+END:VCALENDAR

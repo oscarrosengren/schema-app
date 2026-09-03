@@ -1,0 +1,416 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//schema-app//TimeEdit-arkiv//SV
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Automatiserings- och robotteknik
+X-WR-TIMEZONE:Europe/Stockholm
+X-PUBLISHED-TTL:PT2H
+REFRESH-INTERVAL;VALUE=DURATION:PT2H
+BEGIN:VEVENT
+DTSTART:20260831T081500Z
+DTEND:20260831T100000Z
+UID:146993a42a95d837b5f8936a@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Introduktion\, Förel
+ äsning
+LOCATION:Plats: Via Zoom
+DESCRIPTION:ID 4041398
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260901T081500Z
+DTEND:20260901T100000Z
+UID:a9b0f36531571e89d26ba390@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/amionBdN
+SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Handledning
+LOCATION:Plats: 90103\, Ångström
+DESCRIPTION:E1 \nKarta: https://link.mazemap.com/amionBdN\nID 4041400
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260904T061500Z
+DTEND:20260904T080000Z
+UID:4e9848249157e9eeb176b188@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/VIquqvZE
+SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Laboration
+LOCATION:Plats: 3K101\, Ångström
+DESCRIPTION:Laboration 1 (intro) grp 1-4\, sal 3K101 \nKarta: https://link
+ .mazemap.com/VIquqvZE\nID 4041404
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260904T081500Z
+DTEND:20260904T100000Z
+UID:6a7d2bb75bab5907a08f1906@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/VIquqvZE
+SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Laboration
+LOCATION:Plats: 3K101\, Ångström
+DESCRIPTION:Laboration 1 (intro) grp 5-8\, sal 3K101 \nKarta: https://link
+ .mazemap.com/VIquqvZE\nID 4041406
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260904T111500Z
+DTEND:20260904T130000Z
+UID:8c0516762f5512c5b530579e@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/VIquqvZE
+SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Laboration
+LOCATION:Plats: 3K101\, Ångström
+DESCRIPTION:Laboration 1 (intro) grp 9-12\, sal 3K101 \nKarta: https://lin
+ k.mazemap.com/VIquqvZE\nID 4041407
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260908T071500Z
+DTEND:20260908T100000Z
+UID:417633e6c4744ebce1735a03@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
+ %C3%85ngstr%C3%B6m-101190
+SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Övning
+LOCATION:Plats: 101190\, Ångström
+DESCRIPTION:Ö1– Reflektion F2-4 \nKarta: https://use.mazemap.com/?campu
+ sid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6m-101190\nID 404
+ 1415
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260909T060000Z
+DTEND:20260909T150000Z
+UID:c852819669fb110f0b13f547@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Studiebesök
+LOCATION:
+DESCRIPTION:ABB Robotics - Västerås\nID 4032382
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260916T081500Z
+DTEND:20260916T100000Z
+UID:552f67ac568d73e69ff9b38f@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/amionBdN
+SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Handledning
+LOCATION:Plats: 90103\, Ångström
+DESCRIPTION:E2 – Handledning projekt del1 \nKarta: https://link.mazemap.
+ com/amionBdN\nID 4041421
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260917T131500Z
+DTEND:20260917T150000Z
+UID:4b8a4a96a47a41c75a9a52d8@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/6QSBVI2i
+SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Övning
+LOCATION:Plats: 90101\, Ångström
+DESCRIPTION:Ö2 – Reflektion F5-7 \nKarta: https://link.mazemap.com/6QSB
+ VI2i\nID 4041419
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260921T111500Z
+DTEND:20260921T120000Z
+UID:75ca2748068cad9cf9cb4221@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
+ %C3%85ngstr%C3%B6m-101127
+SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Seminarium
+LOCATION:Plats: 101127\, Ångström
+DESCRIPTION:S1 – Redovisning projekt del1 1-3 \nKarta: https://use.mazem
+ ap.com/?campusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6m-1
+ 01127\nID 4042286
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260921T121500Z
+DTEND:20260921T130000Z
+UID:2c0717c6f070835eefcfdbfb@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
+ %C3%85ngstr%C3%B6m-101127
+SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Seminarium
+LOCATION:Plats: 101127\, Ångström
+DESCRIPTION:S1 – Redovisning projekt del1 4-6 \nKarta: https://use.mazem
+ ap.com/?campusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6m-1
+ 01127\nID 4042287
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260921T131500Z
+DTEND:20260921T140000Z
+UID:5fe9271be459446cd0a5e7ca@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
+ %C3%85ngstr%C3%B6m-101127
+SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Seminarium
+LOCATION:Plats: 101127\, Ångström
+DESCRIPTION:S1 – Redovisning projekt del1 7-9 \nKarta: https://use.mazem
+ ap.com/?campusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6m-1
+ 01127\nID 4042288
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260921T141500Z
+DTEND:20260921T150000Z
+UID:dc5f8a1a624641e095c1957f@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
+ %C3%85ngstr%C3%B6m-101127
+SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Seminarium
+LOCATION:Plats: 101127\, Ångström
+DESCRIPTION:S1 – Redovisning projekt del1 10-12 \nKarta: https://use.maz
+ emap.com/?campusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6m
+ -101127\nID 4042289
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260922T061500Z
+DTEND:20260922T080000Z
+UID:09c4c0f145acdc943796e631@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Seminarium
+LOCATION:Plats: Via Zoom
+DESCRIPTION:S2 – Case-seminarium 1-3\nID 4042290
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260922T081500Z
+DTEND:20260922T100000Z
+UID:6787b64c0e05d930fb4ae057@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Seminarium
+LOCATION:Plats: Via Zoom
+DESCRIPTION:S2 – Case-seminarium 4-6\nID 4042291
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260922T111500Z
+DTEND:20260922T130000Z
+UID:a448b82cd68bcd38c55aa758@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Seminarium
+LOCATION:Plats: Via Zoom
+DESCRIPTION:S2 – Case-seminarium 7-9\nID 4042292
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260922T131500Z
+DTEND:20260922T150000Z
+UID:18ab2205d6f34da9c9d580c9@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Seminarium
+LOCATION:Plats: Via Zoom
+DESCRIPTION:S2 – Case-seminarium 10-12\nID 4042293
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260924T081500Z
+DTEND:20260924T150000Z
+UID:9bb3e498df0734ae17d0e7f3@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/FbE1FYfY
+SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Laboration
+LOCATION:Plats: 5K106\, Ångström
+DESCRIPTION:L2 – Laboration 2 (online) 1-3 \nKarta: https://link.mazemap
+ .com/FbE1FYfY\nID 4042294
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260925T081500Z
+DTEND:20260925T150000Z
+UID:c0a145ee3ec845d49906a2b1@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/FbE1FYfY
+SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Laboration
+LOCATION:Plats: 5K106\, Ångström
+DESCRIPTION:L2 – Laboration 2 (online) 4-6 \nKarta: https://link.mazemap
+ .com/FbE1FYfY\nID 4042295
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260928T111500Z
+DTEND:20260928T140000Z
+UID:634e717a1f2ac13c30ca1f5a@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
+ %C3%85ngstr%C3%B6m-101190
+SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Övning
+LOCATION:Plats: 101190\, Ångström
+DESCRIPTION:Ö3 – Reflektion F8-9 \nKarta: https://use.mazemap.com/?camp
+ usid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6m-101190\nID 40
+ 42324
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260929T061500Z
+DTEND:20260929T130000Z
+UID:5a2393f0ccbbe963162a9fcf@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/FbE1FYfY
+SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Laboration
+LOCATION:Plats: 5K106\, Ångström
+DESCRIPTION:L2 – Laboration 2 (online) 7-9 \nKarta: https://link.mazemap
+ .com/FbE1FYfY\nID 4042320
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260930T081500Z
+DTEND:20260930T150000Z
+UID:91d544598bb2123e2405876c@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/FbE1FYfY
+SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Laboration
+LOCATION:Plats: 5K106\, Ångström
+DESCRIPTION:L2 – Laboration 2 (online) 10-12 \nKarta: https://link.mazem
+ ap.com/FbE1FYfY\nID 4042321
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261005T111500Z
+DTEND:20261005T130000Z
+UID:d5400dd26fdb9b5b322cef8f@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/zNWgHN9c
+SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Gästföreläsning
+LOCATION:Plats: 80121\, Ångström
+DESCRIPTION:F5 – Gästföreläsning \nKarta: https://link.mazemap.com/zN
+ WgHN9c\nID 4042300
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261006T111500Z
+DTEND:20261006T130000Z
+UID:811b7f333648503f43990273@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/amionBdN
+SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Handledning
+LOCATION:Plats: 90103\, Ångström
+DESCRIPTION:E3 – Handledning projekt del2 \nKarta: https://link.mazemap.
+ com/amionBdN\nID 4042302
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261008T061500Z
+DTEND:20261008T100000Z
+UID:706fcec313dcf69d01ae3a27@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/JPQDTMuo
+SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Laboration
+LOCATION:Plats: 6K1101\, Datorsal\, Ångström
+DESCRIPTION:L3 – Laboration 3 (offline) 1-6 \nKarta: https://link.mazema
+ p.com/JPQDTMuo\nID 4042303
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261009T111500Z
+DTEND:20261009T150000Z
+UID:0c5822bbdf27fca3b5b20241@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/JPQDTMuo
+SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Laboration
+LOCATION:Plats: 6K1101\, Datorsal\, Ångström
+DESCRIPTION:L3 – Laboration 3 (offline) 7-12 \nKarta: https://link.mazem
+ ap.com/JPQDTMuo\nID 4042304
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261012T111500Z
+DTEND:20261012T120000Z
+UID:1a1d0b195ff5cd690400dabd@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
+ %C3%85ngstr%C3%B6m-101127
+SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Seminarium
+LOCATION:Plats: 101127\, Ångström
+DESCRIPTION:S3 – Redovisning projekt del2 1-3 \nKarta: https://use.mazem
+ ap.com/?campusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6m-1
+ 01127\nID 4042307
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261012T121500Z
+DTEND:20261012T130000Z
+UID:afd828a052e1960676141eb3@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
+ %C3%85ngstr%C3%B6m-101127
+SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Seminarium
+LOCATION:Plats: 101127\, Ångström
+DESCRIPTION:S3 – Redovisning projekt del2 4-6 \nKarta: https://use.mazem
+ ap.com/?campusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6m-1
+ 01127\nID 4042308
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261012T131500Z
+DTEND:20261012T140000Z
+UID:8b9f43183838a2029184ec10@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
+ %C3%85ngstr%C3%B6m-101127
+SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Seminarium
+LOCATION:Plats: 101127\, Ångström
+DESCRIPTION:S3 – Redovisning projekt del2 7-9 \nKarta: https://use.mazem
+ ap.com/?campusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6m-1
+ 01127\nID 4042309
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261012T141500Z
+DTEND:20261012T150000Z
+UID:f67f24b2a278b86dc8cefc1e@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
+ %C3%85ngstr%C3%B6m-101127
+SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Seminarium
+LOCATION:Plats: 101127\, Ångström
+DESCRIPTION:S3 – Redovisning projekt del2 10-12 \nKarta: https://use.maz
+ emap.com/?campusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6m
+ -101127\nID 4042310
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261014T111500Z
+DTEND:20261014T140000Z
+UID:bc1e2c342aeecae0fbe4fb57@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
+ %C3%85ngstr%C3%B6m-101132
+SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Övning
+LOCATION:Plats: 101132\, Ångström
+DESCRIPTION:Ö4 – Sammanfattning \nKarta: https://use.mazemap.com/?campu
+ sid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6m-101132\nID 404
+ 2311
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261016T081500Z
+DTEND:20261016T100000Z
+UID:47de7bdeeb04dca9cdb9aacf@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
+ %C3%85ngstr%C3%B6m-101132
+SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Frågestund
+LOCATION:Plats: 101132\, Ångström \nPlats: Via Zoom
+DESCRIPTION:Ö5 – Öppen frågestund \nKarta: https://use.mazemap.com/?c
+ ampusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6m-101132\nID
+  4042312
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261023T060000Z
+DTEND:20261023T150000Z
+UID:010b0819c9547f498882399c@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+SUMMARY:MI3\, Automatiserings- och robotteknik.  \, Tentamen
+LOCATION:Plats: För tid och plats se Ladok
+DESCRIPTION:ID 3934584
+END:VEVENT
+END:VCALENDAR

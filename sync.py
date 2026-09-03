@@ -27,8 +27,10 @@ FEEDS = [
 # Vad som publiceras. Layouten pa hostingen styrs harifran:
 #   MERGED = ("Namn", "fil.ics")  -> alla floden i en enda kalender (None = hoppa over)
 #   SPLIT  = True                 -> dessutom en kalender per flode i FEEDS
+#   BY_COURSE = True              -> en kalender per kurs (egen färg i Google Calendar)
 MERGED = ("Mitt schema", "schema.ics")
-SPLIT = True
+SPLIT = False
+BY_COURSE = True
 PUBDIR = os.path.join(HERE, "cal")
 
 UID_DOMAIN = "timeedit-arkiv"
@@ -188,17 +190,99 @@ def write_calendar(path, calname, records):
         f.write("\r\n".join(out) + "\r\n")
 
 
+# ------------------------------------------------------------------ kursnamn
+# Samma logik som splitSummary() i app.js: TimeEdits SUMMARY ser ut som
+# "<programkoder...>, <Kursnamn>.  , <momenttyp>". Att bara dela pa komma skulle
+# klyva namn som "Teknik, affarsutveckling och ledning", sa ledande segment tas
+# bort forst nar de beter sig som programkoder: inga blanksteg, och antingen en
+# siffra ("I5", "E4.SES") eller sedda framfor tva olika kurser.
+ALLDAY_CALENDAR = "Röda dagar"
+
+
+def unescape(value):
+    out, i = [], 0
+    while i < len(value):
+        c = value[i]
+        if c == "\\" and i + 1 < len(value):
+            nxt = value[i + 1]
+            out.append({"n": "\n", "N": "\n"}.get(nxt, nxt))
+            i += 2
+        else:
+            out.append(c)
+            i += 1
+    return "".join(out)
+
+
+def summary_of(lines):
+    for line in lines:
+        if prop(line)[0] == "SUMMARY":
+            return unescape(prop(line)[2]).strip()
+    return ""
+
+
+def summary_head(summary):
+    m = re.fullmatch(r"(.*)\.\s*,\s*(.*)", summary.strip(), re.S)   # greedy: sista ".  ,"
+    return (m.group(1), m.group(2).strip()) if m else None
+
+
+def build_code_index(summaries):
+    seen = {}
+    for s in summaries:
+        h = summary_head(s)
+        if not h:
+            continue
+        segs = [x.strip() for x in h[0].split(",") if x.strip()]
+        for i in range(len(segs) - 1):
+            seen.setdefault(segs[i], set()).add(", ".join(segs[i + 1:]))
+    return seen
+
+
+def course_of(summary, code_index):
+    h = summary_head(summary)
+    raw = summary.strip()
+    if not h:
+        return raw or "Okänd"
+    segs = [x.strip() for x in h[0].split(",") if x.strip()]
+    is_code = lambda s: not re.search(r"\s", s) and (re.search(r"\d", s) or len(code_index.get(s, ())) > 1)
+    i = 0
+    while i < len(segs) - 1 and is_code(segs[i]):
+        i += 1
+    return ", ".join(segs[i:]) or "Okänd"
+
+
 # ---------------------------------------------------------------- huvudflode
-def slug(name):
+def slug(name, used=None, limit=45):
     s = name.lower()
-    for a, b in (("å", "a"), ("ä", "a"), ("ö", "o"), ("é", "e")):
+    for a, b in (("å", "a"), ("ä", "a"), ("ö", "o"), ("é", "e"), ("ü", "u")):
         s = s.replace(a, b)
-    s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
-    return s or "kalender"
+    s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")[:limit].strip("-") or "kalender"
+    if used is not None:
+        base = s
+        if s in used:                      # avkortning kan ge krock: hangslen
+            s = f"{base}-{hashlib.sha1(name.encode()).hexdigest()[:6]}"
+        used.add(s)
+    return s
 
 
-def build(path, calname, feeds, now):
-    """Sla ihop floden med det som redan ligger i path och skriv om filen."""
+def collect(feeds):
+    """Alla pass ur floden som {nyckel: (nyckel, start, rader)} + kurs per nyckel."""
+    live, by_key = {}, {}
+    for feed in feeds:
+        for lines in events(feed["ics"]):
+            got = describe(lines)
+            if got and got[0] not in live:
+                live[got[0]] = got
+                by_key[got[0]] = summary_of(lines)
+    index = build_code_index(by_key.values())
+    courses = {}
+    for key, summary in by_key.items():
+        all_day = any("VALUE=DATE" in prop(l)[1] for l in live[key][2] if prop(l)[0] == "DTSTART")
+        courses[key] = ALLDAY_CALENDAR if all_day else course_of(summary, index)
+    return live, courses
+
+
+def build(path, calname, live, now):
+    """Sla ihop passen i live med det som redan ligger i path och skriv om filen."""
     archived = {}
     if os.path.exists(path):
         for lines in events(open(path, encoding="utf-8").read()):
@@ -206,30 +290,24 @@ def build(path, calname, feeds, now):
             if got:
                 archived[got[0]] = got
 
-    live = {}
-    for feed in feeds:
-        for lines in events(feed["ics"]):
-            got = describe(lines)
-            if got:
-                live.setdefault(got[0], got)
-
     merged = dict(live)
     kept = dropped = 0
     for key, rec in archived.items():
         if key in live:
             if unchanged(rec[2], live[key][2]):
-                merged[key] = rec
+                merged[key] = rec        # bara tidsstamplar skiljer: hall filen stabil
             continue
         if end_of(rec[2], rec[1]) < now - GRACE:
-            merged[key] = rec        # passerat: spara for alltid
+            merged[key] = rec            # passerat: spara for alltid
             kept += 1
         else:
-            dropped += 1             # framtida men borta ur floden: avbokat
+            dropped += 1                 # framtida men borta ur floden: avbokat
 
     records = sorted(merged.values(), key=lambda r: (r[1] or now, r[0]))
     write_calendar(path, calname, records)
     print(f"  {os.path.relpath(path, HERE)}: {len(records)} pass "
           f"({len(live)} ur floden, {kept} arkiverade, {dropped} avbokade togs bort)")
+    return os.path.basename(path)
 
 
 def main():
@@ -248,18 +326,46 @@ def main():
         print(f"  {name}: {text.count('BEGIN:VEVENT')} pass -> {os.path.basename(path)}")
         feeds.append({"name": name, "ics": text})
 
+    live, courses = collect(feeds)
     os.makedirs(PUBDIR, exist_ok=True)
+    written, names = [], set()
+
     if MERGED:
-        build(os.path.join(PUBDIR, MERGED[1]), MERGED[0], feeds, now)
+        written.append(build(os.path.join(PUBDIR, MERGED[1]), MERGED[0], live, now))
+        names.add(MERGED[1][:-4])
     if SPLIT:
         for feed in feeds:
-            build(os.path.join(PUBDIR, slug(feed["name"]) + ".ics"), feed["name"], [feed], now)
+            one, _ = collect([feed])
+            written.append(build(os.path.join(PUBDIR, slug(feed["name"], names) + ".ics"),
+                                 feed["name"], one, now))
+    if BY_COURSE:
+        groups = {}
+        for key, course in courses.items():
+            groups.setdefault(course, {})[key] = live[key]
+        # Rod dag sist, ovrigt storst forst - bara for lasbar utskrift
+        order = sorted(groups, key=lambda c: (c == ALLDAY_CALENDAR, -len(groups[c]), c))
+        for course in order:
+            written.append(build(os.path.join(PUBDIR, slug(course, names) + ".ics"),
+                                 course, groups[course], now))
+
+    # Kalendrar som floden inte langre namner alls (avslutad eller avhoppad kurs,
+    # eller en fil fran en aldre konfiguration). De byggs om mot ett tomt flode:
+    # historiken behalls, men allt framtida forsvinner - precis som en avbokning.
+    for f in sorted(os.listdir(PUBDIR)):
+        if not f.endswith(".ics") or f in written:
+            continue
+        path = os.path.join(PUBDIR, f)
+        head = [l for l in unfold(open(path, encoding="utf-8").read())
+                if prop(l)[0] == "X-WR-CALNAME"]
+        calname = prop(head[0])[2] if head else f[:-4]
+        print("  (inte langre i flodet, bara historik kvar:)")
+        build(path, calname, {}, now)
 
     # Bygg om appen med samma data som tidigare
     tpl = open(os.path.join(HERE, "index.template.html"), encoding="utf-8").read()
     with open(os.path.join(HERE, "index.html"), "w", encoding="utf-8") as f:
         f.write(tpl.replace("__FEEDS__", json.dumps(feeds, ensure_ascii=False)))
-    print("Klart.")
+    print(f"Klart: {len(written)} kalendrar i cal/")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,129 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//schema-app//TimeEdit-arkiv//SV
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kreativitet och hållbar design i teknikbaserat entreprenörskap
+X-WR-TIMEZONE:Europe/Stockholm
+X-PUBLISHED-TTL:PT2H
+REFRESH-INTERVAL;VALUE=DURATION:PT2H
+BEGIN:VEVENT
+DTSTART:20260901T111500Z
+DTEND:20260901T130000Z
+UID:e00390fceb0740a6763853d9@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://use.mazemap.com/#v=1&config=uu&campusid=49&search=%C3%85ngstr%
+ C3%B6m%202002&zlevel=1&center=17.647534\,59.839256&zoom=19.9&sharepoitype
+ =poi&sharepoi=390478
+SUMMARY:Entreprenörskolan\, I5.Aul\, Kreativitet och hållbar design i te
+ knikbaserat entreprenörskap.  \, Introduktion\, Föreläsning
+LOCATION:Plats: 2003\, Ångström
+DESCRIPTION:F1 \nKarta: https://use.mazemap.com/#v=1&config=uu&campusid=49
+ &search=%C3%85ngstr%C3%B6m%202002&zlevel=1&center=17.647534\,59.839256&zo
+ om=19.9&sharepoitype=poi&sharepoi=390478\nID 4070359
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260908T111500Z
+DTEND:20260908T130000Z
+UID:1227e2d26bfa448207068067@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+SUMMARY:Entreprenörskolan\, I5.Aul\, Kreativitet och hållbar design i te
+ knikbaserat entreprenörskap.  \, Föreläsning
+LOCATION:Plats: Via Zoom
+DESCRIPTION:F2\nID 4070363
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260915T111500Z
+DTEND:20260915T130000Z
+UID:d65853aaea45610d39778786@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/W7L4aghn
+SUMMARY:Entreprenörskolan\, I5.Aul\, Kreativitet och hållbar design i te
+ knikbaserat entreprenörskap.  \, Föreläsning
+LOCATION:Plats: 4004\, Ångström
+DESCRIPTION:F3 \nKarta: https://link.mazemap.com/W7L4aghn\nID 4070377
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260916T111500Z
+DTEND:20260916T130000Z
+UID:106475c9da278867bcc169e9@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/W7L4aghn
+SUMMARY:Entreprenörskolan\, I5.Aul\, Kreativitet och hållbar design i te
+ knikbaserat entreprenörskap.  \, Seminarium
+LOCATION:Plats: 4004\, Ångström
+DESCRIPTION:S1 \nKarta: https://link.mazemap.com/W7L4aghn\nID 4070378
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260918T111500Z
+DTEND:20260918T130000Z
+UID:84e7b2ff17bd3fd23f84c4ec@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+SUMMARY:Entreprenörskolan\, I5.Aul\, Kreativitet och hållbar design i te
+ knikbaserat entreprenörskap.  \, Workshop
+LOCATION:Plats: Se kommentar
+DESCRIPTION:W1: Poddstudion (innovationsloungen)\nID 4070371
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260922T111500Z
+DTEND:20260922T130000Z
+UID:53121f76881a15214fbf8e6e@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+SUMMARY:Entreprenörskolan\, I5.Aul\, Kreativitet och hållbar design i te
+ knikbaserat entreprenörskap.  \, Föreläsning
+LOCATION:Plats: Via Zoom
+DESCRIPTION:F4\nID 4070379
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260929T111500Z
+DTEND:20260929T130000Z
+UID:877b395ab36010c595152c2b@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+SUMMARY:Entreprenörskolan\, I5.Aul\, Kreativitet och hållbar design i te
+ knikbaserat entreprenörskap.  \, Seminarium
+LOCATION:Plats: Via Zoom
+DESCRIPTION:S3\nID 4070382
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261006T081500Z
+DTEND:20261006T100000Z
+UID:adcf46075382343c7e43ebb9@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/6QSBVI2i
+SUMMARY:Entreprenörskolan\, I5.Aul\, Kreativitet och hållbar design i te
+ knikbaserat entreprenörskap.  \, Workshop
+LOCATION:Plats: 90101\, Ångström
+DESCRIPTION:W2 \nKarta: https://link.mazemap.com/6QSBVI2i\nID 4070384
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261008T111500Z
+DTEND:20261008T130000Z
+UID:aee56a8ee1fa7e8371dfe1cc@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/jbHOqwTm
+SUMMARY:Entreprenörskolan\, I5.Aul\, Kreativitet och hållbar design i te
+ knikbaserat entreprenörskap.  \, Handledning
+LOCATION:Plats: 4003\, Ångström
+DESCRIPTION:H1 \nKarta: https://link.mazemap.com/jbHOqwTm\nID 4070389
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261013T111500Z
+DTEND:20261013T130000Z
+UID:63dcddbdc21c74b6f554a2c8@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+SUMMARY:Entreprenörskolan\, I5.Aul\, Kreativitet och hållbar design i te
+ knikbaserat entreprenörskap.  \, Seminarium
+LOCATION:Plats: Via Zoom
+DESCRIPTION:S4\nID 4070403
+END:VEVENT
+END:VCALENDAR

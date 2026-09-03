@@ -38,26 +38,47 @@ Lägg till fler genom att fylla på `FEEDS`-listan i `sync.py` och köra `./upda
 räknas bara en gång, så den krockar aldrig med sig själv.
 
 ## Prenumerera i Google Calendar
-Kalendrarna publiceras på GitHub Pages och uppdateras av sig själva var sjätte timme:
+Varje kurs publiceras som en **egen kalender** på GitHub Pages, eftersom Google sätter
+färg per kalender och struntar i färgangivelser inne i en .ics-fil. Prenumerera på en
+kurs i taget och ge var och en sin färg i Google.
 
-| Kalender | URL |
-|---|---|
-| Allt (sammanslaget) | `https://oscarrosengren.github.io/schema-app/cal/schema.ics` |
-| Kursschema | `https://oscarrosengren.github.io/schema-app/cal/kursschema.ics` |
-| Industriell ekonomi | `https://oscarrosengren.github.io/schema-app/cal/industriell-ekonomi.ics` |
+| Kalender | Pass | URL |
+|---|---|---|
+| Automatiserings- och robotteknik | 33 | `https://oscarrosengren.github.io/schema-app/cal/automatiserings-och-robotteknik.ics` |
+| Reglerteknik II | 33 | `https://oscarrosengren.github.io/schema-app/cal/reglerteknik-ii.ics` |
+| Industriell ekonomi | 31 | `https://oscarrosengren.github.io/schema-app/cal/industriell-ekonomi.ics` |
+| Teknik, affärsutveckling och ledning | 20 | `https://oscarrosengren.github.io/schema-app/cal/teknik-affarsutveckling-och-ledning.ics` |
+| Kreativitet och hållbar design i teknikbaserat entreprenörskap | 10 | `https://oscarrosengren.github.io/schema-app/cal/kreativitet-och-hallbar-design-i-teknikbasera.ics` |
+| Vetenskapliga metoder för industriell ekonomi | 10 | `https://oscarrosengren.github.io/schema-app/cal/vetenskapliga-metoder-for-industriell-ekonomi.ics` |
+| Immaterialrätt och affärsjuridik | 1 | `https://oscarrosengren.github.io/schema-app/cal/immaterialratt-och-affarsjuridik.ics` |
+| Röda dagar | 7 | `https://oscarrosengren.github.io/schema-app/cal/roda-dagar.ics` |
+| Mitt schema | 145 | `https://oscarrosengren.github.io/schema-app/cal/schema.ics` |
 
-Krockvisaren ligger på <https://oscarrosengren.github.io/schema-app/>.
+**Lägg till:** `Andra kalendrar +` → **Från URL** → klistra in en URL → *Lägg till
+kalender*. Upprepa per kurs. Använd **inte** "Importera" — det blir en engångskopia som
+aldrig uppdateras.
 
-**Lägg till i Google Calendar:** `Andra kalendrar +` → **Från URL** → klistra in en av
-länkarna ovan → *Lägg till kalender*. Använd **inte** "Importera" — då blir det en
-engångskopia som aldrig uppdateras.
+**Sätt färg:** hovra över kalendern i vänsterlistan → `⋮` → välj färg. Färgen ligger på
+ditt Google-konto, inte i filen, så den överlever alla uppdateringar av schemat.
+
+`schema.ics` är alla kurser i en enda kalender (en färg för allt). Prenumerera antingen
+på den **eller** på kurskalendrarna — inte båda, då syns varje pass två gånger.
 
 Samma URL:er fungerar i Apple Kalender (Arkiv → Ny kalenderprenumeration) och Outlook.
 
 **Obs om uppdateringstakt:** Google hämtar prenumererade kalendrar när Google vill,
 typiskt var 8–24:e timme, oavsett `REFRESH-INTERVAL` i filen. Behöver du se en ändring
-direkt: öppna krockvisaren, eller läs in `cal/schema.ics` i Apple Kalender som hämtar
-oftare.
+direkt: öppna krockvisaren, eller läs in filen i Apple Kalender som hämtar oftare.
+
+### Hur kurserna delas upp
+Kursnamnet plockas ur TimeEdits `SUMMARY` med exakt samma logik som krockvisaren använder
+(`course_of()` i `sync.py` speglar `splitSummary()` i `app.js`), så uppdelningen stämmer
+med kurschipsen i appen. Heldagsposter (röda dagar) samlas i `roda-dagar.ics`. Nya kurser
+får en egen fil automatiskt vid nästa sync — inget att konfigurera.
+
+En kurs som försvinner helt ur flödet (avslutad eller avhoppad) byggs om mot ett tomt
+flöde: historiken ligger kvar, allt framtida försvinner. Filen tas alltså aldrig bort av
+sig själv, så gamla terminer finns kvar att prenumerera på.
 
 ### Varför passerade pass ligger kvar
 TimeEdits egna flöde rullar fönstret framåt, så pass som varit försvinner ur flödet — och
@@ -88,8 +109,9 @@ hämtning ignoreras, så en sync utan verkliga ändringar ger ingen commit.
 Filupplägget styrs av tre rader i `sync.py`:
 
 ```python
-MERGED = ("Mitt schema", "schema.ics")  # alla flöden i en fil (None = hoppa över)
-SPLIT  = True                            # dessutom en fil per flöde
+MERGED    = ("Mitt schema", "schema.ics")  # alla flöden i en fil (None = hoppa över)
+SPLIT     = False                          # en fil per flöde i FEEDS
+BY_COURSE = True                           # en fil per kurs (egen färg i Google)
 ```
 
 **Obs:** länkarna i `sync.py` har TimeEdits objekturval inbakat i själva URL:en. Om du
@@ -102,7 +124,7 @@ bara sparas i din webbläsare.
 | Fil | Innehåll |
 |---|---|
 | `index.html` | genererad app (ICS-datan inbakad) |
-| `cal/*.ics` | publicerade kalendrar med arkiv — prenumerera på dessa |
+| `cal/*.ics` | publicerade kalendrar (en per kurs) med arkiv — prenumerera på dessa |
 | `sync.py` | hämtar flöden, slår ihop med arkivet, bygger `index.html` |
 | `.github/workflows/sync.yml` | kör `sync.py` var 6:e timme och committar ändringar |
 | `index.template.html` | mall, `__FEEDS__` ersätts vid bygge |

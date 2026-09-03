@@ -1,0 +1,261 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//schema-app//TimeEdit-arkiv//SV
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Teknik, affärsutveckling och ledning
+X-WR-TIMEZONE:Europe/Stockholm
+X-PUBLISHED-TTL:PT2H
+REFRESH-INTERVAL;VALUE=DURATION:PT2H
+BEGIN:VEVENT
+DTSTART:20260901T071500Z
+DTEND:20260901T100000Z
+UID:ca9bcf2b9163c141f0d6d94e@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/6QSBVI2i
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Seminarium
+LOCATION:Plats: 90101\, Ångström
+DESCRIPTION:S1 \nKarta: https://link.mazemap.com/6QSBVI2i\nID 4067009
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260903T111500Z
+DTEND:20260903T150000Z
+UID:7c8ed04a107ea86366e37928@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/9k0ozy8o
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Seminarium
+LOCATION:Plats: 11137\, Ångström
+DESCRIPTION:S2 \nKarta: https://link.mazemap.com/9k0ozy8o\nID 4067034
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260908T071500Z
+DTEND:20260908T100000Z
+UID:b4ec909b0e0d5fa51457b5e7@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
+ %C3%85ngstr%C3%B6m-101136
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Seminarium
+LOCATION:Plats: 101136\, Evelyn Sokolowski\, Ångström
+DESCRIPTION:S3 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype=
+ identifier&sharepoi=%C3%85ngstr%C3%B6m-101136\nID 4067048
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260910T071500Z
+DTEND:20260910T100000Z
+UID:bb5244f97234a6041e988d92@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
+ %C3%85ngstr%C3%B6m-101136
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Seminarium
+LOCATION:Plats: 101136-B\, Evelyn Sokolowski\, Ångström
+DESCRIPTION:S4 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype=
+ identifier&sharepoi=%C3%85ngstr%C3%B6m-101136\nID 4067044
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260915T071500Z
+DTEND:20260915T100000Z
+UID:30f88a0f462816a0bdd7e192@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/9k0ozy8o
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Seminarium
+LOCATION:Plats: 11137\, Ångström
+DESCRIPTION:S5 \nKarta: https://link.mazemap.com/9k0ozy8o\nID 4067058
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260917T111500Z
+DTEND:20260917T150000Z
+UID:9ffcaf4004e28272fefdefa8@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/9k0ozy8o
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Seminarium
+LOCATION:Plats: 11137\, Ångström
+DESCRIPTION:S6 \nKarta: https://link.mazemap.com/9k0ozy8o\nID 4067063
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260922T071500Z
+DTEND:20260922T100000Z
+UID:f23804924082ce20e25d6f58@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
+ %C3%85ngstr%C3%B6m-101156
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Seminarium
+LOCATION:Plats: 101156\, Grupprum\, Ångström \nPlats: 101168\, Grupprum\
+ , Ångström \nPlats: 101170\, Grupprum\, Ångström \nPlats: 11137\, Ån
+ gström
+DESCRIPTION:S7 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype=
+ identifier&sharepoi=%C3%85ngstr%C3%B6m-101156 \nKarta: https://use.mazema
+ p.com/?campusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6m-10
+ 1168 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype=identifie
+ r&sharepoi=%C3%85ngstr%C3%B6m-101170 \nKarta: https://link.mazemap.com/9k
+ 0ozy8o\nID 4067062
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260924T071500Z
+DTEND:20260924T100000Z
+UID:5b43b14aa67947971c64e0a8@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
+ %C3%85ngstr%C3%B6m-101136
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Seminarium
+LOCATION:Plats: 101136- A\, Evelyn Sokolowski\, Ångström
+DESCRIPTION:S8 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype=
+ identifier&sharepoi=%C3%85ngstr%C3%B6m-101136\nID 4067068
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260928T071500Z
+DTEND:20260928T100000Z
+UID:785c3193e68d7897a2edb5c2@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:http://use.mazemap.com/?v=1&campusid=49&campuses=uu&sharepoitype=ident
+ ifier&sharepoi=Blåsenhus-10:203
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Seminarium
+LOCATION:Plats: 10:203\, Zinniarummet\, Blåsenhus
+DESCRIPTION:S9 \nKarta: http://use.mazemap.com/?v=1&campusid=49&campuses=u
+ u&sharepoitype=identifier&sharepoi=Blåsenhus-10:203\nID 4123636
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260929T071500Z
+DTEND:20260929T100000Z
+UID:71eedeb59f72b1961d2555ff@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/9k0ozy8o
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Seminarium
+LOCATION:Plats: 11137\, Ångström
+DESCRIPTION:S10 \nKarta: https://link.mazemap.com/9k0ozy8o\nID 4067075
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260930T071500Z
+DTEND:20260930T100000Z
+UID:5137faee83e31bc97c4fca03@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
+ %C3%85ngstr%C3%B6m-101136
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Seminarium
+LOCATION:Plats: 101136-B\, Evelyn Sokolowski\, Ångström
+DESCRIPTION:S11 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype
+ =identifier&sharepoi=%C3%85ngstr%C3%B6m-101136\nID 4067078
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261006T111500Z
+DTEND:20261006T140000Z
+UID:995d9ee54971d415355e0918@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/9k0ozy8o
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Seminarium
+LOCATION:Plats: 11137\, Ångström
+DESCRIPTION:S12 \nKarta: https://link.mazemap.com/9k0ozy8o\nID 4067083
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261008T071500Z
+DTEND:20261008T100000Z
+UID:1194f477fc84196db8d2c5d4@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/9k0ozy8o
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Seminarium
+LOCATION:Plats: 11137\, Ångström
+DESCRIPTION:S13 \nKarta: https://link.mazemap.com/9k0ozy8o\nID 4067084
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261014T061500Z
+DTEND:20261014T100000Z
+UID:1ff5b2644ba90b54b904384d@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/6QSBVI2i
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Seminarium
+LOCATION:Plats: 90101\, Ångström
+DESCRIPTION:S14 \nKarta: https://link.mazemap.com/6QSBVI2i\nID 4067085
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261016T111500Z
+DTEND:20261016T150000Z
+UID:583dac1b454f649924cb4392@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
+ %C3%85ngstr%C3%B6m-101142
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Seminarium
+LOCATION:Plats: 101142\, Ångström \nPlats: 101182\, Grupprum\, Ångströ
+ m \nPlats: 11137\, Ångström \nPlats: 4002\, Ångström
+DESCRIPTION:S15 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype
+ =identifier&sharepoi=%C3%85ngstr%C3%B6m-101142 \nKarta: https://use.mazem
+ ap.com/?campusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6m-1
+ 01182 \nKarta: https://link.mazemap.com/9k0ozy8o \nKarta: https://link.ma
+ zemap.com/gi1pyj0r\nID 4067086
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261019T111500Z
+DTEND:20261019T140000Z
+UID:161fc6271fb8c323dd83d328@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/9k0ozy8o
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Seminarium
+LOCATION:Plats: 11137\, Ångström
+DESCRIPTION:S16 \nKarta: https://link.mazemap.com/9k0ozy8o\nID 4067087
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261020T071500Z
+DTEND:20261020T100000Z
+UID:1bfffc4e537029de3b6d04ea@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://link.mazemap.com/9k0ozy8o
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Seminarium
+LOCATION:Plats: 11137\, Ångström
+DESCRIPTION:S17 \nKarta: https://link.mazemap.com/9k0ozy8o\nID 4067088
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261029T081500Z
+DTEND:20261029T110000Z
+UID:d80d56e2275426c7ffeb9501@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
+ %C3%85ngstr%C3%B6m-101136
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Seminarium
+LOCATION:Plats: 101136- A\, Evelyn Sokolowski\, Ångström \nPlats: 2002\,
+  Ångström \nPlats: 2003\, Ångström \nPlats: 2004\, Ångström
+DESCRIPTION:Karta: https://use.mazemap.com/?campusid=49&sharepoitype=ident
+ ifier&sharepoi=%C3%85ngstr%C3%B6m-101136 \nKarta: https://link.mazemap.co
+ m/Eg7hYfVp \nKarta: https://use.mazemap.com/#v=1&config=uu&campusid=49&se
+ arch=%C3%85ngstr%C3%B6m%202002&zlevel=1&center=17.647534\,59.839256&zoom=
+ 19.9&sharepoitype=poi&sharepoi=390478 \nKarta: https://use.mazemap.com/#v
+ =1&config=uu&campusid=49&search=%C3%85ngstr%C3%B6m%202002&zlevel=1&center
+ =17.647534\,59.839256&zoom=19.9&sharepoitype=poi&sharepoi=390521\nID 4119
+ 341
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261112T071500Z
+DTEND:20261112T160000Z
+UID:1fa44aa252a07ccc5081cb8a@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Studiebesök
+LOCATION:
+DESCRIPTION:ID 4114253
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261117T071500Z
+DTEND:20261117T160000Z
+UID:2e29e7236ddf82910397cf08@timeedit-arkiv
+DTSTAMP:20260903T091139Z
+LAST-MODIFIED:20260903T091139Z
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Studiebesök
+LOCATION:
+DESCRIPTION:ID 4114254
+END:VEVENT
+END:VCALENDAR
