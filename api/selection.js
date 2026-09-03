@@ -33,7 +33,14 @@ export default async function handler(req, res) {
     });
   }
 
-  const wanted = normalize(typeof req.body === "string" ? safeParse(req.body) : req.body);
+  // Kräv riktiga listor i anropet. Annars skulle ett trasigt anrop utan kropp
+  // tolkas som "dölj ingenting" och tysta nollställa allt som var dolt.
+  const body = typeof req.body === "string" ? safeParse(req.body) : req.body;
+  if (!body || !Array.isArray(body.courses) || !Array.isArray(body.events)) {
+    return res.status(400).json({ error: "Skicka { courses: [...], events: [...] }." });
+  }
+
+  const wanted = normalize(body);
   if (wanted.courses.length + wanted.events.length > MAX) {
     return res.status(413).json({ error: "För många poster." });
   }
