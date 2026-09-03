@@ -14,6 +14,9 @@ export default async function handler(req, res) {
     return res.end(`Ingen kalender heter "${name}".\n`);
   }
 
+  // Logga vem som hämtar, så det går att se att Google faktiskt prenumererar.
+  console.log(`cal ${name}${req.query.all === "1" ? " (ofiltrerad)" : ""} ua=${req.headers["user-agent"] || "-"}`);
+
   const all = req.query.all === "1";
   const body = all ? text : filterIcs(text, (await readHidden()).hidden);
 
