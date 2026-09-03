@@ -186,7 +186,10 @@ def namespaced(lines, ns):
     if not base:
         base = next((prop(l)[2].strip() for l in lines if prop(l)[0] == "UID"), "")
     local, _, domain = base.partition("@")
-    out = [f"UID:{local}.{ns}@{domain}" if prop(l)[0] == "UID" else l
+    # Kort suffix, sa UID-raden aldrig behover radbrytas: en veckad UID ar
+    # giltig ICS men vi ger inte kalenderklienterna nagot ovanligt att tolka.
+    tag = hashlib.sha1(ns.encode()).hexdigest()[:6]
+    out = [f"UID:{local}.{tag}@{domain}" if prop(l)[0] == "UID" else l
            for l in lines if prop(l)[0] != "X-BASE-UID"]
     out.append(f"X-BASE-UID:{base}")
     return out
