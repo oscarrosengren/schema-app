@@ -2,5 +2,8 @@
   "name": "schema-app",
   "private": true,
   "type": "module",
-  "description": "TimeEdit-schema: krockvisare och filtrerade ICS-flöden"
+  "description": "TimeEdit-schema: krockvisare och filtrerade ICS-flöden",
+  "dependencies": {
+    "@upstash/redis": "^1.38.3"
+  }
 }

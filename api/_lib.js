@@ -1,79 +1,60 @@
 // Delad kod för /api/cal och /api/selection.
 //
-// Arkivet (archive/*.ics) byggs av sync.py och committas av GitHub Actions. Den
-// här funktionen läser arkivet därifrån vid varje anrop och filtrerar bort det du
-// avmarkerat i appen, som ligger i hidden.json i samma repo. Ingen lagring
-// behöver skapas: läsning går mot det publika repot, bara skrivning kräver token.
+// Schemat: archive/*.ics byggs av sync.py och committas av GitHub Actions.
+// Funktionen läser dem direkt ur repot vid varje anrop, så en ny sync syns utan
+// att appen deployas om.
+//
+// Det avmarkerade: en JSON-post i Upstash Redis (eget konto, REST över HTTP, så
+// ingen klientbiblioteksberoende behövs).
 
 const REPO = process.env.GITHUB_REPO || "oscarrosengren/schema-app";
 const BRANCH = process.env.GITHUB_BRANCH || "main";
-const TOKEN = process.env.GITHUB_TOKEN || "";
-const HIDDEN_FILE = "hidden.json";
+const REDIS_URL = process.env.UPSTASH_REDIS_REST_URL || "";
+const REDIS_TOKEN = process.env.UPSTASH_REDIS_REST_TOKEN || "";
+const KEY = process.env.HIDDEN_KEY || "schema:hidden";
 const EMPTY = { courses: [], events: [] };
 
-const raw = path =>
-  `https://raw.githubusercontent.com/${REPO}/${BRANCH}/${path}`;
+export const canWrite = () => Boolean(REDIS_URL && REDIS_TOKEN);
 
-const api = (path, init = {}) =>
-  fetch(`https://api.github.com/repos/${REPO}/${path}`, {
-    ...init,
+/** Kör ett Redis-kommando, t.ex. ["GET", "schema:hidden"]. */
+async function redis(command) {
+  const r = await fetch(REDIS_URL, {
+    method: "POST",
     headers: {
-      accept: "application/vnd.github+json",
-      "user-agent": "schema-app",
-      ...(TOKEN ? { authorization: `Bearer ${TOKEN}` } : {}),
-      ...(init.headers || {}),
+      authorization: `Bearer ${REDIS_TOKEN}`,
+      "content-type": "application/json",
     },
+    body: JSON.stringify(command),
+    cache: "no-store",
   });
-
-export const canWrite = () => Boolean(TOKEN);
+  if (!r.ok) throw new Error(`Upstash ${r.status}: ${(await r.text()).slice(0, 200)}`);
+  return (await r.json()).result;
+}
 
 /** Hämta en arkivfil, t.ex. "schema" eller "reglerteknik-ii". */
 export async function fetchArchive(name) {
   if (!/^[a-z0-9-]{1,80}$/.test(name)) return null;
-  const r = await fetch(raw(`archive/${name}.ics`));
+  const r = await fetch(`https://raw.githubusercontent.com/${REPO}/${BRANCH}/archive/${name}.ics`);
   return r.ok ? await r.text() : null;
 }
 
 /**
- * Läs hidden.json. Med token går läsningen via API:et och är alltid färsk;
- * utan token via raw.githubusercontent, som cachar i ca 5 minuter.
+ * Läs listan över dolda kurser och pass. Går något fel svarar vi "inget dolt":
+ * en ofiltrerad kalender är bättre än en trasig, och Google raderar hellre inget
+ * än allt.
  */
 export async function readHidden() {
+  if (!canWrite()) return { hidden: EMPTY };
   try {
-    if (TOKEN) {
-      const r = await api(`contents/${HIDDEN_FILE}?ref=${BRANCH}`, {
-        cache: "no-store",
-      });
-      if (r.status === 404) return { hidden: EMPTY, sha: null };
-      if (!r.ok) throw new Error(`GitHub ${r.status}`);
-      const body = await r.json();
-      const text = Buffer.from(body.content, "base64").toString("utf-8");
-      return { hidden: normalize(JSON.parse(text)), sha: body.sha };
-    }
-    const r = await fetch(raw(HIDDEN_FILE));
-    if (!r.ok) return { hidden: EMPTY, sha: null };
-    return { hidden: normalize(await r.json()), sha: null };
+    const value = await redis(["GET", KEY]);
+    return { hidden: value ? normalize(JSON.parse(value)) : EMPTY };
   } catch {
-    return { hidden: EMPTY, sha: null };   // hellre ofiltrerad kalender än fel
+    return { hidden: EMPTY };
   }
 }
 
-/** Skriv hidden.json som en commit i repot. */
-export async function writeHidden(hidden, sha) {
-  const content = Buffer.from(
-    JSON.stringify(hidden, null, 2) + "\n", "utf-8"
-  ).toString("base64");
-  const n = hidden.courses.length + hidden.events.length;
-  const r = await api(`contents/${HIDDEN_FILE}`, {
-    method: "PUT",
-    body: JSON.stringify({
-      message: `Dolda pass: ${n} poster`,
-      content,
-      branch: BRANCH,
-      ...(sha ? { sha } : {}),
-    }),
-  });
-  if (!r.ok) throw new Error(`GitHub ${r.status}: ${await r.text()}`);
+export async function writeHidden(hidden) {
+  await redis(["SET", KEY, JSON.stringify(hidden)]);
 }
 
 export function normalize(value) {

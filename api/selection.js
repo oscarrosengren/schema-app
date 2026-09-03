@@ -1,5 +1,5 @@
 // GET  /api/selection – vad som är avmarkerat just nu
-// PUT  /api/selection – spara. Lagras som hidden.json i GitHub-repot.
+// PUT  /api/selection – spara. Lagras i Upstash Redis under schema:hidden.
 //
 // Skrivningen är öppen, precis som kalenderlänkarna. Därför tas bara id:n och
 // kursnamn emot som faktiskt finns i arkivet: det enda någon kan göra med
@@ -28,7 +28,7 @@ export default async function handler(req, res) {
 
   if (!canWrite()) {
     return res.status(503).json({
-      error: "Ingen GITHUB_TOKEN satt, så servern kan inte spara. "
+      error: "UPSTASH_REDIS_REST_URL/TOKEN saknas, så servern kan inte spara. "
            + "Valet gäller bara i den här webbläsaren.",
     });
   }
@@ -54,8 +54,7 @@ export default async function handler(req, res) {
                 + (wanted.courses.length - hidden.courses.length);
 
   try {
-    const { sha } = await readHidden();
-    await writeHidden(hidden, sha);
+    await writeHidden(hidden);
   } catch (err) {
     return res.status(502).json({ error: `Kunde inte spara: ${err.message}` });
   }
