@@ -40,10 +40,12 @@
 <div id="detail" hidden></div>
 
 <script>
-// Publicerad version: läs samma arkiv som Google prenumererar på (ofiltrerat, så
-// dolda pass syns nedtonade). Faller tillbaka på den inbakade kopian nedan när
-// appen öppnas som lokal fil.
-window.ICS_URL = "/cal/schema.ics?all=1";
+// Alla kopior av appen — Vercel, GitHub Pages eller en lokal fil — pratar med
+// samma backend, så det spelar ingen roll var man öppnar den: det man avmarkerar
+// gäller alltid i kalendrarna Google hämtar. Arkivet läses ofiltrerat (?all=1)
+// så dolda pass syns nedtonade och kan tas tillbaka.
+window.APP_BASE = "https://schema-app-opal.vercel.app";
+window.ICS_URL = window.APP_BASE + "/cal/schema.ics?all=1";
 window.ICS_FEEDS = __FEEDS__;
 </script>
 <script src="app.js"></script>

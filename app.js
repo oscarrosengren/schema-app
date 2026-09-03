@@ -172,6 +172,9 @@ let SOURCES = [];
 let focusKeys = new Set();   // events to scroll to + flash after a clash click
 
 const el = id => document.getElementById(id);
+// Backend ligger på Vercel. Absolut URL, så appen fungerar likadant när den
+// öppnas från GitHub Pages eller som lokal fil (endpointerna svarar med CORS).
+const apiUrl = path => (window.APP_BASE || "") + path;
 const key = e => e.uid + e.start;
 const palette = ["#4f7cff", "#e0568a", "#12a594", "#f08c1c", "#8b5cf6", "#0ea5e9", "#65a30d", "#d94f4f", "#0891b2", "#b45309"];
 
@@ -217,7 +220,7 @@ function saveHidden() {
   clearTimeout(saveHidden.t);          // flera snabba klick blir en skrivning
   saveHidden.t = setTimeout(async () => {
     try {
-      const r = await fetch("/api/selection", {
+      const r = await fetch(apiUrl("/api/selection"), {
         method: "PUT",
         headers: { "content-type": "application/json" },
         body: JSON.stringify(hiddenJson()),
@@ -234,7 +237,7 @@ function saveHidden() {
 // vidare med webbläsarens kopia och säger det rakt ut i huvudet.
 async function pullHidden() {
   try {
-    const r = await fetch("/api/selection", { cache: "no-store" });
+    const r = await fetch(apiUrl("/api/selection"), { cache: "no-store" });
     if (!r.ok) throw new Error(String(r.status));
     const body = await r.json();
     hidden = { courses: new Set(body.courses), events: new Set(body.events) };
@@ -251,7 +254,7 @@ const SAVE_TEXT = {
   synced:   ["🔗 Gäller i Google", ""],
   saving:   ["⏳ Sparar …", ""],
   saved:    ["✓ Sparat – gäller i Google", ""],
-  local:    ["⚠︎ Bara i den här webbläsaren", "Servern svarar inte, så valet syns inte i Google."],
+  local:    ["⚠︎ Bara i den här webbläsaren", "Servern gick inte att nå, så valet syns inte i Google. Kontrollera nätet och ladda om."],
   readonly: ["⚠︎ Kan inte spara", "Servern saknar skrivrättighet (GITHUB_TOKEN)."],
   error:    ["⚠︎ Kunde inte spara", ""],
 };
