@@ -2122,17 +2122,62 @@ X-COURSE:Röda dagar
 X-BASE-UID:766670e46dd3f1a369f46fae@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
+DTSTART:20261102T081500Z
+DTEND:20261102T110000Z
+UID:504e131388222f147a782451.fe7042@timeedit-arkiv
+DTSTAMP:20260909T164558Z
+LAST-MODIFIED:20260909T164558Z
+URL:https://link.mazemap.com/9k0ozy8o
+SUMMARY:I5\, Vetenskapliga metoder för industriell ekonomi.  \, Seminariu
+ m
+LOCATION:Plats: 11137\, Ångström
+DESCRIPTION:S10 \nKarta: https://link.mazemap.com/9k0ozy8o\nID 4144753
+X-FEED:Kursschema
+X-COURSE:Vetenskapliga metoder för industriell ekonomi
+X-BASE-UID:504e131388222f147a782451@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261109T121500Z
+DTEND:20261109T150000Z
+UID:a441415c7e4afe15dc35b880.fe7042@timeedit-arkiv
+DTSTAMP:20260909T164558Z
+LAST-MODIFIED:20260909T164558Z
+URL:https://link.mazemap.com/amionBdN
+SUMMARY:I5\, Vetenskapliga metoder för industriell ekonomi.  \, Seminariu
+ m
+LOCATION:Plats: 90103\, Ångström
+DESCRIPTION:S11 \nKarta: https://link.mazemap.com/amionBdN\nID 4144760
+X-FEED:Kursschema
+X-COURSE:Vetenskapliga metoder för industriell ekonomi
+X-BASE-UID:a441415c7e4afe15dc35b880@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
 DTSTART:20261112T071500Z
 DTEND:20261112T160000Z
 UID:1fa44aa252a07ccc5081cb8a.fe7042@timeedit-arkiv
-DTSTAMP:20260903T093800Z
-LAST-MODIFIED:20260903T093800Z
+DTSTAMP:20260909T164558Z
+LAST-MODIFIED:20260909T164558Z
 SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Studiebesök
 LOCATION:
-DESCRIPTION:ID 4114253
+DESCRIPTION:Cytiva\nID 4114253
 X-FEED:Kursschema
 X-COURSE:Teknik\, affärsutveckling och ledning
 X-BASE-UID:1fa44aa252a07ccc5081cb8a@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261116T121500Z
+DTEND:20261116T150000Z
+UID:4bc3376f9f3b8f96dc8f8e10.fe7042@timeedit-arkiv
+DTSTAMP:20260909T164558Z
+LAST-MODIFIED:20260909T164558Z
+URL:https://link.mazemap.com/BHtwChEt
+SUMMARY:I5\, Vetenskapliga metoder för industriell ekonomi.  \, Seminariu
+ m
+LOCATION:Plats: 11134\, Ångström
+DESCRIPTION:S12 \nKarta: https://link.mazemap.com/BHtwChEt\nID 4144762
+X-FEED:Kursschema
+X-COURSE:Vetenskapliga metoder för industriell ekonomi
+X-BASE-UID:4bc3376f9f3b8f96dc8f8e10@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261117T071500Z
@@ -2146,6 +2191,141 @@ DESCRIPTION:ID 4114254
 X-FEED:Kursschema
 X-COURSE:Teknik\, affärsutveckling och ledning
 X-BASE-UID:2e29e7236ddf82910397cf08@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261117T121500Z
+DTEND:20261117T140000Z
+UID:2fa08de9586a0481dfa214f6.fe7042@timeedit-arkiv
+DTSTAMP:20260909T164558Z
+LAST-MODIFIED:20260909T164558Z
+URL:https://use.mazemap.com/#v=1&config=uu&campusid=49&search=%C3%85ngstr%
+ C3%B6m%202002&zlevel=1&center=17.647534\,59.839256&zoom=19.9&sharepoitype
+ =poi&sharepoi=390532
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Föreläsning
+LOCATION:Plats: 2005\, Ångström
+DESCRIPTION:F1 \nKarta: https://use.mazemap.com/#v=1&config=uu&campusid=49
+ &search=%C3%85ngstr%C3%B6m%202002&zlevel=1&center=17.647534\,59.839256&zo
+ om=19.9&sharepoitype=poi&sharepoi=390532\nID 4144631
+X-FEED:Kursschema
+X-COURSE:Teknik\, affärsutveckling och ledning
+X-BASE-UID:2fa08de9586a0481dfa214f6@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261119T081500Z
+DTEND:20261119T110000Z
+UID:914fddb22b50b172738959c5.fe7042@timeedit-arkiv
+DTSTAMP:20260909T164558Z
+LAST-MODIFIED:20260909T164558Z
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Seminarium
+LOCATION:
+DESCRIPTION:ID 4144643
+X-FEED:Kursschema
+X-COURSE:Teknik\, affärsutveckling och ledning
+X-BASE-UID:914fddb22b50b172738959c5@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261119T121500Z
+DTEND:20261119T140000Z
+UID:d2298ab105f90b9da7f77935.fe7042@timeedit-arkiv
+DTSTAMP:20260909T164558Z
+LAST-MODIFIED:20260909T164558Z
+URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
+ %C3%85ngstr%C3%B6m-101136
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Föreläsning
+LOCATION:Plats: 101136-B\, Evelyn Sokolowski\, Ångström
+DESCRIPTION:F2 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype=
+ identifier&sharepoi=%C3%85ngstr%C3%B6m-101136\nID 4144637
+X-FEED:Kursschema
+X-COURSE:Teknik\, affärsutveckling och ledning
+X-BASE-UID:d2298ab105f90b9da7f77935@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261120T081500Z
+DTEND:20261120T140000Z
+UID:b46988b0bf5ff92b25b00750.fe7042@timeedit-arkiv
+DTSTAMP:20260909T164558Z
+LAST-MODIFIED:20260909T164558Z
+URL:https://link.mazemap.com/amionBdN
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Redovisning
+LOCATION:Plats: 90103\, Ångström
+DESCRIPTION:Karta: https://link.mazemap.com/amionBdN\nID 4144639
+X-FEED:Kursschema
+X-COURSE:Teknik\, affärsutveckling och ledning
+X-BASE-UID:b46988b0bf5ff92b25b00750@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261123T081500Z
+DTEND:20261123T140000Z
+UID:346ce63ced96a249da7b0ec5.fe7042@timeedit-arkiv
+DTSTAMP:20260909T164558Z
+LAST-MODIFIED:20260909T164558Z
+URL:https://link.mazemap.com/9k0ozy8o
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Redovisning
+LOCATION:Plats: 11137\, Ångström
+DESCRIPTION:Karta: https://link.mazemap.com/9k0ozy8o\nID 4144640
+X-FEED:Kursschema
+X-COURSE:Teknik\, affärsutveckling och ledning
+X-BASE-UID:346ce63ced96a249da7b0ec5@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261123T121500Z
+DTEND:20261123T150000Z
+UID:2c4f15bf77441422a3e679e2.fe7042@timeedit-arkiv
+DTSTAMP:20260909T164558Z
+LAST-MODIFIED:20260909T164558Z
+URL:https://link.mazemap.com/amionBdN
+SUMMARY:I5\, Vetenskapliga metoder för industriell ekonomi.  \, Seminariu
+ m
+LOCATION:Plats: 90103\, Ångström
+DESCRIPTION:S13 \nKarta: https://link.mazemap.com/amionBdN\nID 4144769
+X-FEED:Kursschema
+X-COURSE:Vetenskapliga metoder för industriell ekonomi
+X-BASE-UID:2c4f15bf77441422a3e679e2@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261130T081500Z
+DTEND:20261130T110000Z
+UID:a7f29839ba0535917799ee68.fe7042@timeedit-arkiv
+DTSTAMP:20260909T164558Z
+LAST-MODIFIED:20260909T164558Z
+URL:https://link.mazemap.com/9k0ozy8o
+SUMMARY:I5\, Vetenskapliga metoder för industriell ekonomi.  \, Seminariu
+ m
+LOCATION:Plats: 11137\, Ångström
+DESCRIPTION:S14 \nKarta: https://link.mazemap.com/9k0ozy8o\nID 4144774
+X-FEED:Kursschema
+X-COURSE:Vetenskapliga metoder för industriell ekonomi
+X-BASE-UID:a7f29839ba0535917799ee68@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261207T081500Z
+DTEND:20261207T110000Z
+UID:d15883d4860e562ede2674f2.fe7042@timeedit-arkiv
+DTSTAMP:20260909T164558Z
+LAST-MODIFIED:20260909T164558Z
+URL:https://link.mazemap.com/amionBdN
+SUMMARY:I5\, Vetenskapliga metoder för industriell ekonomi.  \, Seminariu
+ m
+LOCATION:Plats: 90103\, Ångström
+DESCRIPTION:S15 \nKarta: https://link.mazemap.com/amionBdN\nID 4144780
+X-FEED:Kursschema
+X-COURSE:Vetenskapliga metoder för industriell ekonomi
+X-BASE-UID:d15883d4860e562ede2674f2@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261214T081500Z
+DTEND:20261214T110000Z
+UID:1f4de3ba68b26b1cd2d7b734.fe7042@timeedit-arkiv
+DTSTAMP:20260909T164558Z
+LAST-MODIFIED:20260909T164558Z
+URL:https://link.mazemap.com/6QSBVI2i
+SUMMARY:I5\, Vetenskapliga metoder för industriell ekonomi.  \, Seminariu
+ m
+LOCATION:Plats: 90101\, Ångström
+DESCRIPTION:S16 \nKarta: https://link.mazemap.com/6QSBVI2i\nID 4144785
+X-FEED:Kursschema
+X-COURSE:Vetenskapliga metoder för industriell ekonomi
+X-BASE-UID:1f4de3ba68b26b1cd2d7b734@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261224
