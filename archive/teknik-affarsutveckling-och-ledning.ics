@@ -358,11 +358,18 @@ BEGIN:VEVENT
 DTSTART:20261119T081500Z
 DTEND:20261119T110000Z
 UID:914fddb22b50b172738959c5.53097f@timeedit-arkiv
-DTSTAMP:20260909T164558Z
-LAST-MODIFIED:20260909T164558Z
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
+ %C3%85ngstr%C3%B6m-101154
 SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Seminarium
-LOCATION:
-DESCRIPTION:ID 4144643
+LOCATION:Plats: 101154\, Grupprum\, Ångström \nPlats: 101162\, Ångströ
+ m \nPlats: 101166\, Ångström
+DESCRIPTION:S18 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype
+ =identifier&sharepoi=%C3%85ngstr%C3%B6m-101154 \nKarta: https://use.mazem
+ ap.com/?campusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6m-1
+ 01162 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype=identifi
+ er&sharepoi=%C3%85ngstr%C3%B6m-101166\nID 4144643
 X-FEED:Kursschema
 X-COURSE:Teknik\, affärsutveckling och ledning
 X-BASE-UID:914fddb22b50b172738959c5@timeedit-arkiv
@@ -410,5 +417,133 @@ DESCRIPTION:Karta: https://link.mazemap.com/9k0ozy8o\nID 4144640
 X-FEED:Kursschema
 X-COURSE:Teknik\, affärsutveckling och ledning
 X-BASE-UID:346ce63ced96a249da7b0ec5@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261124T081500Z
+DTEND:20261124T110000Z
+UID:4059cd94d48cb5b762152022.53097f@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+URL:https://use.mazemap.com/#v=1&config=uu&campusid=49&search=%C3%85ngstr%
+ C3%B6m%202002&zlevel=1&center=17.647534\,59.839256&zoom=19.9&sharepoitype
+ =poi&sharepoi=390532
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Föreläsning
+LOCATION:Plats: 2005\, Ångström
+DESCRIPTION:Karta: https://use.mazemap.com/#v=1&config=uu&campusid=49&sear
+ ch=%C3%85ngstr%C3%B6m%202002&zlevel=1&center=17.647534\,59.839256&zoom=19
+ .9&sharepoitype=poi&sharepoi=390532\nID 4145325
+X-FEED:Kursschema
+X-COURSE:Teknik\, affärsutveckling och ledning
+X-BASE-UID:4059cd94d48cb5b762152022@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261126T081500Z
+DTEND:20261126T110000Z
+UID:159a81b3a26514a74525a370.53097f@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
+ %C3%85ngstr%C3%B6m-101172
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Seminarium
+LOCATION:Plats: 101172\, Ångström \nPlats: 101258\, Ångström \nPlats: 
+ 101260\, Ångström
+DESCRIPTION:S19 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype
+ =identifier&sharepoi=%C3%85ngstr%C3%B6m-101172 \nKarta: https://use.mazem
+ ap.com/?campusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6m-1
+ 01258 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype=identifi
+ er&sharepoi=%C3%85ngstr%C3%B6m-101260\nID 4145326
+X-FEED:Kursschema
+X-COURSE:Teknik\, affärsutveckling och ledning
+X-BASE-UID:159a81b3a26514a74525a370@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261201T081500Z
+DTEND:20261201T110000Z
+UID:ee1db0f110f8a79108fb56bb.53097f@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+URL:https://link.mazemap.com/FIoJPzUT
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Föreläsning
+LOCATION:Plats: 4001\, Ångström
+DESCRIPTION:Karta: https://link.mazemap.com/FIoJPzUT\nID 4145328
+X-FEED:Kursschema
+X-COURSE:Teknik\, affärsutveckling och ledning
+X-BASE-UID:ee1db0f110f8a79108fb56bb@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261203T081500Z
+DTEND:20261203T110000Z
+UID:e4b2839734f1f13faf94da9f.53097f@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+URL:https://link.mazemap.com/vwT0yEDa
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Föreläsning
+LOCATION:Plats: 90102\, Ångström
+DESCRIPTION:Karta: https://link.mazemap.com/vwT0yEDa\nID 4145330
+X-FEED:Kursschema
+X-COURSE:Teknik\, affärsutveckling och ledning
+X-BASE-UID:e4b2839734f1f13faf94da9f@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261208T081500Z
+DTEND:20261208T110000Z
+UID:2985505ab88e7086cd14c583.53097f@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+URL:https://link.mazemap.com/zNWgHN9c
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Föreläsning
+LOCATION:Plats: 80121\, Ångström
+DESCRIPTION:Karta: https://link.mazemap.com/zNWgHN9c\nID 4145332
+X-FEED:Kursschema
+X-COURSE:Teknik\, affärsutveckling och ledning
+X-BASE-UID:2985505ab88e7086cd14c583@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261210T081500Z
+DTEND:20261210T110000Z
+UID:ff80d71b6f35d5189e55037d.53097f@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
+ %C3%85ngstr%C3%B6m-101172
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Seminarium
+LOCATION:Plats: 101172\, Ångström \nPlats: 101258\, Ångström \nPlats: 
+ 101260\, Ångström
+DESCRIPTION:Karta: https://use.mazemap.com/?campusid=49&sharepoitype=ident
+ ifier&sharepoi=%C3%85ngstr%C3%B6m-101172 \nKarta: https://use.mazemap.com
+ /?campusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6m-101258 
+ \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sha
+ repoi=%C3%85ngstr%C3%B6m-101260\nID 4145333
+X-FEED:Kursschema
+X-COURSE:Teknik\, affärsutveckling och ledning
+X-BASE-UID:ff80d71b6f35d5189e55037d@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261215T081500Z
+DTEND:20261215T130000Z
+UID:f68845e8690940bf5586f8e1.53097f@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+URL:https://link.mazemap.com/amionBdN
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Redovisning
+LOCATION:Plats: 90103\, Ångström
+DESCRIPTION:Karta: https://link.mazemap.com/amionBdN\nID 4145337
+X-FEED:Kursschema
+X-COURSE:Teknik\, affärsutveckling och ledning
+X-BASE-UID:f68845e8690940bf5586f8e1@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261216T081500Z
+DTEND:20261216T130000Z
+UID:92b0edd703b0166993fffd17.53097f@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+URL:https://link.mazemap.com/amionBdN
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Redovisning
+LOCATION:Plats: 90103\, Ångström
+DESCRIPTION:Karta: https://link.mazemap.com/amionBdN\nID 4145338
+X-FEED:Kursschema
+X-COURSE:Teknik\, affärsutveckling och ledning
+X-BASE-UID:92b0edd703b0166993fffd17@timeedit-arkiv
 END:VEVENT
 END:VCALENDAR

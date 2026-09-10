@@ -2137,6 +2137,52 @@ X-COURSE:Vetenskapliga metoder för industriell ekonomi
 X-BASE-UID:504e131388222f147a782451@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
+DTSTART:20261103T091500Z
+DTEND:20261103T110000Z
+UID:83f3c3b7b612a29fd2d43071.fe7042@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+SUMMARY:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik. 
+  \, Introduktion\, Föreläsning
+LOCATION:
+DESCRIPTION:F1\nID 4145356
+X-FEED:Kursschema
+X-COURSE:Immaterialrätt och affärsjuridik
+X-BASE-UID:83f3c3b7b612a29fd2d43071@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261106T091500Z
+DTEND:20261106T110000Z
+UID:87277c641c32a7f25c6af637.fe7042@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+URL:https://link.mazemap.com/amionBdN
+SUMMARY:I5.IAD\, MasIndAnalys2\, Avancerad simulering och preskriptiv anal
+ ys.  \, Lektion
+LOCATION:Plats: 90103\, Ångström
+DESCRIPTION:L1 \nKarta: https://link.mazemap.com/amionBdN\nID 4145501
+X-FEED:Kursschema
+X-COURSE:Avancerad simulering och preskriptiv analys
+X-BASE-UID:87277c641c32a7f25c6af637@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261106T121500Z
+DTEND:20261106T150000Z
+UID:fe803423b0907882292df0cf.fe7042@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+URL:https://link.mazemap.com/VnlekcK7
+SUMMARY:I5.IAD\, MasIndAnalys2\, Avancerad simulering och preskriptiv anal
+ ys.  \, Laboration
+LOCATION:Plats: 4102\, Datorsal\, Ångström \nPlats: 6K1107\, Datorsal\, 
+ Ångström
+DESCRIPTION:Lab 1 \nKarta: https://link.mazemap.com/VnlekcK7 \nKarta: http
+ s://link.mazemap.com/jSJWxUr7\nID 4145503
+X-FEED:Kursschema
+X-COURSE:Avancerad simulering och preskriptiv analys
+X-BASE-UID:fe803423b0907882292df0cf@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
 DTSTART:20261109T121500Z
 DTEND:20261109T150000Z
 UID:a441415c7e4afe15dc35b880.fe7042@timeedit-arkiv
@@ -2152,6 +2198,20 @@ X-COURSE:Vetenskapliga metoder för industriell ekonomi
 X-BASE-UID:a441415c7e4afe15dc35b880@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
+DTSTART:20261110T091500Z
+DTEND:20261110T110000Z
+UID:b8c06ca3e44fa60f939c1ee2.fe7042@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+SUMMARY:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik. 
+  \, Föreläsning
+LOCATION:
+DESCRIPTION:F2\nID 4145359
+X-FEED:Kursschema
+X-COURSE:Immaterialrätt och affärsjuridik
+X-BASE-UID:b8c06ca3e44fa60f939c1ee2@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
 DTSTART:20261112T071500Z
 DTEND:20261112T160000Z
 UID:1fa44aa252a07ccc5081cb8a.fe7042@timeedit-arkiv
@@ -2163,6 +2223,54 @@ DESCRIPTION:Cytiva\nID 4114253
 X-FEED:Kursschema
 X-COURSE:Teknik\, affärsutveckling och ledning
 X-BASE-UID:1fa44aa252a07ccc5081cb8a@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261113T071500Z
+DTEND:20261113T090000Z
+UID:5295d82f066ae28ca0f1f8c0.fe7042@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
+ %C3%85ngstr%C3%B6m-101132
+SUMMARY:I5.IAD\, MasIndAnalys2\, Avancerad simulering och preskriptiv anal
+ ys.  \, Lektion
+LOCATION:Plats: 101132\, Ångström
+DESCRIPTION:L2 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype=
+ identifier&sharepoi=%C3%85ngstr%C3%B6m-101132\nID 4145516
+X-FEED:Kursschema
+X-COURSE:Avancerad simulering och preskriptiv analys
+X-BASE-UID:5295d82f066ae28ca0f1f8c0@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261113T091500Z
+DTEND:20261113T110000Z
+UID:d868035a1922a6bcd037eaf8.fe7042@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+SUMMARY:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik. 
+  \, Seminarium
+LOCATION:
+DESCRIPTION:S1\nID 4145361
+X-FEED:Kursschema
+X-COURSE:Immaterialrätt och affärsjuridik
+X-BASE-UID:d868035a1922a6bcd037eaf8@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261113T121500Z
+DTEND:20261113T150000Z
+UID:130b4193fa4c037d7418757f.fe7042@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+URL:https://link.mazemap.com/VnlekcK7
+SUMMARY:I5.IAD\, MasIndAnalys2\, Avancerad simulering och preskriptiv anal
+ ys.  \, Laboration
+LOCATION:Plats: 4102\, Datorsal\, Ångström \nPlats: 6K1107\, Datorsal\, 
+ Ångström
+DESCRIPTION:Lab 2 \nKarta: https://link.mazemap.com/VnlekcK7 \nKarta: http
+ s://link.mazemap.com/jSJWxUr7\nID 4145519
+X-FEED:Kursschema
+X-COURSE:Avancerad simulering och preskriptiv analys
+X-BASE-UID:130b4193fa4c037d7418757f@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261116T121500Z
@@ -2211,14 +2319,35 @@ X-COURSE:Teknik\, affärsutveckling och ledning
 X-BASE-UID:2fa08de9586a0481dfa214f6@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
+DTSTART:20261118T091500Z
+DTEND:20261118T110000Z
+UID:d7165e96fc16e8c81de253e6.fe7042@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+SUMMARY:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik. 
+  \, Seminarium
+LOCATION:
+DESCRIPTION:S2\nID 4145362
+X-FEED:Kursschema
+X-COURSE:Immaterialrätt och affärsjuridik
+X-BASE-UID:d7165e96fc16e8c81de253e6@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
 DTSTART:20261119T081500Z
 DTEND:20261119T110000Z
 UID:914fddb22b50b172738959c5.fe7042@timeedit-arkiv
-DTSTAMP:20260909T164558Z
-LAST-MODIFIED:20260909T164558Z
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
+ %C3%85ngstr%C3%B6m-101154
 SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Seminarium
-LOCATION:
-DESCRIPTION:ID 4144643
+LOCATION:Plats: 101154\, Grupprum\, Ångström \nPlats: 101162\, Ångströ
+ m \nPlats: 101166\, Ångström
+DESCRIPTION:S18 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype
+ =identifier&sharepoi=%C3%85ngstr%C3%B6m-101154 \nKarta: https://use.mazem
+ ap.com/?campusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6m-1
+ 01162 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype=identifi
+ er&sharepoi=%C3%85ngstr%C3%B6m-101166\nID 4144643
 X-FEED:Kursschema
 X-COURSE:Teknik\, affärsutveckling och ledning
 X-BASE-UID:914fddb22b50b172738959c5@timeedit-arkiv
@@ -2254,6 +2383,23 @@ X-COURSE:Teknik\, affärsutveckling och ledning
 X-BASE-UID:b46988b0bf5ff92b25b00750@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
+DTSTART:20261120T141500Z
+DTEND:20261120T160000Z
+UID:dd8ea7eca6a9136c24845a9c.fe7042@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
+ %C3%85ngstr%C3%B6m-101190
+SUMMARY:I5.IAD\, MasIndAnalys2\, Avancerad simulering och preskriptiv anal
+ ys.  \, Lektion
+LOCATION:Plats: 101190\, Ångström
+DESCRIPTION:L3 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype=
+ identifier&sharepoi=%C3%85ngstr%C3%B6m-101190\nID 4145521
+X-FEED:Kursschema
+X-COURSE:Avancerad simulering och preskriptiv analys
+X-BASE-UID:dd8ea7eca6a9136c24845a9c@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
 DTSTART:20261123T081500Z
 DTEND:20261123T140000Z
 UID:346ce63ced96a249da7b0ec5.fe7042@timeedit-arkiv
@@ -2283,6 +2429,119 @@ X-COURSE:Vetenskapliga metoder för industriell ekonomi
 X-BASE-UID:2c4f15bf77441422a3e679e2@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
+DTSTART:20261124T081500Z
+DTEND:20261124T110000Z
+UID:4059cd94d48cb5b762152022.fe7042@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+URL:https://use.mazemap.com/#v=1&config=uu&campusid=49&search=%C3%85ngstr%
+ C3%B6m%202002&zlevel=1&center=17.647534\,59.839256&zoom=19.9&sharepoitype
+ =poi&sharepoi=390532
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Föreläsning
+LOCATION:Plats: 2005\, Ångström
+DESCRIPTION:Karta: https://use.mazemap.com/#v=1&config=uu&campusid=49&sear
+ ch=%C3%85ngstr%C3%B6m%202002&zlevel=1&center=17.647534\,59.839256&zoom=19
+ .9&sharepoitype=poi&sharepoi=390532\nID 4145325
+X-FEED:Kursschema
+X-COURSE:Teknik\, affärsutveckling och ledning
+X-BASE-UID:4059cd94d48cb5b762152022@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261125T091500Z
+DTEND:20261125T110000Z
+UID:351bf244137b9c53e69a26c7.fe7042@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+SUMMARY:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik. 
+  \, Seminarium
+LOCATION:
+DESCRIPTION:S3\nID 4145364
+X-FEED:Kursschema
+X-COURSE:Immaterialrätt och affärsjuridik
+X-BASE-UID:351bf244137b9c53e69a26c7@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261125T121500Z
+DTEND:20261125T140000Z
+UID:74090e4773d0b3105be59cda.fe7042@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+SUMMARY:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik. 
+  \, Föreläsning
+LOCATION:
+DESCRIPTION:F3\nID 4145365
+X-FEED:Kursschema
+X-COURSE:Immaterialrätt och affärsjuridik
+X-BASE-UID:74090e4773d0b3105be59cda@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261126T081500Z
+DTEND:20261126T110000Z
+UID:159a81b3a26514a74525a370.fe7042@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
+ %C3%85ngstr%C3%B6m-101172
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Seminarium
+LOCATION:Plats: 101172\, Ångström \nPlats: 101258\, Ångström \nPlats: 
+ 101260\, Ångström
+DESCRIPTION:S19 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype
+ =identifier&sharepoi=%C3%85ngstr%C3%B6m-101172 \nKarta: https://use.mazem
+ ap.com/?campusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6m-1
+ 01258 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype=identifi
+ er&sharepoi=%C3%85ngstr%C3%B6m-101260\nID 4145326
+X-FEED:Kursschema
+X-COURSE:Teknik\, affärsutveckling och ledning
+X-BASE-UID:159a81b3a26514a74525a370@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261126T121500Z
+DTEND:20261126T140000Z
+UID:72c34ad6e79790fda4d1c5df.fe7042@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+SUMMARY:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik. 
+  \, Seminarium
+LOCATION:
+DESCRIPTION:S4\nID 4145369
+X-FEED:Kursschema
+X-COURSE:Immaterialrätt och affärsjuridik
+X-BASE-UID:72c34ad6e79790fda4d1c5df@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261127T081500Z
+DTEND:20261127T110000Z
+UID:1d1db8ed145b434b3efd6bc8.fe7042@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
+ %C3%85ngstr%C3%B6m-10K1121
+SUMMARY:I5.IAD\, MasIndAnalys2\, Avancerad simulering och preskriptiv anal
+ ys.  \, Laboration
+LOCATION:Plats: 10K1121\, Datorsal\, Ångström \nPlats: 4102\, Datorsal\,
+  Ångström
+DESCRIPTION:Lab 3 \nKarta: https://use.mazemap.com/?campusid=49&sharepoity
+ pe=identifier&sharepoi=%C3%85ngstr%C3%B6m-10K1121 \nKarta: https://link.m
+ azemap.com/VnlekcK7\nID 4145525
+X-FEED:Kursschema
+X-COURSE:Avancerad simulering och preskriptiv analys
+X-BASE-UID:1d1db8ed145b434b3efd6bc8@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261127T121500Z
+DTEND:20261127T140000Z
+UID:6d404531717e071bc433eeed.fe7042@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+SUMMARY:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik. 
+  \, Föreläsning
+LOCATION:
+DESCRIPTION:F4\nID 4145372
+X-FEED:Kursschema
+X-COURSE:Immaterialrätt och affärsjuridik
+X-BASE-UID:6d404531717e071bc433eeed@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
 DTSTART:20261130T081500Z
 DTEND:20261130T110000Z
 UID:a7f29839ba0535917799ee68.fe7042@timeedit-arkiv
@@ -2296,6 +2555,84 @@ DESCRIPTION:S14 \nKarta: https://link.mazemap.com/9k0ozy8o\nID 4144774
 X-FEED:Kursschema
 X-COURSE:Vetenskapliga metoder för industriell ekonomi
 X-BASE-UID:a7f29839ba0535917799ee68@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261201T081500Z
+DTEND:20261201T110000Z
+UID:ee1db0f110f8a79108fb56bb.fe7042@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+URL:https://link.mazemap.com/FIoJPzUT
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Föreläsning
+LOCATION:Plats: 4001\, Ångström
+DESCRIPTION:Karta: https://link.mazemap.com/FIoJPzUT\nID 4145328
+X-FEED:Kursschema
+X-COURSE:Teknik\, affärsutveckling och ledning
+X-BASE-UID:ee1db0f110f8a79108fb56bb@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261203T081500Z
+DTEND:20261203T110000Z
+UID:e4b2839734f1f13faf94da9f.fe7042@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+URL:https://link.mazemap.com/vwT0yEDa
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Föreläsning
+LOCATION:Plats: 90102\, Ångström
+DESCRIPTION:Karta: https://link.mazemap.com/vwT0yEDa\nID 4145330
+X-FEED:Kursschema
+X-COURSE:Teknik\, affärsutveckling och ledning
+X-BASE-UID:e4b2839734f1f13faf94da9f@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261204T091500Z
+DTEND:20261204T110000Z
+UID:08a75ab1ecfbcafa3d877636.fe7042@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+URL:https://link.mazemap.com/Eg7hYfVp
+SUMMARY:I5.IAD\, MasIndAnalys2\, Avancerad simulering och preskriptiv anal
+ ys.  \, Lektion
+LOCATION:Plats: 2002\, Ångström
+DESCRIPTION:L4 \nKarta: https://link.mazemap.com/Eg7hYfVp\nID 4145531
+X-FEED:Kursschema
+X-COURSE:Avancerad simulering och preskriptiv analys
+X-BASE-UID:08a75ab1ecfbcafa3d877636@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261204T121500Z
+DTEND:20261204T150000Z
+UID:2db7f66cd3ca789a459d164f.fe7042@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
+ %C3%85ngstr%C3%B6m-10K1121
+SUMMARY:I5.IAD\, MasIndAnalys2\, Avancerad simulering och preskriptiv anal
+ ys.  \, Laboration
+LOCATION:Plats: 10K1121\, Datorsal\, Ångström \nPlats: 10K1206\, Datorsa
+ l\, Ångström \nPlats: 10K1210\, Datorsal\, Ångström
+DESCRIPTION:Lab 4 \nKarta: https://use.mazemap.com/?campusid=49&sharepoity
+ pe=identifier&sharepoi=%C3%85ngstr%C3%B6m-10K1121 \nKarta: https://use.ma
+ zemap.com/?campusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6
+ m-10K1206 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype=iden
+ tifier&sharepoi=%C3%85ngstr%C3%B6m-10K1210\nID 4145534
+X-FEED:Kursschema
+X-COURSE:Avancerad simulering och preskriptiv analys
+X-BASE-UID:2db7f66cd3ca789a459d164f@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261204T121500Z
+DTEND:20261204T140000Z
+UID:ac834a055e27ce49131af200.fe7042@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+SUMMARY:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik. 
+  \, Seminarium
+LOCATION:
+DESCRIPTION:S5\nID 4145378
+X-FEED:Kursschema
+X-COURSE:Immaterialrätt och affärsjuridik
+X-BASE-UID:ac834a055e27ce49131af200@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261207T081500Z
@@ -2313,6 +2650,85 @@ X-COURSE:Vetenskapliga metoder för industriell ekonomi
 X-BASE-UID:d15883d4860e562ede2674f2@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
+DTSTART:20261208T081500Z
+DTEND:20261208T110000Z
+UID:2985505ab88e7086cd14c583.fe7042@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+URL:https://link.mazemap.com/zNWgHN9c
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Föreläsning
+LOCATION:Plats: 80121\, Ångström
+DESCRIPTION:Karta: https://link.mazemap.com/zNWgHN9c\nID 4145332
+X-FEED:Kursschema
+X-COURSE:Teknik\, affärsutveckling och ledning
+X-BASE-UID:2985505ab88e7086cd14c583@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261209T091500Z
+DTEND:20261209T110000Z
+UID:1c7c0ef6b66ac73cdcad58ec.fe7042@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
+ %C3%85ngstr%C3%B6m-101190
+SUMMARY:I5.IAD\, MasIndAnalys2\, Avancerad simulering och preskriptiv anal
+ ys.  \, Lektion
+LOCATION:Plats: 101190\, Ångström
+DESCRIPTION:L5 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype=
+ identifier&sharepoi=%C3%85ngstr%C3%B6m-101190\nID 4145541
+X-FEED:Kursschema
+X-COURSE:Avancerad simulering och preskriptiv analys
+X-BASE-UID:1c7c0ef6b66ac73cdcad58ec@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261209T121500Z
+DTEND:20261209T150000Z
+UID:1a44f077cc7b9bde607634d0.fe7042@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+SUMMARY:I5.IAD\, MasIndAnalys2\, Avancerad simulering och preskriptiv anal
+ ys.  \, Laboration
+LOCATION:
+DESCRIPTION:Lab 5\nID 4145539
+X-FEED:Kursschema
+X-COURSE:Avancerad simulering och preskriptiv analys
+X-BASE-UID:1a44f077cc7b9bde607634d0@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261210T081500Z
+DTEND:20261210T110000Z
+UID:ff80d71b6f35d5189e55037d.fe7042@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
+ %C3%85ngstr%C3%B6m-101172
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Seminarium
+LOCATION:Plats: 101172\, Ångström \nPlats: 101258\, Ångström \nPlats: 
+ 101260\, Ångström
+DESCRIPTION:Karta: https://use.mazemap.com/?campusid=49&sharepoitype=ident
+ ifier&sharepoi=%C3%85ngstr%C3%B6m-101172 \nKarta: https://use.mazemap.com
+ /?campusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6m-101258 
+ \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sha
+ repoi=%C3%85ngstr%C3%B6m-101260\nID 4145333
+X-FEED:Kursschema
+X-COURSE:Teknik\, affärsutveckling och ledning
+X-BASE-UID:ff80d71b6f35d5189e55037d@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261210T121500Z
+DTEND:20261210T140000Z
+UID:e949b2a174f49a92bcac3d92.fe7042@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+SUMMARY:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik. 
+  \, Föreläsning
+LOCATION:
+DESCRIPTION:F5\nID 4145380
+X-FEED:Kursschema
+X-COURSE:Immaterialrätt och affärsjuridik
+X-BASE-UID:e949b2a174f49a92bcac3d92@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
 DTSTART:20261214T081500Z
 DTEND:20261214T110000Z
 UID:1f4de3ba68b26b1cd2d7b734.fe7042@timeedit-arkiv
@@ -2326,6 +2742,62 @@ DESCRIPTION:S16 \nKarta: https://link.mazemap.com/6QSBVI2i\nID 4144785
 X-FEED:Kursschema
 X-COURSE:Vetenskapliga metoder för industriell ekonomi
 X-BASE-UID:1f4de3ba68b26b1cd2d7b734@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261215T081500Z
+DTEND:20261215T130000Z
+UID:f68845e8690940bf5586f8e1.fe7042@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+URL:https://link.mazemap.com/amionBdN
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Redovisning
+LOCATION:Plats: 90103\, Ångström
+DESCRIPTION:Karta: https://link.mazemap.com/amionBdN\nID 4145337
+X-FEED:Kursschema
+X-COURSE:Teknik\, affärsutveckling och ledning
+X-BASE-UID:f68845e8690940bf5586f8e1@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261216T081500Z
+DTEND:20261216T130000Z
+UID:92b0edd703b0166993fffd17.fe7042@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+URL:https://link.mazemap.com/amionBdN
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Redovisning
+LOCATION:Plats: 90103\, Ångström
+DESCRIPTION:Karta: https://link.mazemap.com/amionBdN\nID 4145338
+X-FEED:Kursschema
+X-COURSE:Teknik\, affärsutveckling och ledning
+X-BASE-UID:92b0edd703b0166993fffd17@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261217T121500Z
+DTEND:20261217T140000Z
+UID:4bbbd70abd2106e14dffe813.fe7042@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+SUMMARY:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik. 
+  \, Seminarium
+LOCATION:
+DESCRIPTION:S6\nID 4145382
+X-FEED:Kursschema
+X-COURSE:Immaterialrätt och affärsjuridik
+X-BASE-UID:4bbbd70abd2106e14dffe813@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261218T071500Z
+DTEND:20261218T090000Z
+UID:53c95ad1c99404b182664d1f.fe7042@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+SUMMARY:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik. 
+  \, Frågestund
+LOCATION:Plats: Via Zoom
+DESCRIPTION:ID 4145384
+X-FEED:Kursschema
+X-COURSE:Immaterialrätt och affärsjuridik
+X-BASE-UID:53c95ad1c99404b182664d1f@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261224
@@ -2409,14 +2881,29 @@ BEGIN:VEVENT
 DTSTART:20270115T070000Z
 DTEND:20270115T160000Z
 UID:8f4cd4aeea60926a9c20e447.fe7042@timeedit-arkiv
-DTSTAMP:20260903T093800Z
-LAST-MODIFIED:20260903T093800Z
-SUMMARY:Entreprenörskolan\, I5\, Immaterialrätt och affärsjuridik.  \, 
- Tentamen
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+SUMMARY:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik. 
+  \, Tentamen
 LOCATION:
 DESCRIPTION:ID 3936853
 X-FEED:Kursschema
 X-COURSE:Immaterialrätt och affärsjuridik
 X-BASE-UID:8f4cd4aeea60926a9c20e447@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270115T081500Z
+DTEND:20270115T110000Z
+UID:5ae501518e73de75ff899605.fe7042@timeedit-arkiv
+DTSTAMP:20260910T113133Z
+LAST-MODIFIED:20260910T113133Z
+URL:https://link.mazemap.com/6QSBVI2i
+SUMMARY:I5.IAD\, MasIndAnalys2\, Avancerad simulering och preskriptiv anal
+ ys.  \, Seminarium
+LOCATION:Plats: 90101\, Ångström
+DESCRIPTION:S1 \nKarta: https://link.mazemap.com/6QSBVI2i\nID 4145543
+X-FEED:Kursschema
+X-COURSE:Avancerad simulering och preskriptiv analys
+X-BASE-UID:5ae501518e73de75ff899605@timeedit-arkiv
 END:VEVENT
 END:VCALENDAR
