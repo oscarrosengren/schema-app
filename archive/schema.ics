@@ -2140,12 +2140,15 @@ BEGIN:VEVENT
 DTSTART:20261103T091500Z
 DTEND:20261103T110000Z
 UID:83f3c3b7b612a29fd2d43071.fe7042@timeedit-arkiv
-DTSTAMP:20260910T113133Z
-LAST-MODIFIED:20260910T113133Z
+DTSTAMP:20260914T130238Z
+LAST-MODIFIED:20260914T130238Z
+URL:http://use.mazemap.com/?v=1&campusid=49&campuses=uu&sharepoitype=ident
+ ifier&sharepoi=Gamla-%25%25u4219B
 SUMMARY:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik. 
   \, Introduktion\, Föreläsning
-LOCATION:
-DESCRIPTION:F1\nID 4145356
+LOCATION:Plats: 4219 B\, Gamla Torget 6
+DESCRIPTION:F1 \nKarta: http://use.mazemap.com/?v=1&campusid=49&campuses=u
+ u&sharepoitype=identifier&sharepoi=Gamla-%25%25u4219B\nID 4145356
 X-FEED:Kursschema
 X-COURSE:Immaterialrätt och affärsjuridik
 X-BASE-UID:83f3c3b7b612a29fd2d43071@timeedit-arkiv
@@ -2201,12 +2204,15 @@ BEGIN:VEVENT
 DTSTART:20261110T091500Z
 DTEND:20261110T110000Z
 UID:b8c06ca3e44fa60f939c1ee2.fe7042@timeedit-arkiv
-DTSTAMP:20260910T113133Z
-LAST-MODIFIED:20260910T113133Z
+DTSTAMP:20260914T130238Z
+LAST-MODIFIED:20260914T130238Z
+URL:http://use.mazemap.com/?v=1&campusid=49&campuses=uu&sharepoitype=ident
+ ifier&sharepoi=Gamla-%25%25u4219B
 SUMMARY:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik. 
   \, Föreläsning
-LOCATION:
-DESCRIPTION:F2\nID 4145359
+LOCATION:Plats: 4219 B\, Gamla Torget 6
+DESCRIPTION:F2 \nKarta: http://use.mazemap.com/?v=1&campusid=49&campuses=u
+ u&sharepoitype=identifier&sharepoi=Gamla-%25%25u4219B\nID 4145359
 X-FEED:Kursschema
 X-COURSE:Immaterialrätt och affärsjuridik
 X-BASE-UID:b8c06ca3e44fa60f939c1ee2@timeedit-arkiv
@@ -2245,12 +2251,15 @@ BEGIN:VEVENT
 DTSTART:20261113T091500Z
 DTEND:20261113T110000Z
 UID:d868035a1922a6bcd037eaf8.fe7042@timeedit-arkiv
-DTSTAMP:20260910T113133Z
-LAST-MODIFIED:20260910T113133Z
+DTSTAMP:20260914T130238Z
+LAST-MODIFIED:20260914T130238Z
+URL:http://use.mazemap.com/?v=1&campusid=49&campuses=uu&sharepoitype=ident
+ ifier&sharepoi=Blåsenhus-11:131
 SUMMARY:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik. 
   \, Seminarium
-LOCATION:
-DESCRIPTION:S1\nID 4145361
+LOCATION:Plats: 11:131\, Blåsenhus
+DESCRIPTION:S1 \nKarta: http://use.mazemap.com/?v=1&campusid=49&campuses=u
+ u&sharepoitype=identifier&sharepoi=Blåsenhus-11:131\nID 4145361
 X-FEED:Kursschema
 X-COURSE:Immaterialrätt och affärsjuridik
 X-BASE-UID:d868035a1922a6bcd037eaf8@timeedit-arkiv
@@ -2288,46 +2297,32 @@ X-COURSE:Vetenskapliga metoder för industriell ekonomi
 X-BASE-UID:4bc3376f9f3b8f96dc8f8e10@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20261117T071500Z
+DTSTART:20261117T081500Z
 DTEND:20261117T110000Z
-UID:2e29e7236ddf82910397cf08.fe7042@timeedit-arkiv
-DTSTAMP:20260909T113447Z
-LAST-MODIFIED:20260909T113447Z
-SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Studiebesök
-LOCATION:
-DESCRIPTION:ID 4114254
-X-FEED:Kursschema
-X-COURSE:Teknik\, affärsutveckling och ledning
-X-BASE-UID:2e29e7236ddf82910397cf08@timeedit-arkiv
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20261117T121500Z
-DTEND:20261117T140000Z
-UID:2fa08de9586a0481dfa214f6.fe7042@timeedit-arkiv
-DTSTAMP:20260909T164558Z
-LAST-MODIFIED:20260909T164558Z
-URL:https://use.mazemap.com/#v=1&config=uu&campusid=49&search=%C3%85ngstr%
- C3%B6m%202002&zlevel=1&center=17.647534\,59.839256&zoom=19.9&sharepoitype
- =poi&sharepoi=390532
+UID:20c9da741427e0995e751047.fe7042@timeedit-arkiv
+DTSTAMP:20260914T130238Z
+LAST-MODIFIED:20260914T130238Z
+URL:https://link.mazemap.com/zNWgHN9c
 SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Föreläsning
-LOCATION:Plats: 2005\, Ångström
-DESCRIPTION:F1 \nKarta: https://use.mazemap.com/#v=1&config=uu&campusid=49
- &search=%C3%85ngstr%C3%B6m%202002&zlevel=1&center=17.647534\,59.839256&zo
- om=19.9&sharepoitype=poi&sharepoi=390532\nID 4144631
+LOCATION:Plats: 80121\, Ångström
+DESCRIPTION:F1 \nKarta: https://link.mazemap.com/zNWgHN9c\nID 4144631
 X-FEED:Kursschema
 X-COURSE:Teknik\, affärsutveckling och ledning
-X-BASE-UID:2fa08de9586a0481dfa214f6@timeedit-arkiv
+X-BASE-UID:20c9da741427e0995e751047@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261118T091500Z
 DTEND:20261118T110000Z
 UID:d7165e96fc16e8c81de253e6.fe7042@timeedit-arkiv
-DTSTAMP:20260910T113133Z
-LAST-MODIFIED:20260910T113133Z
+DTSTAMP:20260914T130238Z
+LAST-MODIFIED:20260914T130238Z
+URL:http://use.mazemap.com/?v=1&campusid=49&campuses=uu&sharepoitype=ident
+ ifier&sharepoi=Oxenstiernska-A1006-2
 SUMMARY:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik. 
   \, Seminarium
-LOCATION:
-DESCRIPTION:S2\nID 4145362
+LOCATION:Plats: Grotiussalen\, Trädgårdsg. 1
+DESCRIPTION:S2 \nKarta: http://use.mazemap.com/?v=1&campusid=49&campuses=u
+ u&sharepoitype=identifier&sharepoi=Oxenstiernska-A1006-2\nID 4145362
 X-FEED:Kursschema
 X-COURSE:Immaterialrätt och affärsjuridik
 X-BASE-UID:d7165e96fc16e8c81de253e6@timeedit-arkiv
@@ -2450,12 +2445,15 @@ BEGIN:VEVENT
 DTSTART:20261125T091500Z
 DTEND:20261125T110000Z
 UID:351bf244137b9c53e69a26c7.fe7042@timeedit-arkiv
-DTSTAMP:20260910T113133Z
-LAST-MODIFIED:20260910T113133Z
+DTSTAMP:20260914T130238Z
+LAST-MODIFIED:20260914T130238Z
+URL:http://use.mazemap.com/?v=1&campusid=49&campuses=uu&sharepoitype=ident
+ ifier&sharepoi=Oxenstiernska-A1006-2
 SUMMARY:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik. 
   \, Seminarium
-LOCATION:
-DESCRIPTION:S3\nID 4145364
+LOCATION:Plats: Grotiussalen\, Trädgårdsg. 1
+DESCRIPTION:S3 \nKarta: http://use.mazemap.com/?v=1&campusid=49&campuses=u
+ u&sharepoitype=identifier&sharepoi=Oxenstiernska-A1006-2\nID 4145364
 X-FEED:Kursschema
 X-COURSE:Immaterialrätt och affärsjuridik
 X-BASE-UID:351bf244137b9c53e69a26c7@timeedit-arkiv
@@ -2464,12 +2462,15 @@ BEGIN:VEVENT
 DTSTART:20261125T121500Z
 DTEND:20261125T140000Z
 UID:74090e4773d0b3105be59cda.fe7042@timeedit-arkiv
-DTSTAMP:20260910T113133Z
-LAST-MODIFIED:20260910T113133Z
+DTSTAMP:20260914T130238Z
+LAST-MODIFIED:20260914T130238Z
+URL:http://use.mazemap.com/?v=1&campusid=49&campuses=uu&sharepoitype=ident
+ ifier&sharepoi=Gamla-%25%25u4219B
 SUMMARY:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik. 
   \, Föreläsning
-LOCATION:
-DESCRIPTION:F3\nID 4145365
+LOCATION:Plats: 4219 B\, Gamla Torget 6
+DESCRIPTION:F3 \nKarta: http://use.mazemap.com/?v=1&campusid=49&campuses=u
+ u&sharepoitype=identifier&sharepoi=Gamla-%25%25u4219B\nID 4145365
 X-FEED:Kursschema
 X-COURSE:Immaterialrätt och affärsjuridik
 X-BASE-UID:74090e4773d0b3105be59cda@timeedit-arkiv
@@ -2498,12 +2499,15 @@ BEGIN:VEVENT
 DTSTART:20261126T121500Z
 DTEND:20261126T140000Z
 UID:72c34ad6e79790fda4d1c5df.fe7042@timeedit-arkiv
-DTSTAMP:20260910T113133Z
-LAST-MODIFIED:20260910T113133Z
+DTSTAMP:20260914T130238Z
+LAST-MODIFIED:20260914T130238Z
+URL:http://use.mazemap.com/?v=1&campusid=49&campuses=uu&sharepoitype=ident
+ ifier&sharepoi=Gamla-%25%25u4219B
 SUMMARY:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik. 
   \, Seminarium
-LOCATION:
-DESCRIPTION:S4\nID 4145369
+LOCATION:Plats: 4219 B\, Gamla Torget 6
+DESCRIPTION:S4 \nKarta: http://use.mazemap.com/?v=1&campusid=49&campuses=u
+ u&sharepoitype=identifier&sharepoi=Gamla-%25%25u4219B\nID 4145369
 X-FEED:Kursschema
 X-COURSE:Immaterialrätt och affärsjuridik
 X-BASE-UID:72c34ad6e79790fda4d1c5df@timeedit-arkiv
@@ -2531,12 +2535,15 @@ BEGIN:VEVENT
 DTSTART:20261127T121500Z
 DTEND:20261127T140000Z
 UID:6d404531717e071bc433eeed.fe7042@timeedit-arkiv
-DTSTAMP:20260910T113133Z
-LAST-MODIFIED:20260910T113133Z
+DTSTAMP:20260914T130238Z
+LAST-MODIFIED:20260914T130238Z
+URL:http://use.mazemap.com/?v=1&campusid=49&campuses=uu&sharepoitype=ident
+ ifier&sharepoi=Gamla-%25%25u4573B
 SUMMARY:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik. 
   \, Föreläsning
-LOCATION:
-DESCRIPTION:F4\nID 4145372
+LOCATION:Plats: Ostrom-salen\, 4573\, Östra Ågatan 19
+DESCRIPTION:F4 \nKarta: http://use.mazemap.com/?v=1&campusid=49&campuses=u
+ u&sharepoitype=identifier&sharepoi=Gamla-%25%25u4573B\nID 4145372
 X-FEED:Kursschema
 X-COURSE:Immaterialrätt och affärsjuridik
 X-BASE-UID:6d404531717e071bc433eeed@timeedit-arkiv
@@ -2560,29 +2567,15 @@ BEGIN:VEVENT
 DTSTART:20261201T081500Z
 DTEND:20261201T110000Z
 UID:ee1db0f110f8a79108fb56bb.fe7042@timeedit-arkiv
-DTSTAMP:20260910T113133Z
-LAST-MODIFIED:20260910T113133Z
-URL:https://link.mazemap.com/FIoJPzUT
+DTSTAMP:20260914T130238Z
+LAST-MODIFIED:20260914T130238Z
+URL:https://link.mazemap.com/amionBdN
 SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Föreläsning
-LOCATION:Plats: 4001\, Ångström
-DESCRIPTION:Karta: https://link.mazemap.com/FIoJPzUT\nID 4145328
+LOCATION:Plats: 90103\, Ångström
+DESCRIPTION:Karta: https://link.mazemap.com/amionBdN\nID 4145328
 X-FEED:Kursschema
 X-COURSE:Teknik\, affärsutveckling och ledning
 X-BASE-UID:ee1db0f110f8a79108fb56bb@timeedit-arkiv
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20261203T081500Z
-DTEND:20261203T110000Z
-UID:e4b2839734f1f13faf94da9f.fe7042@timeedit-arkiv
-DTSTAMP:20260910T113133Z
-LAST-MODIFIED:20260910T113133Z
-URL:https://link.mazemap.com/vwT0yEDa
-SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Föreläsning
-LOCATION:Plats: 90102\, Ångström
-DESCRIPTION:Karta: https://link.mazemap.com/vwT0yEDa\nID 4145330
-X-FEED:Kursschema
-X-COURSE:Teknik\, affärsutveckling och ledning
-X-BASE-UID:e4b2839734f1f13faf94da9f@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261204T091500Z
@@ -2624,12 +2617,15 @@ BEGIN:VEVENT
 DTSTART:20261204T121500Z
 DTEND:20261204T140000Z
 UID:ac834a055e27ce49131af200.fe7042@timeedit-arkiv
-DTSTAMP:20260910T113133Z
-LAST-MODIFIED:20260910T113133Z
+DTSTAMP:20260914T130238Z
+LAST-MODIFIED:20260914T130238Z
+URL:http://use.mazemap.com/?v=1&campusid=49&campuses=uu&sharepoitype=ident
+ ifier&sharepoi=Oxenstiernska-A1006-2
 SUMMARY:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik. 
   \, Seminarium
-LOCATION:
-DESCRIPTION:S5\nID 4145378
+LOCATION:Plats: Grotiussalen\, Trädgårdsg. 1
+DESCRIPTION:S5 \nKarta: http://use.mazemap.com/?v=1&campusid=49&campuses=u
+ u&sharepoitype=identifier&sharepoi=Oxenstiernska-A1006-2\nID 4145378
 X-FEED:Kursschema
 X-COURSE:Immaterialrätt och affärsjuridik
 X-BASE-UID:ac834a055e27ce49131af200@timeedit-arkiv
@@ -2695,35 +2691,18 @@ X-COURSE:Avancerad simulering och preskriptiv analys
 X-BASE-UID:1a44f077cc7b9bde607634d0@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20261210T081500Z
-DTEND:20261210T110000Z
-UID:ff80d71b6f35d5189e55037d.fe7042@timeedit-arkiv
-DTSTAMP:20260910T113133Z
-LAST-MODIFIED:20260910T113133Z
-URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
- %C3%85ngstr%C3%B6m-101172
-SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Seminarium
-LOCATION:Plats: 101172\, Ångström \nPlats: 101258\, Ångström \nPlats: 
- 101260\, Ångström
-DESCRIPTION:Karta: https://use.mazemap.com/?campusid=49&sharepoitype=ident
- ifier&sharepoi=%C3%85ngstr%C3%B6m-101172 \nKarta: https://use.mazemap.com
- /?campusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6m-101258 
- \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sha
- repoi=%C3%85ngstr%C3%B6m-101260\nID 4145333
-X-FEED:Kursschema
-X-COURSE:Teknik\, affärsutveckling och ledning
-X-BASE-UID:ff80d71b6f35d5189e55037d@timeedit-arkiv
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20261210T121500Z
 DTEND:20261210T140000Z
 UID:e949b2a174f49a92bcac3d92.fe7042@timeedit-arkiv
-DTSTAMP:20260910T113133Z
-LAST-MODIFIED:20260910T113133Z
+DTSTAMP:20260914T130238Z
+LAST-MODIFIED:20260914T130238Z
+URL:http://use.mazemap.com/?v=1&campusid=49&campuses=uu&sharepoitype=ident
+ ifier&sharepoi=Gamla-%25%25u4219B
 SUMMARY:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik. 
   \, Föreläsning
-LOCATION:
-DESCRIPTION:F5\nID 4145380
+LOCATION:Plats: 4219 B\, Gamla Torget 6
+DESCRIPTION:F5 \nKarta: http://use.mazemap.com/?v=1&campusid=49&campuses=u
+ u&sharepoitype=identifier&sharepoi=Gamla-%25%25u4219B\nID 4145380
 X-FEED:Kursschema
 X-COURSE:Immaterialrätt och affärsjuridik
 X-BASE-UID:e949b2a174f49a92bcac3d92@timeedit-arkiv
@@ -2744,43 +2723,46 @@ X-COURSE:Vetenskapliga metoder för industriell ekonomi
 X-BASE-UID:1f4de3ba68b26b1cd2d7b734@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20261215T081500Z
-DTEND:20261215T130000Z
-UID:f68845e8690940bf5586f8e1.fe7042@timeedit-arkiv
-DTSTAMP:20260910T113133Z
-LAST-MODIFIED:20260910T113133Z
+DTSTART:20261214T081500Z
+DTEND:20261214T130000Z
+UID:a953a76d02bdb69901359f82.fe7042@timeedit-arkiv
+DTSTAMP:20260914T130238Z
+LAST-MODIFIED:20260914T130238Z
 URL:https://link.mazemap.com/amionBdN
 SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Redovisning
 LOCATION:Plats: 90103\, Ångström
 DESCRIPTION:Karta: https://link.mazemap.com/amionBdN\nID 4145337
 X-FEED:Kursschema
 X-COURSE:Teknik\, affärsutveckling och ledning
-X-BASE-UID:f68845e8690940bf5586f8e1@timeedit-arkiv
+X-BASE-UID:a953a76d02bdb69901359f82@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20261216T081500Z
-DTEND:20261216T130000Z
-UID:92b0edd703b0166993fffd17.fe7042@timeedit-arkiv
-DTSTAMP:20260910T113133Z
-LAST-MODIFIED:20260910T113133Z
+DTSTART:20261215T081500Z
+DTEND:20261215T130000Z
+UID:64dbef0d4082c41013c79b94.fe7042@timeedit-arkiv
+DTSTAMP:20260914T130238Z
+LAST-MODIFIED:20260914T130238Z
 URL:https://link.mazemap.com/amionBdN
 SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Redovisning
 LOCATION:Plats: 90103\, Ångström
 DESCRIPTION:Karta: https://link.mazemap.com/amionBdN\nID 4145338
 X-FEED:Kursschema
 X-COURSE:Teknik\, affärsutveckling och ledning
-X-BASE-UID:92b0edd703b0166993fffd17@timeedit-arkiv
+X-BASE-UID:64dbef0d4082c41013c79b94@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261217T121500Z
 DTEND:20261217T140000Z
 UID:4bbbd70abd2106e14dffe813.fe7042@timeedit-arkiv
-DTSTAMP:20260910T113133Z
-LAST-MODIFIED:20260910T113133Z
+DTSTAMP:20260914T130238Z
+LAST-MODIFIED:20260914T130238Z
+URL:http://use.mazemap.com/?v=1&campusid=49&campuses=uu&sharepoitype=ident
+ ifier&sharepoi=Universitetshuset-232
 SUMMARY:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik. 
   \, Seminarium
-LOCATION:
-DESCRIPTION:S6\nID 4145382
+LOCATION:Plats: Sal XI\, Universitetshuset
+DESCRIPTION:S6 \nKarta: http://use.mazemap.com/?v=1&campusid=49&campuses=u
+ u&sharepoitype=identifier&sharepoi=Universitetshuset-232\nID 4145382
 X-FEED:Kursschema
 X-COURSE:Immaterialrätt och affärsjuridik
 X-BASE-UID:4bbbd70abd2106e14dffe813@timeedit-arkiv
