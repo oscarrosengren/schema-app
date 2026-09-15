@@ -128,11 +128,11 @@ X-COURSE:Vetenskapliga metoder för industriell ekonomi
 X-BASE-UID:4ca72dc4677fec1398aa69ee@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20261019T071500Z
-DTEND:20261019T100000Z
-UID:0b4388dcbbc5d98efb463ab4.2dfcc0@timeedit-arkiv
-DTSTAMP:20260903T093800Z
-LAST-MODIFIED:20260903T093800Z
+DTSTART:20261019T111500Z
+DTEND:20261019T140000Z
+UID:d34319e043646b5a081f9f57.2dfcc0@timeedit-arkiv
+DTSTAMP:20260915T115340Z
+LAST-MODIFIED:20260915T115340Z
 URL:https://link.mazemap.com/9k0ozy8o
 SUMMARY:I5\, Vetenskapliga metoder för industriell ekonomi.  \, Seminariu
  m
@@ -140,7 +140,7 @@ LOCATION:Plats: 11137\, Ångström
 DESCRIPTION:S7 \nKarta: https://link.mazemap.com/9k0ozy8o\nID 4067880
 X-FEED:Kursschema
 X-COURSE:Vetenskapliga metoder för industriell ekonomi
-X-BASE-UID:0b4388dcbbc5d98efb463ab4@timeedit-arkiv
+X-BASE-UID:d34319e043646b5a081f9f57@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261026T081500Z
