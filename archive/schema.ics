@@ -1232,6 +1232,20 @@ X-COURSE:Automatiserings- och robotteknik
 X-BASE-UID:91d544598bb2123e2405876c@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
+DTSTART:20260930T110000Z
+DTEND:20260930T120000Z
+UID:ad72ebd2008eb0c5def8e702.fe7042@timeedit-arkiv
+DTSTAMP:20260928T141123Z
+LAST-MODIFIED:20260928T141123Z
+SUMMARY:I5\, Vetenskapliga metoder för industriell ekonomi.  \, Seminariu
+ m
+LOCATION:Plats: Via Zoom
+DESCRIPTION:Book Club meeting #1\nID 4178653
+X-FEED:Kursschema
+X-COURSE:Vetenskapliga metoder för industriell ekonomi
+X-BASE-UID:ad72ebd2008eb0c5def8e702@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
 DTSTART:20261002T061500Z
 DTEND:20261002T080000Z
 UID:6b46b1ed56a78675cf95c67f.fe7042@timeedit-arkiv
@@ -1284,13 +1298,11 @@ BEGIN:VEVENT
 DTSTART:20261005T071500Z
 DTEND:20261005T100000Z
 UID:a5fe2423ffe9d45fa6ab04c5.fe7042@timeedit-arkiv
-DTSTAMP:20260903T093800Z
-LAST-MODIFIED:20260903T093800Z
-URL:https://link.mazemap.com/vwT0yEDa
-SUMMARY:I5\, Vetenskapliga metoder för industriell ekonomi.  \, Seminariu
- m
-LOCATION:Plats: 90102\, Ångström
-DESCRIPTION:S5 \nKarta: https://link.mazemap.com/vwT0yEDa\nID 4067874
+DTSTAMP:20260928T141123Z
+LAST-MODIFIED:20260928T141123Z
+SUMMARY:I5\, Vetenskapliga metoder för industriell ekonomi.  \, INSTÄLLD
+LOCATION:
+DESCRIPTION:S5\nID 4067874
 X-FEED:Kursschema
 X-COURSE:Vetenskapliga metoder för industriell ekonomi
 X-BASE-UID:a5fe2423ffe9d45fa6ab04c5@timeedit-arkiv
@@ -2085,6 +2097,20 @@ X-COURSE:Teknik\, affärsutveckling och ledning
 X-BASE-UID:c6adaf7b613fe07eef24be3a@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
+DTSTART:20261028T100000Z
+DTEND:20261028T110000Z
+UID:1b97c0c92b020078c0f19309.fe7042@timeedit-arkiv
+DTSTAMP:20260928T141123Z
+LAST-MODIFIED:20260928T141123Z
+SUMMARY:I5\, Vetenskapliga metoder för industriell ekonomi.  \, Seminariu
+ m
+LOCATION:Plats: Via Zoom
+DESCRIPTION:Book Club meeting #2\nID 4178654
+X-FEED:Kursschema
+X-COURSE:Vetenskapliga metoder för industriell ekonomi
+X-BASE-UID:1b97c0c92b020078c0f19309@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
 DTSTART:20261029T081500Z
 DTEND:20261029T110000Z
 UID:d80d56e2275426c7ffeb9501.fe7042@timeedit-arkiv
@@ -2575,6 +2601,20 @@ DESCRIPTION:F3 \nKarta: https://link.mazemap.com/amionBdN\nID 4145328
 X-FEED:Kursschema
 X-COURSE:Teknik\, affärsutveckling och ledning
 X-BASE-UID:ee1db0f110f8a79108fb56bb@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261202T100000Z
+DTEND:20261202T110000Z
+UID:6ec5ba071c62f8554335a5c7.fe7042@timeedit-arkiv
+DTSTAMP:20260928T141123Z
+LAST-MODIFIED:20260928T141123Z
+SUMMARY:I5\, Vetenskapliga metoder för industriell ekonomi.  \, Seminariu
+ m
+LOCATION:Plats: Via Zoom
+DESCRIPTION:Book Club meeting #3\nID 4178655
+X-FEED:Kursschema
+X-COURSE:Vetenskapliga metoder för industriell ekonomi
+X-BASE-UID:6ec5ba071c62f8554335a5c7@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261204T091500Z

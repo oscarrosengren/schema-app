@@ -98,16 +98,28 @@ X-COURSE:Vetenskapliga metoder för industriell ekonomi
 X-BASE-UID:9c17fa93382fd616d401ad59@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
+DTSTART:20260930T110000Z
+DTEND:20260930T120000Z
+UID:ad72ebd2008eb0c5def8e702.2dfcc0@timeedit-arkiv
+DTSTAMP:20260928T141123Z
+LAST-MODIFIED:20260928T141123Z
+SUMMARY:I5\, Vetenskapliga metoder för industriell ekonomi.  \, Seminariu
+ m
+LOCATION:Plats: Via Zoom
+DESCRIPTION:Book Club meeting #1\nID 4178653
+X-FEED:Kursschema
+X-COURSE:Vetenskapliga metoder för industriell ekonomi
+X-BASE-UID:ad72ebd2008eb0c5def8e702@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
 DTSTART:20261005T071500Z
 DTEND:20261005T100000Z
 UID:a5fe2423ffe9d45fa6ab04c5.2dfcc0@timeedit-arkiv
-DTSTAMP:20260903T093800Z
-LAST-MODIFIED:20260903T093800Z
-URL:https://link.mazemap.com/vwT0yEDa
-SUMMARY:I5\, Vetenskapliga metoder för industriell ekonomi.  \, Seminariu
- m
-LOCATION:Plats: 90102\, Ångström
-DESCRIPTION:S5 \nKarta: https://link.mazemap.com/vwT0yEDa\nID 4067874
+DTSTAMP:20260928T141123Z
+LAST-MODIFIED:20260928T141123Z
+SUMMARY:I5\, Vetenskapliga metoder för industriell ekonomi.  \, INSTÄLLD
+LOCATION:
+DESCRIPTION:S5\nID 4067874
 X-FEED:Kursschema
 X-COURSE:Vetenskapliga metoder för industriell ekonomi
 X-BASE-UID:a5fe2423ffe9d45fa6ab04c5@timeedit-arkiv
@@ -156,6 +168,20 @@ DESCRIPTION:S8 \nKarta: https://link.mazemap.com/6QSBVI2i\nID 4067882
 X-FEED:Kursschema
 X-COURSE:Vetenskapliga metoder för industriell ekonomi
 X-BASE-UID:cb0f3bac65519afc642b6d45@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261028T100000Z
+DTEND:20261028T110000Z
+UID:1b97c0c92b020078c0f19309.2dfcc0@timeedit-arkiv
+DTSTAMP:20260928T141123Z
+LAST-MODIFIED:20260928T141123Z
+SUMMARY:I5\, Vetenskapliga metoder för industriell ekonomi.  \, Seminariu
+ m
+LOCATION:Plats: Via Zoom
+DESCRIPTION:Book Club meeting #2\nID 4178654
+X-FEED:Kursschema
+X-COURSE:Vetenskapliga metoder för industriell ekonomi
+X-BASE-UID:1b97c0c92b020078c0f19309@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261102T081500Z
@@ -231,6 +257,20 @@ DESCRIPTION:S14 \nKarta: https://link.mazemap.com/9k0ozy8o\nID 4144774
 X-FEED:Kursschema
 X-COURSE:Vetenskapliga metoder för industriell ekonomi
 X-BASE-UID:a7f29839ba0535917799ee68@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261202T100000Z
+DTEND:20261202T110000Z
+UID:6ec5ba071c62f8554335a5c7.2dfcc0@timeedit-arkiv
+DTSTAMP:20260928T141123Z
+LAST-MODIFIED:20260928T141123Z
+SUMMARY:I5\, Vetenskapliga metoder för industriell ekonomi.  \, Seminariu
+ m
+LOCATION:Plats: Via Zoom
+DESCRIPTION:Book Club meeting #3\nID 4178655
+X-FEED:Kursschema
+X-COURSE:Vetenskapliga metoder för industriell ekonomi
+X-BASE-UID:6ec5ba071c62f8554335a5c7@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261207T081500Z
