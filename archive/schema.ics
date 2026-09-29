@@ -2246,11 +2246,11 @@ BEGIN:VEVENT
 DTSTART:20261112T071500Z
 DTEND:20261112T160000Z
 UID:1fa44aa252a07ccc5081cb8a.fe7042@timeedit-arkiv
-DTSTAMP:20260909T164558Z
-LAST-MODIFIED:20260909T164558Z
+DTSTAMP:20260929T222439Z
+LAST-MODIFIED:20260929T222439Z
 SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Studiebesök
 LOCATION:
-DESCRIPTION:Cytiva\nID 4114253
+DESCRIPTION:Sandvik Coromant Visit\nID 4114253
 X-FEED:Kursschema
 X-COURSE:Teknik\, affärsutveckling och ledning
 X-BASE-UID:1fa44aa252a07ccc5081cb8a@timeedit-arkiv
@@ -2392,12 +2392,14 @@ BEGIN:VEVENT
 DTSTART:20261120T081500Z
 DTEND:20261120T140000Z
 UID:b46988b0bf5ff92b25b00750.fe7042@timeedit-arkiv
-DTSTAMP:20260909T164558Z
-LAST-MODIFIED:20260909T164558Z
+DTSTAMP:20260929T222439Z
+LAST-MODIFIED:20260929T222439Z
 URL:https://link.mazemap.com/amionBdN
 SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Redovisning
 LOCATION:Plats: 90103\, Ångström
-DESCRIPTION:Karta: https://link.mazemap.com/amionBdN\nID 4144639
+DESCRIPTION:Group  Oral Project Presentations \nGroup  Oral Project Presen
+ tations \n \nGroups 1- 10 \nKarta: https://link.mazemap.com/amionBdN\nID 
+ 4144639
 X-FEED:Kursschema
 X-COURSE:Teknik\, affärsutveckling och ledning
 X-BASE-UID:b46988b0bf5ff92b25b00750@timeedit-arkiv
@@ -2423,12 +2425,14 @@ BEGIN:VEVENT
 DTSTART:20261123T081500Z
 DTEND:20261123T140000Z
 UID:346ce63ced96a249da7b0ec5.fe7042@timeedit-arkiv
-DTSTAMP:20260909T164558Z
-LAST-MODIFIED:20260909T164558Z
+DTSTAMP:20260929T222439Z
+LAST-MODIFIED:20260929T222439Z
 URL:https://link.mazemap.com/9k0ozy8o
 SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Redovisning
 LOCATION:Plats: 11137\, Ångström
-DESCRIPTION:Karta: https://link.mazemap.com/9k0ozy8o\nID 4144640
+DESCRIPTION:Group  Oral Project Presentations \nGroup  Oral Project Presen
+ tations \nGroups 11-20 \nKarta: https://link.mazemap.com/9k0ozy8o\nID 414
+ 4640
 X-FEED:Kursschema
 X-COURSE:Teknik\, affärsutveckling och ledning
 X-BASE-UID:346ce63ced96a249da7b0ec5@timeedit-arkiv
@@ -2504,18 +2508,19 @@ BEGIN:VEVENT
 DTSTART:20261126T081500Z
 DTEND:20261126T110000Z
 UID:159a81b3a26514a74525a370.fe7042@timeedit-arkiv
-DTSTAMP:20260910T113133Z
-LAST-MODIFIED:20260910T113133Z
+DTSTAMP:20260929T222439Z
+LAST-MODIFIED:20260929T222439Z
 URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
  %C3%85ngstr%C3%B6m-101172
 SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Seminarium
 LOCATION:Plats: 101172\, Ångström \nPlats: 101258\, Ångström \nPlats: 
  101260\, Ångström
-DESCRIPTION:S19 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype
- =identifier&sharepoi=%C3%85ngstr%C3%B6m-101172 \nKarta: https://use.mazem
+DESCRIPTION:S19 \nBook Seminar 4  : The Servant \nKarta: https://use.mazem
  ap.com/?campusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6m-1
- 01258 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype=identifi
- er&sharepoi=%C3%85ngstr%C3%B6m-101260\nID 4145326
+ 01172 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype=identifi
+ er&sharepoi=%C3%85ngstr%C3%B6m-101258 \nKarta: https://use.mazemap.com/?c
+ ampusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6m-101260\nID
+  4145326
 X-FEED:Kursschema
 X-COURSE:Teknik\, affärsutveckling och ledning
 X-BASE-UID:159a81b3a26514a74525a370@timeedit-arkiv
@@ -2688,12 +2693,13 @@ BEGIN:VEVENT
 DTSTART:20261208T081500Z
 DTEND:20261208T110000Z
 UID:2985505ab88e7086cd14c583.fe7042@timeedit-arkiv
-DTSTAMP:20260915T115340Z
-LAST-MODIFIED:20260915T115340Z
+DTSTAMP:20260929T222439Z
+LAST-MODIFIED:20260929T222439Z
 URL:https://link.mazemap.com/zNWgHN9c
 SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Föreläsning
 LOCATION:Plats: 80121\, Ångström
-DESCRIPTION:F4 \nKarta: https://link.mazemap.com/zNWgHN9c\nID 4145332
+DESCRIPTION:F4 \nHitachi Energy Visit \nKarta: https://link.mazemap.com/zN
+ WgHN9c\nID 4145332
 X-FEED:Kursschema
 X-COURSE:Teknik\, affärsutveckling och ledning
 X-BASE-UID:2985505ab88e7086cd14c583@timeedit-arkiv
