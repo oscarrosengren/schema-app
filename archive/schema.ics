@@ -2211,6 +2211,23 @@ X-COURSE:Avancerad simulering och preskriptiv analys
 X-BASE-UID:fe803423b0907882292df0cf@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
+DTSTART:20261109T091500Z
+DTEND:20261109T110000Z
+UID:98920008f9840c7768b45603.fe7042@timeedit-arkiv
+DTSTAMP:20260929T130710Z
+LAST-MODIFIED:20260929T130710Z
+URL:http://use.mazemap.com/?v=1&campusid=49&campuses=uu&sharepoitype=ident
+ ifier&sharepoi=Gamla-%25%25u4219B
+SUMMARY:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik. 
+  \, Föreläsning
+LOCATION:Plats: 4219 B\, Gamla Torget 6
+DESCRIPTION:F2 \nKarta: http://use.mazemap.com/?v=1&campusid=49&campuses=u
+ u&sharepoitype=identifier&sharepoi=Gamla-%25%25u4219B\nID 4145359
+X-FEED:Kursschema
+X-COURSE:Immaterialrätt och affärsjuridik
+X-BASE-UID:98920008f9840c7768b45603@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
 DTSTART:20261109T121500Z
 DTEND:20261109T150000Z
 UID:a441415c7e4afe15dc35b880.fe7042@timeedit-arkiv
@@ -2224,23 +2241,6 @@ DESCRIPTION:S11 \nKarta: https://link.mazemap.com/amionBdN\nID 4144760
 X-FEED:Kursschema
 X-COURSE:Vetenskapliga metoder för industriell ekonomi
 X-BASE-UID:a441415c7e4afe15dc35b880@timeedit-arkiv
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20261110T091500Z
-DTEND:20261110T110000Z
-UID:b8c06ca3e44fa60f939c1ee2.fe7042@timeedit-arkiv
-DTSTAMP:20260914T130238Z
-LAST-MODIFIED:20260914T130238Z
-URL:http://use.mazemap.com/?v=1&campusid=49&campuses=uu&sharepoitype=ident
- ifier&sharepoi=Gamla-%25%25u4219B
-SUMMARY:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik. 
-  \, Föreläsning
-LOCATION:Plats: 4219 B\, Gamla Torget 6
-DESCRIPTION:F2 \nKarta: http://use.mazemap.com/?v=1&campusid=49&campuses=u
- u&sharepoitype=identifier&sharepoi=Gamla-%25%25u4219B\nID 4145359
-X-FEED:Kursschema
-X-COURSE:Immaterialrätt och affärsjuridik
-X-BASE-UID:b8c06ca3e44fa60f939c1ee2@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261112T071500Z

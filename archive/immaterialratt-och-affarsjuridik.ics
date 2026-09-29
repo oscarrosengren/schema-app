@@ -25,11 +25,11 @@ X-COURSE:Immaterialrätt och affärsjuridik
 X-BASE-UID:83f3c3b7b612a29fd2d43071@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20261110T091500Z
-DTEND:20261110T110000Z
-UID:b8c06ca3e44fa60f939c1ee2.0bdd32@timeedit-arkiv
-DTSTAMP:20260914T130238Z
-LAST-MODIFIED:20260914T130238Z
+DTSTART:20261109T091500Z
+DTEND:20261109T110000Z
+UID:98920008f9840c7768b45603.0bdd32@timeedit-arkiv
+DTSTAMP:20260929T130710Z
+LAST-MODIFIED:20260929T130710Z
 URL:http://use.mazemap.com/?v=1&campusid=49&campuses=uu&sharepoitype=ident
  ifier&sharepoi=Gamla-%25%25u4219B
 SUMMARY:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik. 
@@ -39,7 +39,7 @@ DESCRIPTION:F2 \nKarta: http://use.mazemap.com/?v=1&campusid=49&campuses=u
  u&sharepoitype=identifier&sharepoi=Gamla-%25%25u4219B\nID 4145359
 X-FEED:Kursschema
 X-COURSE:Immaterialrätt och affärsjuridik
-X-BASE-UID:b8c06ca3e44fa60f939c1ee2@timeedit-arkiv
+X-BASE-UID:98920008f9840c7768b45603@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261113T091500Z
