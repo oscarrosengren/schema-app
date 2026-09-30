@@ -66,6 +66,19 @@ kurskalendrarna — inte båda, då syns varje pass två gånger.
 
 Samma URL:er fungerar i Apple Kalender (Arkiv → Ny kalenderprenumeration) och Outlook.
 
+### Ge bort schemat utan vissa kurser
+Hela schemat minus valfria kurser, som **en** länk: `utan-` följt av kursernas
+filnamn (från tabellen ovan, utan `.ics`) med `+` emellan.
+
+```
+https://schema-app-opal.vercel.app/cal/utan-reglerteknik-ii+industriell-ekonomi.ics
+https://schema-app-opal.vercel.app/cal/utan-industriell-ekonomi.ics
+```
+
+Ordningen spelar ingen roll. Ett felstavat kursnamn ger 404 istället för en kalender
+som tyst innehåller allt. Det du döljer i appen döljs även här. Varje kombination får
+eget UID-rum, så den går att prenumerera på bredvid `schema.ics` utan att passen slås ihop.
+
 ## Dölja pass från appen
 Det som är avmarkerat i appen ligger inte i kalendrarna Google hämtar. Två sätt:
 
