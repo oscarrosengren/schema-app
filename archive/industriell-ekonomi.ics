@@ -448,16 +448,19 @@ BEGIN:VEVENT
 DTSTART:20261019T131500Z
 DTEND:20261019T150000Z
 UID:f17ad208e73f4bdb091974a1.a60039@timeedit-arkiv
-DTSTAMP:20260903T093800Z
-LAST-MODIFIED:20260903T093800Z
+DTSTAMP:20261009T062112Z
+LAST-MODIFIED:20261009T062112Z
 URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
- %C3%85ngstr%C3%B6m-101162
+ %C3%85ngstr%C3%B6m-101142
 SUMMARY:E3\, MI2\, MTI3\, Industriell ekonomi.  \, Seminarium
-LOCATION:Plats: 101162\, Ångström \nPlats: 101166\, Ångström
+LOCATION:Plats: 101142\, Ångström \nPlats: 101162\, Ångström \nPlats: 
+ 101166\, Ångström
 DESCRIPTION:S12 Seminarium och inlämningsuppgift 3 \nKarta: https://use.m
  azemap.com/?campusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B
- 6m-101162 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype=iden
- tifier&sharepoi=%C3%85ngstr%C3%B6m-101166\nID 4046974
+ 6m-101142 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype=iden
+ tifier&sharepoi=%C3%85ngstr%C3%B6m-101162 \nKarta: https://use.mazemap.co
+ m/?campusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6m-101166
+ \nID 4046974
 X-FEED:Industriell ekonomi
 X-COURSE:Industriell ekonomi
 X-BASE-UID:f17ad208e73f4bdb091974a1@timeedit-arkiv
@@ -474,6 +477,23 @@ DESCRIPTION:F2 Frågestund inför tentan\nID 4046983
 X-FEED:Industriell ekonomi
 X-COURSE:Industriell ekonomi
 X-BASE-UID:84df923bd7698403e9845efd@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261020T131500Z
+DTEND:20261020T150000Z
+UID:23b0c2ff4d041d2f4af1a5a0.a60039@timeedit-arkiv
+DTSTAMP:20261009T062112Z
+LAST-MODIFIED:20261009T062112Z
+URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
+ %C3%85ngstr%C3%B6m-101142
+SUMMARY:E3\, MI2\, MTI3\, Industriell ekonomi.  \, Seminarium
+LOCATION:Plats: 101142\, Ångström
+DESCRIPTION:S12 Seminarium och inlämningsuppgift 3 \nKarta: https://use.m
+ azemap.com/?campusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B
+ 6m-101142\nID 4201949
+X-FEED:Industriell ekonomi
+X-COURSE:Industriell ekonomi
+X-BASE-UID:23b0c2ff4d041d2f4af1a5a0@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261026T070000Z
