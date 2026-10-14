@@ -181,12 +181,15 @@ BEGIN:VEVENT
 DTSTART:20261209T121500Z
 DTEND:20261209T150000Z
 UID:1a44f077cc7b9bde607634d0.68a1a9@timeedit-arkiv
-DTSTAMP:20261008T232700Z
-LAST-MODIFIED:20261008T232700Z
+DTSTAMP:20261014T172124Z
+LAST-MODIFIED:20261014T172124Z
+URL:https://link.mazemap.com/JPQDTMuo
 SUMMARY:I5.IAD\, MasIndAnalys2\, Avancerad simulering och preskriptiv anal
  ys.  \, Laboration
-LOCATION:
-DESCRIPTION:Lab 6\nID 4145539
+LOCATION:Plats: 6K1101\, Datorsal\, Ångström \nPlats: 6K1107\, Datorsal\
+ , Ångström
+DESCRIPTION:Lab 6 \nKarta: https://link.mazemap.com/JPQDTMuo \nKarta: http
+ s://link.mazemap.com/jSJWxUr7\nID 4145539
 X-FEED:Kursschema
 X-COURSE:Avancerad simulering och preskriptiv analys
 X-BASE-UID:1a44f077cc7b9bde607634d0@timeedit-arkiv
