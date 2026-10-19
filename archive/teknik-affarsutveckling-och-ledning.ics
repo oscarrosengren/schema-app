@@ -374,16 +374,14 @@ X-BASE-UID:d2298ab105f90b9da7f77935@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261120T081500Z
-DTEND:20261120T140000Z
+DTEND:20261120T110000Z
 UID:b46988b0bf5ff92b25b00750.53097f@timeedit-arkiv
-DTSTAMP:20260929T222439Z
-LAST-MODIFIED:20260929T222439Z
+DTSTAMP:20261019T222858Z
+LAST-MODIFIED:20261019T222858Z
 URL:https://link.mazemap.com/amionBdN
-SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Redovisning
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Föreläsning
 LOCATION:Plats: 90103\, Ångström
-DESCRIPTION:Group  Oral Project Presentations \nGroup  Oral Project Presen
- tations \n \nGroups 1- 10 \nKarta: https://link.mazemap.com/amionBdN\nID 
- 4144639
+DESCRIPTION:F3 \nKarta: https://link.mazemap.com/amionBdN\nID 4144639
 X-FEED:Kursschema
 X-COURSE:Teknik\, affärsutveckling och ledning
 X-BASE-UID:b46988b0bf5ff92b25b00750@timeedit-arkiv
@@ -392,13 +390,13 @@ BEGIN:VEVENT
 DTSTART:20261123T081500Z
 DTEND:20261123T140000Z
 UID:346ce63ced96a249da7b0ec5.53097f@timeedit-arkiv
-DTSTAMP:20260929T222439Z
-LAST-MODIFIED:20260929T222439Z
+DTSTAMP:20261019T222858Z
+LAST-MODIFIED:20261019T222858Z
 URL:https://link.mazemap.com/9k0ozy8o
 SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Redovisning
 LOCATION:Plats: 11137\, Ångström
 DESCRIPTION:Group  Oral Project Presentations \nGroup  Oral Project Presen
- tations \nGroups 11-20 \nKarta: https://link.mazemap.com/9k0ozy8o\nID 414
+ tations \nGroups 10-18 \nKarta: https://link.mazemap.com/9k0ozy8o\nID 414
  4640
 X-FEED:Kursschema
 X-COURSE:Teknik\, affärsutveckling och ledning
@@ -406,18 +404,19 @@ X-BASE-UID:346ce63ced96a249da7b0ec5@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261124T081500Z
-DTEND:20261124T110000Z
+DTEND:20261124T140000Z
 UID:4059cd94d48cb5b762152022.53097f@timeedit-arkiv
-DTSTAMP:20260910T113133Z
-LAST-MODIFIED:20260910T113133Z
+DTSTAMP:20261019T222858Z
+LAST-MODIFIED:20261019T222858Z
 URL:https://use.mazemap.com/#v=1&config=uu&campusid=49&search=%C3%85ngstr%
  C3%B6m%202002&zlevel=1&center=17.647534\,59.839256&zoom=19.9&sharepoitype
  =poi&sharepoi=390532
-SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Föreläsning
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Redovisning
 LOCATION:Plats: 2005\, Ångström
-DESCRIPTION:Karta: https://use.mazemap.com/#v=1&config=uu&campusid=49&sear
- ch=%C3%85ngstr%C3%B6m%202002&zlevel=1&center=17.647534\,59.839256&zoom=19
- .9&sharepoitype=poi&sharepoi=390532\nID 4145325
+DESCRIPTION:Group oral presentatons - Group 11-18 \nKarta: https://use.maz
+ emap.com/#v=1&config=uu&campusid=49&search=%C3%85ngstr%C3%B6m%202002&zlev
+ el=1&center=17.647534\,59.839256&zoom=19.9&sharepoitype=poi&sharepoi=3905
+ 32\nID 4145325
 X-FEED:Kursschema
 X-COURSE:Teknik\, affärsutveckling och ledning
 X-BASE-UID:4059cd94d48cb5b762152022@timeedit-arkiv
@@ -447,12 +446,12 @@ BEGIN:VEVENT
 DTSTART:20261201T081500Z
 DTEND:20261201T110000Z
 UID:ee1db0f110f8a79108fb56bb.53097f@timeedit-arkiv
-DTSTAMP:20260915T115340Z
-LAST-MODIFIED:20260915T115340Z
+DTSTAMP:20261019T222858Z
+LAST-MODIFIED:20261019T222858Z
 URL:https://link.mazemap.com/amionBdN
 SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Föreläsning
 LOCATION:Plats: 90103\, Ångström
-DESCRIPTION:F3 \nKarta: https://link.mazemap.com/amionBdN\nID 4145328
+DESCRIPTION:F4 \nKarta: https://link.mazemap.com/amionBdN\nID 4145328
 X-FEED:Kursschema
 X-COURSE:Teknik\, affärsutveckling och ledning
 X-BASE-UID:ee1db0f110f8a79108fb56bb@timeedit-arkiv
@@ -461,12 +460,12 @@ BEGIN:VEVENT
 DTSTART:20261208T081500Z
 DTEND:20261208T110000Z
 UID:2985505ab88e7086cd14c583.53097f@timeedit-arkiv
-DTSTAMP:20260929T222439Z
-LAST-MODIFIED:20260929T222439Z
+DTSTAMP:20261019T222858Z
+LAST-MODIFIED:20261019T222858Z
 URL:https://link.mazemap.com/zNWgHN9c
 SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Föreläsning
 LOCATION:Plats: 80121\, Ångström
-DESCRIPTION:F4 \nHitachi Energy Visit \nKarta: https://link.mazemap.com/zN
+DESCRIPTION:F5 \nHitachi Energy Visit \nKarta: https://link.mazemap.com/zN
  WgHN9c\nID 4145332
 X-FEED:Kursschema
 X-COURSE:Teknik\, affärsutveckling och ledning
