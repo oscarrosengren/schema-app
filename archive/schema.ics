@@ -2154,6 +2154,20 @@ X-COURSE:Teknik\, affärsutveckling och ledning
 X-BASE-UID:d80d56e2275426c7ffeb9501@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
+DTSTART:20261029T121500Z
+DTEND:20261029T140000Z
+UID:1e501fa0e32f43e20e306d93.fe7042@timeedit-arkiv
+DTSTAMP:20261021T120257Z
+LAST-MODIFIED:20261021T120257Z
+URL:https://link.mazemap.com/LYGoYSyr
+SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Föreläsning
+LOCATION:Plats: 80127\, Ångström
+DESCRIPTION:Karta: https://link.mazemap.com/LYGoYSyr\nID 4227086
+X-FEED:Kursschema
+X-COURSE:Teknik\, affärsutveckling och ledning
+X-BASE-UID:1e501fa0e32f43e20e306d93@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261031
 UID:766670e46dd3f1a369f46fae.fe7042@timeedit-arkiv
@@ -2388,26 +2402,6 @@ X-COURSE:Avancerad simulering och preskriptiv analys
 X-BASE-UID:c15e98cc7de4ea1b702ec43c@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20261119T081500Z
-DTEND:20261119T110000Z
-UID:914fddb22b50b172738959c5.fe7042@timeedit-arkiv
-DTSTAMP:20260910T113133Z
-LAST-MODIFIED:20260910T113133Z
-URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
- %C3%85ngstr%C3%B6m-101154
-SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Seminarium
-LOCATION:Plats: 101154\, Grupprum\, Ångström \nPlats: 101162\, Ångströ
- m \nPlats: 101166\, Ångström
-DESCRIPTION:S18 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype
- =identifier&sharepoi=%C3%85ngstr%C3%B6m-101154 \nKarta: https://use.mazem
- ap.com/?campusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6m-1
- 01162 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype=identifi
- er&sharepoi=%C3%85ngstr%C3%B6m-101166\nID 4144643
-X-FEED:Kursschema
-X-COURSE:Teknik\, affärsutveckling och ledning
-X-BASE-UID:914fddb22b50b172738959c5@timeedit-arkiv
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20261119T121500Z
 DTEND:20261119T140000Z
 UID:d2298ab105f90b9da7f77935.fe7042@timeedit-arkiv
@@ -2542,14 +2536,14 @@ BEGIN:VEVENT
 DTSTART:20261126T081500Z
 DTEND:20261126T110000Z
 UID:159a81b3a26514a74525a370.fe7042@timeedit-arkiv
-DTSTAMP:20260929T222439Z
-LAST-MODIFIED:20260929T222439Z
+DTSTAMP:20261021T120257Z
+LAST-MODIFIED:20261021T120257Z
 URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
  %C3%85ngstr%C3%B6m-101172
 SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Seminarium
 LOCATION:Plats: 101172\, Ångström \nPlats: 101258\, Ångström \nPlats: 
  101260\, Ångström
-DESCRIPTION:S19 \nBook Seminar 4  : The Servant \nKarta: https://use.mazem
+DESCRIPTION:S18 \nBook Seminar 4  : The Servant \nKarta: https://use.mazem
  ap.com/?campusid=49&sharepoitype=identifier&sharepoi=%C3%85ngstr%C3%B6m-1
  01172 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype=identifi
  er&sharepoi=%C3%85ngstr%C3%B6m-101258 \nKarta: https://use.mazemap.com/?c
