@@ -2106,12 +2106,17 @@ BEGIN:VEVENT
 DTSTART:20261027T081500Z
 DTEND:20261027T110000Z
 UID:c6adaf7b613fe07eef24be3a.fe7042@timeedit-arkiv
-DTSTAMP:20260909T113447Z
-LAST-MODIFIED:20260909T113447Z
-URL:https://link.mazemap.com/6QSBVI2i
+DTSTAMP:20261026T131915Z
+LAST-MODIFIED:20261026T131915Z
+URL:http://use.mazemap.com/?v=1&campusid=49&campuses=uu&sharepoitype=ident
+ ifier&sharepoi=Ångström-12167
 SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Föreläsning
-LOCATION:Plats: 90101\, Ångström
-DESCRIPTION:Karta: https://link.mazemap.com/6QSBVI2i\nID 4144422
+LOCATION:Plats: 12167\, Ångström \nPlats: 90101\, Ångström \nPlats: 90
+ 104\, Ångström \nPlats: 90106\, Ångström
+DESCRIPTION:Karta: http://use.mazemap.com/?v=1&campusid=49&campuses=uu&sha
+ repoitype=identifier&sharepoi=Ångström-12167 \nKarta: https://link.maze
+ map.com/6QSBVI2i \nKarta: https://link.mazemap.com/IwKnqGc1 \nKarta: http
+ s://link.mazemap.com/JK5kFxSg\nID 4144422
 X-FEED:Kursschema
 X-COURSE:Teknik\, affärsutveckling och ledning
 X-BASE-UID:c6adaf7b613fe07eef24be3a@timeedit-arkiv
