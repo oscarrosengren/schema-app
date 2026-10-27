@@ -2437,23 +2437,6 @@ X-COURSE:Teknik\, affärsutveckling och ledning
 X-BASE-UID:b46988b0bf5ff92b25b00750@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20261120T141500Z
-DTEND:20261120T160000Z
-UID:dd8ea7eca6a9136c24845a9c.fe7042@timeedit-arkiv
-DTSTAMP:20261014T120729Z
-LAST-MODIFIED:20261014T120729Z
-URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
- %C3%85ngstr%C3%B6m-101190
-SUMMARY:I5.IAD\, MasIndAnalys2\, Avancerad simulering och preskriptiv anal
- ys.  \, Lektion
-LOCATION:Plats: 101190\, Ångström
-DESCRIPTION:L3 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype=
- identifier&sharepoi=%C3%85ngstr%C3%B6m-101190\nID 4145521
-X-FEED:Kursschema
-X-COURSE:Avancerad simulering och preskriptiv analys
-X-BASE-UID:dd8ea7eca6a9136c24845a9c@timeedit-arkiv
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20261123T081500Z
 DTEND:20261123T140000Z
 UID:346ce63ced96a249da7b0ec5.fe7042@timeedit-arkiv
@@ -2593,6 +2576,21 @@ DESCRIPTION:Lab 4 \nKarta: https://use.mazemap.com/?campusid=49&sharepoity
 X-FEED:Kursschema
 X-COURSE:Avancerad simulering och preskriptiv analys
 X-BASE-UID:1d1db8ed145b434b3efd6bc8@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261127T121500Z
+DTEND:20261127T140000Z
+UID:3a92b89339426565d0db9e6c.fe7042@timeedit-arkiv
+DTSTAMP:20261027T222510Z
+LAST-MODIFIED:20261027T222510Z
+URL:https://link.mazemap.com/amionBdN
+SUMMARY:I5.IAD\, MasIndAnalys2\, Avancerad simulering och preskriptiv anal
+ ys.  \, Lektion
+LOCATION:Plats: 90103\, Ångström
+DESCRIPTION:L3 \nKarta: https://link.mazemap.com/amionBdN\nID 4240947
+X-FEED:Kursschema
+X-COURSE:Avancerad simulering och preskriptiv analys
+X-BASE-UID:3a92b89339426565d0db9e6c@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261127T121500Z
