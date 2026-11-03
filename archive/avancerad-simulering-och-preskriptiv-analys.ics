@@ -11,13 +11,12 @@ BEGIN:VEVENT
 DTSTART:20261106T091500Z
 DTEND:20261106T110000Z
 UID:87277c641c32a7f25c6af637.68a1a9@timeedit-arkiv
-DTSTAMP:20260910T113133Z
-LAST-MODIFIED:20260910T113133Z
-URL:https://link.mazemap.com/amionBdN
+DTSTAMP:20261103T193804Z
+LAST-MODIFIED:20261103T193804Z
 SUMMARY:I5.IAD\, MasIndAnalys2\, Avancerad simulering och preskriptiv anal
  ys.  \, Lektion
-LOCATION:Plats: 90103\, Ångström
-DESCRIPTION:L1 \nKarta: https://link.mazemap.com/amionBdN\nID 4145501
+LOCATION:Plats: Via Zoom
+DESCRIPTION:L1\nID 4145501
 X-FEED:Kursschema
 X-COURSE:Avancerad simulering och preskriptiv analys
 X-BASE-UID:87277c641c32a7f25c6af637@timeedit-arkiv
@@ -26,15 +25,12 @@ BEGIN:VEVENT
 DTSTART:20261106T121500Z
 DTEND:20261106T150000Z
 UID:fe803423b0907882292df0cf.68a1a9@timeedit-arkiv
-DTSTAMP:20260910T113133Z
-LAST-MODIFIED:20260910T113133Z
-URL:https://link.mazemap.com/VnlekcK7
+DTSTAMP:20261103T193804Z
+LAST-MODIFIED:20261103T193804Z
 SUMMARY:I5.IAD\, MasIndAnalys2\, Avancerad simulering och preskriptiv anal
- ys.  \, Laboration
-LOCATION:Plats: 4102\, Datorsal\, Ångström \nPlats: 6K1107\, Datorsal\, 
- Ångström
-DESCRIPTION:Lab 1 \nKarta: https://link.mazemap.com/VnlekcK7 \nKarta: http
- s://link.mazemap.com/jSJWxUr7\nID 4145503
+ ys.  \, Demonstration
+LOCATION:Plats: Via Zoom
+DESCRIPTION:Lab 1\nID 4145503
 X-FEED:Kursschema
 X-COURSE:Avancerad simulering och preskriptiv analys
 X-BASE-UID:fe803423b0907882292df0cf@timeedit-arkiv
