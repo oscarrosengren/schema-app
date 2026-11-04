@@ -7,6 +7,10 @@ Använd <https://schema-app-opal.vercel.app> — där gäller det du avmarkerar 
 Calendar. `index.html` fungerar också som lokal fil, men då sparas valet bara i
 webbläsaren.
 
+**Vill du ha en egen?** Ge [`SETUP-AGENT.md`](SETUP-AGENT.md) till en kodagent (t.ex.
+Claude Code) — den frågar efter dina TimeEdit-länkar och sätter upp GitHub, Vercel och
+Google Calendar åt dig.
+
 ## Funktioner
 - **Veckovy** med överlappande pass sida vid sida, och **listvy** över alla pass.
 - **Krockpanel** till höger: varje par av överlappande pass med datum, längd på överlappet
