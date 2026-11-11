@@ -2857,6 +2857,21 @@ X-COURSE:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik
 X-BASE-UID:53c95ad1c99404b182664d1f@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
+DTSTART:20261218T091500Z
+DTEND:20261218T141500Z
+UID:225242999559a5d64b3ac84b.fe7042@timeedit-arkiv
+DTSTAMP:20261111T194351Z
+LAST-MODIFIED:20261111T194351Z
+SUMMARY:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik. 
+  \, Tentamen
+LOCATION:Plats: För tid och plats se Ladok
+DESCRIPTION:Tentamen 18/12 kl. 08.00-13-00\, tentaanmälan finns i ladok\n
+ ID 3936853
+X-FEED:Kursschema
+X-COURSE:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik
+X-BASE-UID:225242999559a5d64b3ac84b@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20261224
 UID:d0020ded65a2842c22f81c87.fe7042@timeedit-arkiv
@@ -2920,20 +2935,6 @@ DESCRIPTION:2026-12-31 23:00 - 2027-01-01 23:00\nID 2680934
 X-FEED:Kursschema
 X-COURSE:Röda dagar
 X-BASE-UID:135f681621be5b3d0cde446e@timeedit-arkiv
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20270105T130000Z
-DTEND:20270105T180000Z
-UID:53bcec4f023b2116a622277a.fe7042@timeedit-arkiv
-DTSTAMP:20261019T045459Z
-LAST-MODIFIED:20261019T045459Z
-SUMMARY:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik. 
-  \, Tentamen
-LOCATION:Plats: För tid och plats se Ladok
-DESCRIPTION:ID 3936853
-X-FEED:Kursschema
-X-COURSE:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik
-X-BASE-UID:53bcec4f023b2116a622277a@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20270106
