@@ -179,6 +179,20 @@ X-COURSE:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik
 X-BASE-UID:e949b2a174f49a92bcac3d92@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
+DTSTART:20261216T071500Z
+DTEND:20261216T090000Z
+UID:347afee358f1bc64f16d0b1d.58cc5f@timeedit-arkiv
+DTSTAMP:20261112T072531Z
+LAST-MODIFIED:20261112T072531Z
+SUMMARY:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik. 
+  \, Frågestund
+LOCATION:Plats: Via Zoom
+DESCRIPTION:ID 4145384
+X-FEED:Kursschema
+X-COURSE:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik
+X-BASE-UID:347afee358f1bc64f16d0b1d@timeedit-arkiv
+END:VEVENT
+BEGIN:VEVENT
 DTSTART:20261217T121500Z
 DTEND:20261217T140000Z
 UID:4bbbd70abd2106e14dffe813.58cc5f@timeedit-arkiv
@@ -196,25 +210,11 @@ X-COURSE:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik
 X-BASE-UID:4bbbd70abd2106e14dffe813@timeedit-arkiv
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20261218T071500Z
-DTEND:20261218T090000Z
-UID:53c95ad1c99404b182664d1f.58cc5f@timeedit-arkiv
-DTSTAMP:20261019T045459Z
-LAST-MODIFIED:20261019T045459Z
-SUMMARY:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik. 
-  \, Frågestund
-LOCATION:Plats: Via Zoom
-DESCRIPTION:ID 4145384
-X-FEED:Kursschema
-X-COURSE:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik
-X-BASE-UID:53c95ad1c99404b182664d1f@timeedit-arkiv
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20261218T091500Z
-DTEND:20261218T141500Z
-UID:225242999559a5d64b3ac84b.58cc5f@timeedit-arkiv
-DTSTAMP:20261111T194351Z
-LAST-MODIFIED:20261111T194351Z
+DTSTART:20261218T070000Z
+DTEND:20261218T120000Z
+UID:715a2b3dc9ba16ea8e655524.58cc5f@timeedit-arkiv
+DTSTAMP:20261112T072531Z
+LAST-MODIFIED:20261112T072531Z
 SUMMARY:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik. 
   \, Tentamen
 LOCATION:Plats: För tid och plats se Ladok
@@ -222,6 +222,6 @@ DESCRIPTION:Tentamen 18/12 kl. 08.00-13-00\, tentaanmälan finns i ladok\n
  ID 3936853
 X-FEED:Kursschema
 X-COURSE:Entreprenörskolan\, I5.Aul\, Immaterialrätt och affärsjuridik
-X-BASE-UID:225242999559a5d64b3ac84b@timeedit-arkiv
+X-BASE-UID:715a2b3dc9ba16ea8e655524@timeedit-arkiv
 END:VEVENT
 END:VCALENDAR
