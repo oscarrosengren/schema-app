@@ -2343,12 +2343,14 @@ BEGIN:VEVENT
 DTSTART:20261117T081500Z
 DTEND:20261117T110000Z
 UID:20c9da741427e0995e751047.fe7042@timeedit-arkiv
-DTSTAMP:20260914T130238Z
-LAST-MODIFIED:20260914T130238Z
-URL:https://link.mazemap.com/zNWgHN9c
+DTSTAMP:20261116T222007Z
+LAST-MODIFIED:20261116T222007Z
+URL:https://use.mazemap.com/?campusid=49&sharepoitype=identifier&sharepoi=
+ %C3%85ngstr%C3%B6m-101136
 SUMMARY:I5\, Teknik\, affärsutveckling och ledning.  \, Föreläsning
-LOCATION:Plats: 80121\, Ångström
-DESCRIPTION:F1 \nKarta: https://link.mazemap.com/zNWgHN9c\nID 4144631
+LOCATION:Plats: 101136\, Evelyn Sokolowski\, Ångström
+DESCRIPTION:F1 \nKarta: https://use.mazemap.com/?campusid=49&sharepoitype=
+ identifier&sharepoi=%C3%85ngstr%C3%B6m-101136\nID 4144631
 X-FEED:Kursschema
 X-COURSE:Teknik\, affärsutveckling och ledning
 X-BASE-UID:20c9da741427e0995e751047@timeedit-arkiv
